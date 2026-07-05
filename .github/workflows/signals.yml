@@ -1,0 +1,54 @@
+name: crypto-signals
+
+on:
+  schedule:
+    # Каждые 15 минут (время UTC; GitHub может задерживать запуск на пару минут)
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}   # кнопка ручного запуска в интерфейсе GitHub
+
+permissions:
+  contents: write          # чтобы коммитить обратно состояние (cooldown/журнал)
+
+concurrency:
+  group: crypto-signals
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Prepare config
+        run: cp .env.ci .env
+
+      - name: Scan market and send signals
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_IDS: ${{ secrets.CHAT_IDS }}
+          COINMARKETCAP_API_KEY: ${{ secrets.COINMARKETCAP_API_KEY }}
+        run: python scan_ci.py
+
+      - name: Persist state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p state
+          git add -f state/cooldown.json trades.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Нет изменений состояния."
+          else
+            git commit -m "chore: update signal state [skip ci]"
+            git push
+          fi

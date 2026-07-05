@@ -1,0 +1,34 @@
+# === Строгий режим: игнорируем ВСЁ, кроме файлов бота ===
+# Так посторонние файлы из этой папки (отчёты, PDF, другие проекты) НЕ попадут в GitHub.
+/*
+
+# --- Разрешаем только файлы крипто-бота ---
+!/.github/
+!/.gitignore
+!/.env.ci
+!/requirements.txt
+!/README.md
+
+!/bot.py
+!/scan_ci.py
+!/scan_once.py
+!/config.py
+!/journal.py
+!/indicators.py
+!/formatting.py
+!/backtest.py
+!/optimize.py
+
+!/engine/
+!/sources/
+!/deploy/
+
+!/whales.txt
+!/trades.json
+!/state/
+
+# --- Но НЕ коммитим секреты и мусор даже внутри разрешённого ---
+.env
+subscribers.json
+__pycache__/
+*.pyc
