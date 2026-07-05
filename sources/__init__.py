@@ -22,7 +22,9 @@ from .telegram_social import TelegramSocial
 from .volumeprofile import VolumeProfile
 from .marketmakers import HyperliquidMarketMakers
 from .whales import HyperliquidWhales
-from .onchain import Arkham, CryptoQuant, DeBank, DropsTab, Glassnode, Nansen
+from .coingecko import CoinGeckoFDV
+from .onchain import Arkham, CryptoQuant, DeBank, Glassnode, Nansen
+from .dropstab import DropsTab
 
 log = logging.getLogger("sources")
 
@@ -45,6 +47,7 @@ def build_sources(cfg) -> List[DataSource]:
         TelegramSocial(cfg, w.get("Telegram Social", 1.5)),
         LunarCrush(cfg, w.get("LunarCrush (соцсети)", 1.5)),
         FearGreed(cfg, w.get("Fear & Greed", 1.0)),
+        CoinGeckoFDV(cfg, w.get("CoinGecko (FDV/MCap)", 1.0)),
         DefiLlama(cfg, w.get("DefiLlama", 1.0)),
         CoinGlass(cfg, w.get("CoinGlass", 2.0)),
         CoinMarketCap(cfg, w.get("CoinMarketCap", 1.0)),

@@ -120,6 +120,7 @@ class Config:
             "arkham": _get("ARKHAM_API_KEY"),
             "debank": _get("DEBANK_API_KEY"),
             "dropstab": _get("DROPSTAB_API_KEY"),
+            "coingecko": _get("COINGECKO_API_KEY"),
             "lunarcrush": _get("LUNARCRUSH_API_KEY"),
         }
 
@@ -141,7 +142,7 @@ class Config:
         cfg.mm_min_volume = _get_float("MM_MIN_VOLUME", 50_000_000.0)
         cfg.interval = _get("INTERVAL") or "1h"
         cfg.check_interval_seconds = _get_int("CHECK_INTERVAL_SECONDS", 300)
-        cfg.signal_threshold = _get_float("SIGNAL_THRESHOLD", 68.0)
+        cfg.signal_threshold = _get_float("SIGNAL_THRESHOLD", 69.0)
         cfg.cooldown_minutes = _get_int("COOLDOWN_MINUTES", 120)
 
         cfg.weights = {
@@ -159,6 +160,7 @@ class Config:
             "Telegram Social": _get_float("WEIGHT_TELEGRAM", 1.5),
             "LunarCrush (соцсети)": _get_float("WEIGHT_LUNARCRUSH", 1.5),
             "Fear & Greed": _get_float("WEIGHT_FEAR_GREED", 1.0),
+            "CoinGecko (FDV/MCap)": _get_float("WEIGHT_COINGECKO_FDV", 1.0),
             "DefiLlama": _get_float("WEIGHT_DEFILLAMA", 1.0),
             "CoinGlass": _get_float("WEIGHT_COINGLASS", 2.0),
             "CoinMarketCap": _get_float("WEIGHT_COINMARKETCAP", 1.0),

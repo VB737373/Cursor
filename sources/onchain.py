@@ -1,6 +1,6 @@
 """On-chain и специализированные источники, требующие API-ключа.
 
-Glassnode, CryptoQuant, Nansen, Arkham, DeBank, DropsTab.
+Glassnode, CryptoQuant, Nansen, Arkham, DeBank (DropsTab — см. dropstab.py).
 
 Все они платные/закрытые. Здесь заданы корректные базовые URL и схемы
 авторизации. Каждый коннектор:
@@ -189,38 +189,3 @@ class DeBank(DataSource):
         # Оставлено как точка расширения под конкретные адреса.
         return None
 
-
-class DropsTab(DataSource):
-    """DropsTab: крупная разблокировка токенов скоро = давление на продажу."""
-    name = "DropsTab"
-    scope = SCOPE_SYMBOL
-    requires_key = True
-
-    def __init__(self, cfg, weight=1.0):
-        super().__init__(cfg, weight)
-        self.key = cfg.api_keys.get("dropstab", "")
-
-    def enabled(self) -> bool:
-        return bool(self.key)
-
-    def analyze_symbol(self, symbol, base_asset, context) -> Optional[Contribution]:
-        data = get_json(
-            "https://api.dropstab.com/v1/unlocks",
-            params={"symbol": base_asset},
-            headers={"Authorization": f"Bearer {self.key}"},
-        )
-        if not isinstance(data, dict):
-            return None
-        try:
-            days = float(data.get("nextUnlockInDays"))
-            pct = float(data.get("nextUnlockPctOfSupply"))
-        except (TypeError, ValueError):
-            return None
-        # Крупный анлок (>1.5% предложения) в ближайшие 7 дней — медвежье
-        if days <= 7 and pct >= 1.5:
-            score = -0.35
-            reason = f"анлок {pct:.1f}% через {days:.0f}д"
-        else:
-            score = 0.05
-            reason = "нет крупных анлоков рядом"
-        return Contribution(self.name, score, self.weight, reason).clamped()
