@@ -126,7 +126,7 @@ def main() -> None:
     try:
         scanner = Scanner(cfg)
         signals = scanner.scan()
-        meta["symbols_scanned"] = len(getattr(scanner, "_last_universe_size", 0) or 0)
+        meta["symbols_scanned"] = int(getattr(scanner, "_last_universe_size", 0) or 0)
     except Exception as e:
         meta["error"] = str(e)[:300]
         meta["duration_sec"] = round(time.time() - t0, 1)
