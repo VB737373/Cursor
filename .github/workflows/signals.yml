@@ -39,6 +39,7 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_IDS: ${{ secrets.CHAT_IDS }}
           COINMARKETCAP_API_KEY: ${{ secrets.COINMARKETCAP_API_KEY }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
         run: python scan_ci.py
 
       - name: Persist state

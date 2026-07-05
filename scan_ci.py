@@ -23,7 +23,7 @@ import requests
 import journal
 from config import Config
 from engine import Scanner
-from formatting import DISCLAIMER, format_signal
+from formatting import DISCLAIMER, format_scan_status, format_signal
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 log = logging.getLogger("scan_ci")
@@ -93,6 +93,18 @@ def send(token: str, chat_id: int, text: str) -> None:
         log.warning("Не смог отправить в %s: %s", chat_id, e)
 
 
+def is_manual_run() -> bool:
+    return os.getenv("GITHUB_EVENT_NAME", "").strip() == "workflow_dispatch"
+
+
+def notify_manual_status(token: str, chat_ids: list, meta: dict) -> None:
+    if not is_manual_run():
+        return
+    text = format_scan_status(meta)
+    for chat_id in chat_ids:
+        send(token, chat_id, text)
+
+
 def main() -> None:
     t0 = time.time()
     cfg = Config.load()
@@ -131,6 +143,7 @@ def main() -> None:
         meta["error"] = str(e)[:300]
         meta["duration_sec"] = round(time.time() - t0, 1)
         save_scan_meta(meta)
+        notify_manual_status(token, chat_ids, meta)
         raise
 
     meta["signals_found"] = len(signals)
@@ -165,6 +178,7 @@ def main() -> None:
 
     meta["duration_sec"] = round(time.time() - t0, 1)
     save_scan_meta(meta)
+    notify_manual_status(token, chat_ids, meta)
     log.info("Скан завершён за %.0f с (%d монет, %d сигналов)",
              meta["duration_sec"], meta["symbols_scanned"], meta["signals_found"])
 

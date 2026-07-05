@@ -60,6 +60,34 @@ def _format_trade_links(exchange_symbols: dict, base: str) -> str:
     return "🔗 " + " · ".join(links)
 
 
+def format_scan_status(meta: dict) -> str:
+    """Краткий отчёт о скане для ручного запуска в GitHub Actions."""
+    if meta.get("error"):
+        return (
+            "❌ <b>Ручной скан — ошибка</b>\n"
+            f"{meta['error']}"
+        )
+    found = int(meta.get("signals_found") or 0)
+    sent = int(meta.get("signals_sent") or 0)
+    lines = [
+        "✅ <b>Ручной скан завершён</b>",
+        f"Монет проверено: <b>{meta.get('symbols_scanned', '—')}</b>",
+        f"Сигналов найдено: <b>{found}</b>",
+        f"Отправлено новых: <b>{sent}</b>",
+        f"Время: {float(meta.get('duration_sec') or 0):.0f} с",
+    ]
+    if found and not sent:
+        cd = meta.get("cooldown_min", 15)
+        lines.append(
+            f"\n<i>Все {found} сигнал(ов) уже отправлялись недавно "
+            f"(cooldown {cd} мин).</i>"
+        )
+    elif not found:
+        th = meta.get("threshold", 69)
+        lines.append(f"\n<i>Ни одна монета не прошла порог {th:.0f}%.</i>")
+    return "\n".join(lines)
+
+
 def format_signal(d: Decision) -> str:
     exch = ", ".join(d.exchanges) if d.exchanges else "—"
     ch = f"{d.pct_change_24h:+.1f}%" if d.pct_change_24h is not None else "—"
