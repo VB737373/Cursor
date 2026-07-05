@@ -8,6 +8,10 @@
 ликвидность покупателям) — это НЕ медвежий сигнал, поэтому шорт игнорируем.
 А вот когда ММ необычно набирают нетто-ЛОНГ по монете — это показательно
 (накапливают длинный инвентарь) → мягкий сигнал за лонг. Вес небольшой.
+
+Именованные институции (Wintermute, Auros Global и т.д. из market_makers.txt в
+формате «0xАДРЕС Имя») отслеживаются отдельно: если такая фирма набрала ЛОНГ по
+монете — это весомый контекст, показываем её по имени прямо в сигнале.
 """
 from __future__ import annotations
 
@@ -21,6 +25,7 @@ from .base import SCOPE_SYMBOL, Contribution, DataSource
 log = logging.getLogger("marketmakers")
 
 _MIN_NOTIONAL = 100_000   # у MM позиции крупные — порог выше, чем у китов
+_NAMED_MIN = 200_000      # порог для именованных институций (Wintermute/Auros)
 _sel_cache: dict = {"ts": 0.0, "addr": []}
 
 
@@ -69,24 +74,49 @@ class HyperliquidMarketMakers(DataSource):
         return bool(getattr(self.cfg, "mm_addresses", None)) or \
             bool(getattr(self.cfg, "mm_auto", True))
 
+    def _named_longs(self, base_asset: str) -> list:
+        """Именованные институции (Wintermute/Auros...) в ЛОНГЕ по монете."""
+        labels = getattr(self.cfg, "mm_labels", None) or {}
+        out = []
+        for addr, name in labels.items():
+            pos = hl.position_on(addr, base_asset)
+            if pos and pos[0] > 0 and pos[1] >= _NAMED_MIN:
+                out.append((name, pos[1]))
+        out.sort(key=lambda x: -x[1])
+        return out
+
     def analyze_symbol(self, symbol, base_asset, context) -> Optional[Contribution]:
         addresses = _resolve_addresses(self.cfg)
         if not addresses:
             return None
         info = hl.aggregate(addresses).get(base_asset)
-        if not info:
+
+        # Именованные MM-институции, набравшие ЛОНГ по монете — сильный контекст.
+        named = self._named_longs(base_asset)
+
+        net = 0.0
+        pool_note = None
+        if info:
+            total = info["long"] + info["short"]
+            if total >= _MIN_NOTIONAL:
+                net = (info["long"] - info["short"]) / total   # -1..1
+                if net > 0.15:
+                    pool_note = (f"ММ набирают лонг (инвентарь): {info['n_long']} поз. "
+                                 f"${info['long']/1e6:.1f}M vs шорт ${info['short']/1e6:.1f}M")
+
+        # ММ структурно в шорте — это не медвежий сигнал. Сигнал даём, только если
+        # пул ММ необычно в нетто-лонге ИЛИ именованная институция набрала лонг.
+        if not pool_note and not named:
             return None
 
-        total = info["long"] + info["short"]
-        if total < _MIN_NOTIONAL:
-            return None
+        score = net * 0.4 if net > 0.15 else 0.0
+        if named:
+            score = max(score, 0.35)   # именованная институция в лонге — весомо
 
-        net = (info["long"] - info["short"]) / total   # -1..1
-        # ММ структурно в шорте — это не медвежий сигнал. Реагируем только на
-        # необычный нетто-ЛОНГ (накопление длинного инвентаря = мягко бычье).
-        if net <= 0.15:
-            return None
-        score = net * 0.4   # вспомогательный сигнал — слабее китов
-        note = (f"ММ набирают лонг (инвентарь): {info['n_long']} поз. "
-                f"${info['long']/1e6:.1f}M vs шорт ${info['short']/1e6:.1f}M")
+        parts = []
+        if pool_note:
+            parts.append(pool_note)
+        for name, notional in named:
+            parts.append(f"🏛 {name}: лонг ${notional/1e6:.1f}M")
+        note = "; ".join(parts)
         return Contribution(self.name, score, self.weight, note).clamped()

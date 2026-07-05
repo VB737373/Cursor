@@ -84,6 +84,18 @@ def _positions(address: str):
         return None
 
 
+def position_on(address: str, coin: str):
+    """(szi, notional) позиции адреса по монете; None, если позиции нет."""
+    for ap in _positions(address) or []:
+        pos = ap.get("position", {})
+        if pos.get("coin") == coin:
+            try:
+                return float(pos.get("szi", 0)), abs(float(pos.get("positionValue", 0)))
+            except (TypeError, ValueError):
+                return None
+    return None
+
+
 def aggregate(addresses: list) -> dict:
     """{coin: {'long':$, 'short':$, 'n_long':k, 'n_short':k}} по списку адресов."""
     agg: dict = defaultdict(lambda: {"long": 0.0, "short": 0.0,

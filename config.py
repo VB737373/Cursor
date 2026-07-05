@@ -22,6 +22,25 @@ def _load_addresses(filename: str) -> list:
     return out
 
 
+def _load_labeled(filename: str):
+    """Читает адреса с метками: строка «0xADDR Имя». Возвращает (адреса, {addr:имя})."""
+    path = Path(__file__).parent / filename
+    addrs, labels = [], {}
+    if path.exists():
+        for line in path.read_text("utf-8").splitlines():
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            parts = line.split(None, 1)
+            addr = parts[0]
+            addrs.append(addr)
+            if len(parts) > 1:
+                name = parts[1].strip().lstrip("#").strip()
+                if name:
+                    labels[addr.lower()] = name
+    return addrs, labels
+
+
 def _get(name: str, default: str = "") -> str:
     return os.getenv(name, default).strip()
 
@@ -61,6 +80,7 @@ class Config:
     whales_top_n: int = 30
     whales_min_account: float = 2_000_000.0
     mm_addresses: list = field(default_factory=list)
+    mm_labels: dict = field(default_factory=dict)
     mm_auto: bool = True
     mm_top_n: int = 20
     mm_min_volume: float = 50_000_000.0
@@ -115,7 +135,7 @@ class Config:
         cfg.whales_auto = (_get("WHALES_AUTO") or "true").lower() in ("1", "true", "yes")
         cfg.whales_top_n = _get_int("WHALES_TOP_N", 30)
         cfg.whales_min_account = _get_float("WHALES_MIN_ACCOUNT", 2_000_000.0)
-        cfg.mm_addresses = _load_addresses("market_makers.txt")
+        cfg.mm_addresses, cfg.mm_labels = _load_labeled("market_makers.txt")
         cfg.mm_auto = (_get("MM_AUTO") or "true").lower() in ("1", "true", "yes")
         cfg.mm_top_n = _get_int("MM_TOP_N", 20)
         cfg.mm_min_volume = _get_float("MM_MIN_VOLUME", 50_000_000.0)
