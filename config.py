@@ -128,7 +128,7 @@ class Config:
         cfg.exchanges = [x.strip().lower() for x in exchanges_raw.split(",") if x.strip()]
 
         cfg.scan_mode = (_get("SCAN_MODE") or "top").lower()
-        cfg.max_symbols = _get_int("MAX_SYMBOLS", 60)
+        cfg.max_symbols = _get_int("MAX_SYMBOLS", 200)
         cfg.min_volume_usdt = _get_float("MIN_VOLUME_USDT", 5_000_000)
         cfg.min_exchanges = _get_int("MIN_EXCHANGES", 2)
         cfg.require_futures = (_get("REQUIRE_FUTURES") or "true").lower() in ("1", "true", "yes")
@@ -143,7 +143,7 @@ class Config:
         cfg.interval = _get("INTERVAL") or "1h"
         cfg.check_interval_seconds = _get_int("CHECK_INTERVAL_SECONDS", 300)
         cfg.signal_threshold = _get_float("SIGNAL_THRESHOLD", 69.0)
-        cfg.cooldown_minutes = _get_int("COOLDOWN_MINUTES", 120)
+        cfg.cooldown_minutes = _get_int("COOLDOWN_MINUTES", 15)
 
         cfg.weights = {
             "Technical Analysis": _get_float("WEIGHT_TA", 3.0),
