@@ -167,7 +167,7 @@ async def cmd_scan(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             "Сейчас нет монет, проходящих порог для лонга. Попробуй позже."
         )
         return
-    for d in signals[:5]:
+    for d in signals:
         await update.message.reply_text(
             format_signal(d) + DISCLAIMER, parse_mode=ParseMode.HTML
         )
@@ -208,7 +208,7 @@ async def scan_job(context: ContextTypes.DEFAULT_TYPE) -> None:
     if not fresh:
         return
 
-    for d in fresh[:5]:
+    for d in fresh:
         journal.log_signal(d)  # фиксируем сигнал в журнал для статистики
         text = format_signal(d) + DISCLAIMER
         for chat_id in list(subs):

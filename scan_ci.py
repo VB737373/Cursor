@@ -30,7 +30,6 @@ log = logging.getLogger("scan_ci")
 
 STATE_FILE = Path(__file__).parent / "state" / "cooldown.json"
 _TG_SEND = "https://api.telegram.org/bot{token}/sendMessage"
-_MAX_SIGNALS = 5
 
 
 def load_cooldown() -> dict:
@@ -166,8 +165,8 @@ def main() -> None:
         log.info("Новых сигналов нет.")
     else:
         log.info("Новых сигналов: %d", len(fresh))
-        meta["signals_sent"] = min(len(fresh), _MAX_SIGNALS)
-        for d in fresh[:_MAX_SIGNALS]:
+        meta["signals_sent"] = len(fresh)
+        for d in fresh:
             try:
                 journal.log_signal(d)
             except Exception as e:
