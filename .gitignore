@@ -10,6 +10,7 @@
 !/README.md
 
 !/bot.py
+!/check_health.py
 !/scan_ci.py
 !/scan_once.py
 !/config.py

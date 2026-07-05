@@ -47,6 +47,12 @@ def save_cooldown(cd: dict) -> None:
     STATE_FILE.write_text(json.dumps(cd), "utf-8")
 
 
+def save_scan_meta(meta: dict) -> None:
+    path = Path(__file__).parent / "state" / "last_scan.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(meta, ensure_ascii=False, indent=2), "utf-8")
+
+
 def get_chat_ids() -> list:
     raw = os.getenv("CHAT_IDS", "").strip()
     out = []
@@ -88,22 +94,48 @@ def send(token: str, chat_id: int, text: str) -> None:
 
 
 def main() -> None:
+    t0 = time.time()
     cfg = Config.load()
+    meta = {
+        "time": t0,
+        "max_symbols": cfg.max_symbols,
+        "threshold": cfg.signal_threshold,
+        "cooldown_min": cfg.cooldown_minutes,
+        "symbols_scanned": 0,
+        "signals_found": 0,
+        "signals_sent": 0,
+        "duration_sec": 0,
+        "error": None,
+    }
     token = cfg.telegram_token or os.getenv("TELEGRAM_TOKEN", "").strip()
     if not token:
+        meta["error"] = "TELEGRAM_TOKEN missing"
+        save_scan_meta(meta)
         raise SystemExit("Не задан TELEGRAM_TOKEN (секрет GitHub).")
     chat_ids = get_chat_ids()
     if not chat_ids:
+        meta["error"] = "CHAT_IDS missing"
+        save_scan_meta(meta)
         raise SystemExit("Нет получателей: задай секрет CHAT_IDS (твой chat id).")
 
-    # Обновляем исходы ранее отправленных сигналов (журнал → trades.json)
     try:
         journal.check_open_trades()
     except Exception as e:
         log.warning("Журнал (проверка исходов): %s", e)
 
-    scanner = Scanner(cfg)
-    signals = scanner.scan()
+    try:
+        scanner = Scanner(cfg)
+        signals = scanner.scan()
+        meta["symbols_scanned"] = len(getattr(scanner, "_last_universe_size", 0) or 0)
+    except Exception as e:
+        meta["error"] = str(e)[:300]
+        meta["duration_sec"] = round(time.time() - t0, 1)
+        save_scan_meta(meta)
+        raise
+
+    meta["signals_found"] = len(signals)
+    if meta["symbols_scanned"] == 0:
+        meta["symbols_scanned"] = cfg.max_symbols
 
     cd = load_cooldown()
     now = time.time()
@@ -114,23 +146,27 @@ def main() -> None:
             fresh.append(d)
             cd[d.symbol] = now
 
-    # чистим старые записи, чтобы файл не разрастался
     cd = {k: v for k, v in cd.items() if now - v < cd_seconds * 4}
     save_cooldown(cd)
 
     if not fresh:
         log.info("Новых сигналов нет.")
-        return
+    else:
+        log.info("Новых сигналов: %d", len(fresh))
+        meta["signals_sent"] = min(len(fresh), _MAX_SIGNALS)
+        for d in fresh[:_MAX_SIGNALS]:
+            try:
+                journal.log_signal(d)
+            except Exception as e:
+                log.warning("Журнал (запись сигнала): %s", e)
+            text = format_signal(d) + DISCLAIMER
+            for chat_id in chat_ids:
+                send(token, chat_id, text)
 
-    log.info("Новых сигналов: %d", len(fresh))
-    for d in fresh[:_MAX_SIGNALS]:
-        try:
-            journal.log_signal(d)
-        except Exception as e:
-            log.warning("Журнал (запись сигнала): %s", e)
-        text = format_signal(d) + DISCLAIMER
-        for chat_id in chat_ids:
-            send(token, chat_id, text)
+    meta["duration_sec"] = round(time.time() - t0, 1)
+    save_scan_meta(meta)
+    log.info("Скан завершён за %.0f с (%d монет, %d сигналов)",
+             meta["duration_sec"], meta["symbols_scanned"], meta["signals_found"])
 
 
 if __name__ == "__main__":

@@ -1,0 +1,33 @@
+name: crypto-signals-health
+# Мониторинг: каждые 2 часа проверяем, что скан не упал и не завис.
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Health check
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_IDS: ${{ secrets.CHAT_IDS }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python check_health.py

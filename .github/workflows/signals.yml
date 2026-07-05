@@ -46,7 +46,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           mkdir -p state
-          git add -f state/cooldown.json trades.json 2>/dev/null || true
+          git add -f state/cooldown.json state/last_scan.json trades.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Нет изменений состояния."
           else

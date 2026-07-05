@@ -86,6 +86,7 @@ class Scanner:
                 log.info("Фильтр перпетуалов: %d -> %d монет", before, len(universe))
 
         log.info("Сканирую %d монет (режим=%s)", len(universe), cfg.scan_mode)
+        self._last_universe_size = len(universe)
         market_contribs = self._market_contributions()
 
         results: List[Decision] = []
