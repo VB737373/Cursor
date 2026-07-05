@@ -665,5 +665,113 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1783269635.1847086,
+    "symbol": "VANRY_USDT",
+    "base": "VANRY",
+    "confidence": 71.2,
+    "entry": 0.003002,
+    "stop": 0.00190841,
+    "take": 0.00373106,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 59 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.087% [Bit-0.087] (шорты платят лонгам)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.00257152",
+      "Market Regime: рынок 24ч -0.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 23 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783269635.6200342,
+    "symbol": "AAVE-USDT",
+    "base": "AAVE",
+    "confidence": 70.8,
+    "entry": 89.232,
+    "stop": 85.1575586,
+    "take": 91.20414569,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.008% [Bit+0.006/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈87.3205",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $7.3M vs шорт $0.0M",
+      "Market Regime: рынок 24ч -0.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 23 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783269635.9829047,
+    "symbol": "LTC-USDT",
+    "base": "LTC",
+    "confidence": 69.7,
+    "entry": 45.07,
+    "stop": 43.2913352,
+    "take": 45.82338269,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.004% [Bit-0.002/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈44.4023",
+      "Market Regime: рынок 24ч -0.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 23 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783269636.3659112,
+    "symbol": "NES-USDT",
+    "base": "NES",
+    "confidence": 69.3,
+    "entry": 0.2776,
+    "stop": 0.24445474,
+    "take": 0.29969684,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 70 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.202393",
+      "Market Regime: рынок 24ч -0.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 23 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783269636.7584667,
+    "symbol": "ZEC-USDT",
+    "base": "ZEC",
+    "confidence": 69.1,
+    "entry": 462.153,
+    "stop": 424.21376928,
+    "take": 471.73739115,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 53 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.000% [Bit-0.010/HL+0.010] (норма)",
+      "Volume Profile (POC): отбой от POC (накопление); POC≈462.73",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $22.9M vs шорт $0.0M",
+      "News: новостей: 4, тон +0.33",
+      "Market Regime: рынок 24ч -0.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 23 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
