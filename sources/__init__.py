@@ -20,6 +20,7 @@ from .news import News
 from .orderflow import OrderFlow
 from .telegram_social import TelegramSocial
 from .volumeprofile import VolumeProfile
+from .marketmakers import HyperliquidMarketMakers
 from .whales import HyperliquidWhales
 from .onchain import Arkham, CryptoQuant, DeBank, DropsTab, Glassnode, Nansen
 
@@ -38,6 +39,7 @@ def build_sources(cfg) -> List[DataSource]:
         Liquidations(cfg, w.get("Liquidations", 1.5)),
         LiquidationZones(cfg, w.get("Liquidation Zones (оценка)", 1.5)),
         HyperliquidWhales(cfg, w.get("Hyperliquid Whales", 2.0)),
+        HyperliquidMarketMakers(cfg, w.get("Hyperliquid Market Makers", 1.0)),
         MarketRegime(cfg, w.get("Market Regime", 1.0)),
         News(cfg, w.get("News", 1.5)),
         TelegramSocial(cfg, w.get("Telegram Social", 1.5)),

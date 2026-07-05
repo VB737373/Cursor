@@ -10,9 +10,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-def _load_whales() -> list:
-    """Читает адреса китов Hyperliquid из whales.txt (по одному в строке)."""
-    path = Path(__file__).parent / "whales.txt"
+def _load_addresses(filename: str) -> list:
+    """Читает список адресов Hyperliquid из файла (по одному в строке)."""
+    path = Path(__file__).parent / filename
     out = []
     if path.exists():
         for line in path.read_text("utf-8").splitlines():
@@ -60,6 +60,10 @@ class Config:
     whales_auto: bool = True
     whales_top_n: int = 30
     whales_min_account: float = 2_000_000.0
+    mm_addresses: list = field(default_factory=list)
+    mm_auto: bool = True
+    mm_top_n: int = 20
+    mm_min_volume: float = 50_000_000.0
     interval: str = "1h"
     check_interval_seconds: int = 300
     signal_threshold: float = 65.0
@@ -107,10 +111,14 @@ class Config:
         cfg.min_volume_usdt = _get_float("MIN_VOLUME_USDT", 5_000_000)
         cfg.min_exchanges = _get_int("MIN_EXCHANGES", 2)
         cfg.require_futures = (_get("REQUIRE_FUTURES") or "true").lower() in ("1", "true", "yes")
-        cfg.whale_addresses = _load_whales()
+        cfg.whale_addresses = _load_addresses("whales.txt")
         cfg.whales_auto = (_get("WHALES_AUTO") or "true").lower() in ("1", "true", "yes")
         cfg.whales_top_n = _get_int("WHALES_TOP_N", 30)
         cfg.whales_min_account = _get_float("WHALES_MIN_ACCOUNT", 2_000_000.0)
+        cfg.mm_addresses = _load_addresses("market_makers.txt")
+        cfg.mm_auto = (_get("MM_AUTO") or "true").lower() in ("1", "true", "yes")
+        cfg.mm_top_n = _get_int("MM_TOP_N", 20)
+        cfg.mm_min_volume = _get_float("MM_MIN_VOLUME", 50_000_000.0)
         cfg.interval = _get("INTERVAL") or "1h"
         cfg.check_interval_seconds = _get_int("CHECK_INTERVAL_SECONDS", 300)
         cfg.signal_threshold = _get_float("SIGNAL_THRESHOLD", 68.0)
@@ -125,6 +133,7 @@ class Config:
             "Liquidations": _get_float("WEIGHT_LIQUIDATIONS", 1.5),
             "Liquidation Zones (оценка)": _get_float("WEIGHT_LIQ_ZONES", 1.5),
             "Hyperliquid Whales": _get_float("WEIGHT_WHALES", 2.0),
+            "Hyperliquid Market Makers": _get_float("WEIGHT_MARKETMAKERS", 1.0),
             "Market Regime": _get_float("WEIGHT_REGIME", 1.0),
             "News": _get_float("WEIGHT_NEWS", 1.5),
             "Telegram Social": _get_float("WEIGHT_TELEGRAM", 1.5),
