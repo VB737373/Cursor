@@ -6,6 +6,7 @@ from typing import List
 
 from .base import Exchange
 from .binance import Binance
+from .bingx import BingX
 from .bitget import Bitget
 from .bybit import Bybit
 from .gateio import GateIO
@@ -20,6 +21,7 @@ REGISTRY = {
     "bitget": Bitget,
     "gate": GateIO,
     "kucoin": KuCoin,
+    "bingx": BingX,
 }
 
 

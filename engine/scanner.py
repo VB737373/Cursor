@@ -128,6 +128,9 @@ class Scanner:
                 decision.source_exchange = src_exchange
                 decision.pct_change_24h = best.pct_change
                 decision.total_volume = coin.total_volume
+                decision.exchange_symbols = {
+                    l.exchange.name: l.symbol for l in coin.listings
+                }
                 results.append(decision)
 
         results.sort(key=lambda d: d.confidence, reverse=True)

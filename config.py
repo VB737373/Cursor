@@ -124,7 +124,7 @@ class Config:
             "lunarcrush": _get("LUNARCRUSH_API_KEY"),
         }
 
-        exchanges_raw = _get("EXCHANGES") or "binance,bybit,bitget,gate,kucoin"
+        exchanges_raw = _get("EXCHANGES") or "binance,bybit,bitget,gate,kucoin,bingx"
         cfg.exchanges = [x.strip().lower() for x in exchanges_raw.split(",") if x.strip()]
 
         cfg.scan_mode = (_get("SCAN_MODE") or "top").lower()

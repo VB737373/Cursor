@@ -25,6 +25,7 @@ class Decision:
     source_exchange: Optional[str] = None
     pct_change_24h: Optional[float] = None
     total_volume: Optional[float] = None
+    exchange_symbols: dict = field(default_factory=dict)  # {биржа: символ на бирже}
 
     @property
     def reasons(self) -> List[str]:
