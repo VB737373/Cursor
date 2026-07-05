@@ -8,8 +8,10 @@
 !/.env.ci
 !/requirements.txt
 !/README.md
+!/start_commands.bat
 
 !/bot.py
+!/cloud_scan.py
 !/check_health.py
 !/scan_ci.py
 !/scan_once.py

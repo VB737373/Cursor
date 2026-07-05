@@ -12,9 +12,11 @@
 """
 from __future__ import annotations
 
+import argparse
 import asyncio
 import json
 import logging
+import os
 import time
 from pathlib import Path
 from typing import Dict, List, Set
@@ -30,6 +32,7 @@ from telegram.ext import (
 )
 
 import journal
+from cloud_scan import trigger_github_scan
 from config import Config
 from engine import Decision, Scanner
 from formatting import DISCLAIMER, format_signal
@@ -69,12 +72,22 @@ async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     subs.add(chat_id)
     save_subscribers(subs)
     cfg: Config = context.application.bot_data["cfg"]
+    commands_only = context.application.bot_data.get("commands_only", False)
+    if commands_only:
+        mode = (
+            "Режим: <b>команды</b> (автосигналы идут из GitHub Actions).\n"
+            "/scan — запустить облачный скан или проверить рынок сейчас.\n\n"
+        )
+    else:
+        mode = (
+            f"Сканирую рынок каждые {cfg.check_interval_seconds // 60} мин "
+            f"(таймфрейм {cfg.interval}) и пришлю сигнал на лонг, когда "
+            f"уверенность ≥ {cfg.signal_threshold:.0f}%.\n\n"
+        )
     await update.message.reply_text(
         "✅ Подписка оформлена!\n\n"
-        f"Сканирую рынок каждые {cfg.check_interval_seconds // 60} мин "
-        f"(таймфрейм {cfg.interval}) и пришлю сигнал на лонг, когда "
-        f"уверенность ≥ {cfg.signal_threshold:.0f}%.\n\n"
-        "Команды: /scan — проверить сейчас, /status — статус, /stop — отписаться."
+        + mode
+        + "Команды: /scan — проверить сейчас, /status — статус, /stop — отписаться."
         + DISCLAIMER,
         parse_mode=ParseMode.HTML,
     )
@@ -126,6 +139,26 @@ async def cmd_stats(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 async def cmd_scan(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    commands_only = context.application.bot_data.get("commands_only", False)
+    use_cloud = os.getenv("USE_CLOUD_SCAN", "1").lower() in ("1", "true", "yes")
+
+    if commands_only and use_cloud and os.getenv("GITHUB_TOKEN", "").strip():
+        await update.message.reply_text("⏳ Запускаю скан в облаке (GitHub)…")
+        ok, msg = await asyncio.to_thread(trigger_github_scan)
+        if ok:
+            await update.message.reply_text(
+                "✅ Скан запущен в облаке.\n"
+                "Через ~1 мин придёт отчёт в Telegram.\n\n"
+                f'<a href="{msg}">Открыть Actions на GitHub</a>',
+                parse_mode=ParseMode.HTML,
+                disable_web_page_preview=True,
+            )
+        else:
+            await update.message.reply_text(
+                f"❌ Не удалось запустить облачный скан:\n{msg}"
+            )
+        return
+
     scanner: Scanner = context.application.bot_data["scanner"]
     await update.message.reply_text("🔎 Сканирую рынок, подожди немного…")
     signals = await asyncio.to_thread(scanner.scan)
@@ -196,15 +229,27 @@ async def collect_message(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
 
 async def on_startup(app: Application) -> None:
     log.info("Бот запущен. Подписчиков: %d", len(app.bot_data["subscribers"]))
-    # Фоновый сборщик ликвидаций (websocket)
+    if app.bot_data.get("commands_only"):
+        log.info("Режим команд: автосигналы отключены (их шлёт GitHub Actions)")
+        return
     app.bot_data["liq_task"] = asyncio.create_task(run_collector(app))
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Telegram-бот сигналов на лонг")
+    parser.add_argument(
+        "--commands-only",
+        action="store_true",
+        help="Только /scan и /status — без автосигналов (для работы вместе с GitHub Actions)",
+    )
+    args = parser.parse_args()
+
     cfg = Config.load()
     if not cfg.telegram_token:
         raise SystemExit(
-            "Не задан TELEGRAM_TOKEN. Скопируй .env.example в .env и впиши токен от @BotFather."
+            "Не задан TELEGRAM_TOKEN.\n"
+            "Открой .env и впиши токен бота от @BotFather (тот же, что в секретах GitHub).\n"
+            "Затем запусти: python bot.py --commands-only"
         )
 
     scanner = Scanner(cfg)
@@ -214,6 +259,7 @@ def main() -> None:
     app.bot_data["scanner"] = scanner
     app.bot_data["subscribers"] = load_subscribers()
     app.bot_data["cooldown"] = {}
+    app.bot_data["commands_only"] = args.commands_only
 
     app.add_handler(CommandHandler("start", cmd_start))
     app.add_handler(CommandHandler("stop", cmd_stop))
@@ -221,17 +267,17 @@ def main() -> None:
     app.add_handler(CommandHandler("status", cmd_status))
     app.add_handler(CommandHandler("stats", cmd_stats))
     app.add_handler(CommandHandler("scan", cmd_scan))
-    # Сбор сообщений из групп/каналов (для источника Telegram Social)
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, collect_message))
 
-    app.job_queue.run_repeating(
-        scan_job,
-        interval=cfg.check_interval_seconds,
-        first=15,
-        name="scan_job",
-    )
+    if not args.commands_only:
+        app.job_queue.run_repeating(
+            scan_job,
+            interval=cfg.check_interval_seconds,
+            first=15,
+            name="scan_job",
+        )
 
-    log.info("Запуск polling…")
+    log.info("Запуск polling%s…", " (режим команд)" if args.commands_only else "")
     app.run_polling(allowed_updates=Update.ALL_TYPES)
 
 
