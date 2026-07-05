@@ -1,4 +1,5 @@
 name: crypto-signals
+# Бот сигналов на лонг: запуск по расписанию на серверах GitHub.
 
 on:
   schedule:
