@@ -128,7 +128,7 @@ class Config:
         cfg.exchanges = [x.strip().lower() for x in exchanges_raw.split(",") if x.strip()]
 
         cfg.scan_mode = (_get("SCAN_MODE") or "top").lower()
-        cfg.max_symbols = _get_int("MAX_SYMBOLS", 500)
+        cfg.max_symbols = _get_int("MAX_SYMBOLS", 200)
         cfg.min_volume_usdt = _get_float("MIN_VOLUME_USDT", 5_000_000)
         cfg.min_exchanges = _get_int("MIN_EXCHANGES", 2)
         cfg.require_futures = (_get("REQUIRE_FUTURES") or "true").lower() in ("1", "true", "yes")
