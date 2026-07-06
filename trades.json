@@ -3036,5 +3036,48 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1783346825.9562187,
+    "symbol": "ZEUS_USDT",
+    "base": "ZEUS",
+    "confidence": 72.4,
+    "entry": 0.004034,
+    "stop": 0.00265344,
+    "take": 0.00495437,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 69 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.00191369",
+      "Market Regime: рынок 24ч -1.4%, BTC доминация 55%",
+      "Fear & Greed: F&G 24 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783346826.3531144,
+    "symbol": "AAVE-USDT",
+    "base": "AAVE",
+    "confidence": 70.2,
+    "entry": 93.941,
+    "stop": 85.9981293,
+    "take": 97.04542436,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 70 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.009% [Bit-0.029/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈87.3443",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $7.7M vs шорт $0.0M",
+      "Liquidation Zones (оценка): перекос к шорт-ликвидациям сверху (топливо для роста)",
+      "Market Regime: рынок 24ч -1.4%, BTC доминация 55%",
+      "Fear & Greed: F&G 24 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
