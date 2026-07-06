@@ -20,7 +20,7 @@ log = logging.getLogger("health")
 REPO = os.getenv("GITHUB_REPOSITORY", "VB737373/Cursor")
 WORKFLOW = os.getenv("HEALTH_WORKFLOW", "signals.yml")
 LAST_SCAN = Path(__file__).parent / "state" / "last_scan.json"
-STALE_MINUTES = int(os.getenv("HEALTH_STALE_MINUTES", "35"))
+STALE_MINUTES = int(os.getenv("HEALTH_STALE_MINUTES", "90"))
 SLOW_SCAN_SEC = int(os.getenv("HEALTH_SLOW_SCAN_SEC", "2400"))  # 40 мин
 _TG = "https://api.telegram.org/bot{token}/sendMessage"
 
@@ -115,7 +115,7 @@ def main() -> None:
         if not recent_ok:
             issues.append(
                 f"Нет успешного скана за последние <b>{STALE_MINUTES} мин</b> "
-                f"(ожидание ~каждые 15 мин). Проверьте cron в Actions."
+                f"(ожидание ~каждые 30–60 мин на бесплатном GitHub)."
             )
         if url:
             info.append(f"<a href=\"{url}\">Открыть последний run</a>")

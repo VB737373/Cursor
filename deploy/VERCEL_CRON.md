@@ -1,27 +1,22 @@
-# Надёжный cron каждые 15 мин (Vercel, бесплатно)
+# Надёжный cron каждые 15 мин
 
-GitHub сам часто пропускает расписание. **Vercel Cron** будит скан точно каждые 15 минут.
+> **Vercel Hobby (бесплатный)** — cron **не чаще 1 раза в день**.  
+> Для интервала **15 мин** используй **cron-job.org** ниже.
 
-## Быстрая установка (5 мин, один раз)
+GitHub сам часто пропускает расписание. **cron-job.org** будит скан точно каждые 15 минут.
 
-### 1. Токен GitHub
-https://github.com/settings/tokens → **Generate new token (classic)** → галочка **`repo`** → скопируй `ghp_...`
+## cron-job.org (рекомендуется, бесплатно)
 
-### 2. Деплой на Vercel
-1. https://vercel.com/signup (можно через GitHub)
-2. **Add New Project** → Import `VB737373/Cursor`
-3. **Root Directory:** `cron`  ← важно!
-4. **Environment Variables:**
-   - `GITHUB_PAT` = твой `ghp_...`
-   - `GITHUB_REPO` = `VB737373/Cursor`
-5. **Deploy**
-
-Готово. Vercel будет вызывать `/api/trigger` каждые 15 мин → GitHub Actions → Telegram.
-
-### 3. Проверка
-Vercel → Project → **Cron Jobs** — должно быть `*/15 * * * *`  
-Через 15 мин: новый run на https://github.com/VB737373/Cursor/actions
+См. **[CRON_15MIN.md](CRON_15MIN.md)** — регистрация по почте, без Vercel.
 
 ---
 
-Компьютер **не нужен**. Бесплатный тариф Vercel Hobby достаточен.
+## Vercel (только Pro-план)
+
+На **Hobby** деплой с `*/15 * * * *` **не пройдёт** — ошибка про daily cron limit.
+
+Если есть **Pro** — Root Directory `cron`, env `GITHUB_PAT`, Deploy.
+
+---
+
+Компьютер **не нужен**. Бесплатно — **cron-job.org**.

@@ -31,7 +31,7 @@ log = logging.getLogger("scan_ci")
 STATE_FILE = Path(__file__).parent / "state" / "cooldown.json"
 LAST_SCAN_FILE = Path(__file__).parent / "state" / "last_scan.json"
 _TG_SEND = "https://api.telegram.org/bot{token}/sendMessage"
-MIN_SCAN_INTERVAL_SEC = int(os.getenv("MIN_SCAN_INTERVAL_SEC", "840"))  # 14 мин между сканами
+MIN_SCAN_INTERVAL_SEC = int(os.getenv("MIN_SCAN_INTERVAL_SEC", "1500"))  # 25 мин между сканами
 
 
 def load_cooldown() -> dict:
