@@ -25,6 +25,8 @@
 !/engine/
 !/sources/
 !/deploy/
+!/cron/
+!/scripts/
 
 !/whales.txt
 !/market_makers.txt
@@ -33,6 +35,7 @@
 
 # --- Но НЕ коммитим секреты и мусор даже внутри разрешённого ---
 .env
+.github_pat
 subscribers.json
 __pycache__/
 *.pyc

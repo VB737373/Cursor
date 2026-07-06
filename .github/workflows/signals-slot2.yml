@@ -1,18 +1,14 @@
-name: crypto-signals
-# Бот сигналов на лонг: запуск по расписанию на серверах GitHub.
+name: crypto-signals-slot2
+# Дополнительные окна запуска (смещение +5 мин) — GitHub чаще пропускает */15.
 
 on:
-  repository_dispatch:
-    types: [scan]
-  workflow_dispatch: {}
   schedule:
-    # 12 попыток в час (каждые ~5 мин) — GitHub пропускает многие, scan_ci держит интервал 15 мин
-    - cron: "0,15,30,45 * * * *"
-    - cron: "2,17,32,47 * * * *"
-    - cron: "8,23,38,53 * * * *"
+    - cron: "5,20,35,50 * * * *"
+    - cron: "7,22,37,52 * * * *"
+    - cron: "3,18,33,48 * * * *"
 
 permissions:
-  contents: write          # чтобы коммитить обратно состояние (cooldown/журнал)
+  contents: write
 
 concurrency:
   group: crypto-signals

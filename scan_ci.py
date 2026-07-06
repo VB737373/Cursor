@@ -29,7 +29,9 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(messag
 log = logging.getLogger("scan_ci")
 
 STATE_FILE = Path(__file__).parent / "state" / "cooldown.json"
+LAST_SCAN_FILE = Path(__file__).parent / "state" / "last_scan.json"
 _TG_SEND = "https://api.telegram.org/bot{token}/sendMessage"
+MIN_SCAN_INTERVAL_SEC = int(os.getenv("MIN_SCAN_INTERVAL_SEC", "840"))  # 14 мин между сканами
 
 
 def load_cooldown() -> dict:
@@ -96,6 +98,27 @@ def is_manual_run() -> bool:
     return os.getenv("GITHUB_EVENT_NAME", "").strip() == "workflow_dispatch"
 
 
+def should_skip_scan() -> tuple[bool, float]:
+    """Не чаще MIN_SCAN_INTERVAL_SEC (кроме ручного запуска и внешнего cron)."""
+    if os.getenv("FORCE_SCAN", "").lower() in ("1", "true", "yes"):
+        return False, 0.0
+    if is_manual_run():
+        return False, 0.0
+    if os.getenv("GITHUB_EVENT_NAME", "").strip() == "repository_dispatch":
+        return False, 0.0
+    if not LAST_SCAN_FILE.exists():
+        return False, 0.0
+    try:
+        meta = json.loads(LAST_SCAN_FILE.read_text("utf-8"))
+        last = float(meta.get("time") or 0)
+        age = time.time() - last
+        if age < MIN_SCAN_INTERVAL_SEC:
+            return True, age
+    except (ValueError, OSError, TypeError):
+        pass
+    return False, 0.0
+
+
 def notify_manual_status(token: str, chat_ids: list, meta: dict) -> None:
     if not is_manual_run():
         return
@@ -128,6 +151,14 @@ def main() -> None:
         meta["error"] = "CHAT_IDS missing"
         save_scan_meta(meta)
         raise SystemExit("Нет получателей: задай секрет CHAT_IDS (твой chat id).")
+
+    skip, age = should_skip_scan()
+    if skip:
+        log.info(
+            "Пропуск: последний скан %.0f с назад (мин. интервал %d с)",
+            age, MIN_SCAN_INTERVAL_SEC,
+        )
+        return
 
     try:
         journal.check_open_trades()
