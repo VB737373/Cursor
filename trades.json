@@ -3014,10 +3014,10 @@
       "Market Regime: рынок 24ч +0.5%, BTC доминация 56%",
       "Fear & Greed: F&G 24 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "win",
+    "exit_price": 72.41244511,
+    "exit_time": 1783429199.999,
+    "pnl_pct": 2.0972084737398604,
     "binance_symbol": "HYPEUSDT"
   },
   {
@@ -4552,10 +4552,10 @@
       "Market Regime: рынок 24ч +0.6%, BTC доминация 56%",
       "Fear & Greed: F&G 24 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "loss",
+    "exit_price": 208.98610236,
+    "exit_time": 1783403999.999,
+    "pnl_pct": -3.4572447175128236,
     "binance_symbol": "TAOUSDT"
   },
   {
@@ -5416,5 +5416,117 @@
     "exit_time": null,
     "pnl_pct": null,
     "binance_symbol": "HYPEUSDT"
+  },
+  {
+    "time": 1783431261.4521794,
+    "symbol": "UMXMUSDT",
+    "binance_symbol": "UMXMUSDT",
+    "base": "UMXM",
+    "confidence": 73.9,
+    "entry": 2.19542,
+    "stop": 2.085724,
+    "take": 2.2170501,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈2.1355",
+      "Market Regime: рынок 24ч +1.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783431261.818385,
+    "symbol": "XAUT_USDT",
+    "binance_symbol": "XAUTUSDT",
+    "base": "XAUT",
+    "confidence": 70.7,
+    "entry": 4159.6,
+    "stop": 3937.986492,
+    "take": 4184.70381706,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 61 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.000% [Bit+0.000] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈4026.34",
+      "Market Regime: рынок 24ч +1.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783431262.1632762,
+    "symbol": "HYPE_USDT",
+    "binance_symbol": "HYPEUSDT",
+    "base": "HYPE",
+    "confidence": 70.5,
+    "entry": 71.589,
+    "stop": 64.41742622,
+    "take": 73.07334641,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 55 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.003% [Bit-0.004/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈70.6068",
+      "Hyperliquid Whales: киты в лонге: 3 поз. $108.7M vs шорт $21.0M",
+      "Market Regime: рынок 24ч +1.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783431262.4798892,
+    "symbol": "RAVE-USDT",
+    "binance_symbol": "RAVEUSDT",
+    "base": "RAVE",
+    "confidence": 70.1,
+    "entry": 0.318,
+    "stop": 0.27531158,
+    "take": 0.3394002,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.28235",
+      "Market Regime: рынок 24ч +1.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783431262.8057923,
+    "symbol": "ZEC-USDT",
+    "binance_symbol": "ZECUSDT",
+    "base": "ZEC",
+    "confidence": 69.1,
+    "entry": 458.763,
+    "stop": 442.31405221,
+    "take": 469.72896519,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010/HL+0.010] (норма)",
+      "Volume Profile (POC): отбой от POC (накопление); POC≈462.734",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $22.7M vs шорт $0.0M",
+      "News: новостей: 1, тон +0.00",
+      "Market Regime: рынок 24ч +1.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
