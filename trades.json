@@ -3735,10 +3735,10 @@
       "Market Regime: рынок 24ч +1.0%, BTC доминация 56%",
       "Fear & Greed: F&G 24 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "loss",
+    "exit_price": 1.61585385,
+    "exit_time": 1783465199.999,
+    "pnl_pct": -8.822150434488211,
     "binance_symbol": "GRAMUSDT"
   },
   {
@@ -4032,10 +4032,10 @@
       "Market Regime: рынок 24ч +0.6%, BTC доминация 56%",
       "Fear & Greed: F&G 24 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "loss",
+    "exit_price": 1.61585385,
+    "exit_time": 1783465199.999,
+    "pnl_pct": -9.57728875209849,
     "binance_symbol": "GRAMUSDT"
   },
   {
@@ -4618,10 +4618,10 @@
       "Market Regime: рынок 24ч +0.6%, BTC доминация 56%",
       "Fear & Greed: F&G 24 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "loss",
+    "exit_price": 1.62299636,
+    "exit_time": 1783465199.999,
+    "pnl_pct": -9.279130240357743,
     "binance_symbol": "GRAMUSDT"
   },
   {
@@ -6062,6 +6062,50 @@
       "Derivatives (Funding/OI): funding avg +0.006% [Bit+0.002/HL+0.010] (норма)",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈3.19541",
       "Market Regime: рынок 24ч -1.6%, BTC доминация 56%",
+      "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783467009.945101,
+    "symbol": "NES-USDT",
+    "binance_symbol": "NESUSDT",
+    "base": "NES",
+    "confidence": 69.7,
+    "entry": 0.2782,
+    "stop": 0.25045172,
+    "take": 0.29669885,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.260305",
+      "Market Regime: рынок 24ч -0.8%, BTC доминация 56%",
+      "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783467010.4812303,
+    "symbol": "UNI-USDT",
+    "binance_symbol": "UNIUSDT",
+    "base": "UNI",
+    "confidence": 69.7,
+    "entry": 3.2155,
+    "stop": 3.08667484,
+    "take": 3.30138344,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 53 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.008% [Bit+0.007/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈3.19541",
+      "Market Regime: рынок 24ч -0.8%, BTC доминация 56%",
       "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
     ],
     "status": "open",
