@@ -18,7 +18,9 @@ log = logging.getLogger("journal")
 
 TRADES_FILE = Path(__file__).parent / "trades.json"
 _SBASE = "https://api.binance.com"
+_FBASE = "https://fapi.binance.com"
 _MAX_HOLD_HOURS = 72  # через сколько часов закрывать сделку «по времени»
+_KLINE_INTERVAL = "1h"
 
 
 def to_binance_symbol(symbol: str, base: str | None = None) -> str:
@@ -74,12 +76,175 @@ def log_signal(d) -> None:
     save_trades(trades)
 
 
-def _fetch_klines_since(symbol: str, start_ms: int) -> Optional[List[list]]:
-    """Свечи 1h Binance с start_ms (нужны high/low/time для проверки исхода)."""
-    data = get_json(f"{_SBASE}/api/v3/klines",
-                    params={"symbol": symbol, "interval": "1h",
+def _norm_kline_rows(rows: List[list]) -> List[list]:
+    """Единый формат: [open_ms, o, h, l, c, v, close_ms]."""
+    out: List[list] = []
+    for r in rows:
+        try:
+            if len(r) >= 7 and int(r[0]) > 1_000_000_000_000:
+                out.append([int(r[0]), float(r[1]), float(r[2]), float(r[3]),
+                            float(r[4]), float(r[5]), int(r[6])])
+            elif len(r) >= 6:
+                open_ms = int(r[0]) * 1000 if int(r[0]) < 1_000_000_000_000 else int(r[0])
+                close_ms = open_ms + 3_599_999
+                out.append([open_ms, float(r[1]), float(r[2]), float(r[3]),
+                            float(r[4]), float(r[5]), close_ms])
+        except (TypeError, ValueError, IndexError):
+            continue
+    return sorted(out, key=lambda x: x[0])
+
+
+def _fetch_binance_klines(base_url: str, symbol: str, start_ms: int) -> Optional[List[list]]:
+    path = "/fapi/v1/klines" if "fapi" in base_url else "/api/v3/klines"
+    data = get_json(f"{base_url}{path}",
+                    params={"symbol": symbol, "interval": _KLINE_INTERVAL,
                             "startTime": start_ms, "limit": 200})
-    return data if isinstance(data, list) else None
+    if isinstance(data, list) and data:
+        return _norm_kline_rows(data)
+    return None
+
+
+def _symbol_variants(symbol: str, base: str | None = None) -> List[str]:
+    """Варианты символа для разных бирж (исходный + нормализованный)."""
+    b = (base or "").strip().upper()
+    if not b and symbol:
+        s = symbol.strip().upper()
+        for sep in ("-", "_"):
+            if sep in s:
+                b = s.split(sep)[0]
+                break
+        if not b and s.endswith("USDT"):
+            b = s[:-4]
+    out: List[str] = []
+    for cand in (symbol, to_binance_symbol(symbol, base)):
+        c = (cand or "").strip()
+        if c and c not in out:
+            out.append(c)
+    if b:
+        for cand in (f"{b}USDT", f"{b}_USDT", f"{b}-USDT"):
+            if cand not in out:
+                out.append(cand)
+    return out
+
+
+def _fetch_exchange_klines(start_ms: int, symbol: str, base: str | None) -> Optional[List[list]]:
+    """Свечи с других бирж, если монеты нет на Binance spot."""
+    from sources.exchanges.bybit import Bybit
+    from sources.exchanges.bitget import Bitget
+    from sources.exchanges.gateio import GateIO
+    from sources.exchanges.bingx import BingX
+    from sources.exchanges.kucoin import KuCoin
+
+    start_sec = start_ms // 1000
+    variants = _symbol_variants(symbol, base)
+
+    for sym in variants:
+        compact = sym.replace("-", "").replace("_", "")
+        gate_sym = sym.replace("-", "_") if "-" in sym else (
+            f"{sym[:-4]}_USDT" if sym.endswith("USDT") and "_" not in sym else sym
+        )
+        bing_sym = sym.replace("_", "-") if "_" in sym else (
+            f"{sym[:-4]}-USDT" if sym.endswith("USDT") and "-" not in sym else sym
+        )
+        kucoin_sym = sym.replace("_", "-") if "_" in sym else (
+            f"{sym[:-4]}-USDT" if sym.endswith("USDT") and "-" not in sym else sym
+        )
+
+        data = get_json(
+            "https://api.bybit.com/v5/market/kline",
+            params={"category": "spot", "symbol": compact, "interval": "60",
+                    "start": start_ms, "limit": 200},
+        )
+        try:
+            rows = data["result"]["list"]
+            if rows:
+                norm = [[r[0], r[1], r[2], r[3], r[4], r[5], int(r[0]) + 3_599_999]
+                        for r in rows]
+                return _norm_kline_rows(norm)
+        except (KeyError, TypeError):
+            pass
+
+        data = get_json(
+            "https://api.bitget.com/api/v2/spot/market/candles",
+            params={"symbol": compact, "granularity": _KLINE_INTERVAL,
+                    "startTime": start_ms, "limit": 200},
+        )
+        rows = data.get("data") if isinstance(data, dict) else None
+        if isinstance(rows, list) and rows:
+            norm = [[r[0], r[1], r[2], r[3], r[4], r[5], int(r[0]) + 3_599_999]
+                    for r in rows]
+            return _norm_kline_rows(norm)
+
+        data = get_json(
+            "https://api.gateio.ws/api/v4/spot/candlesticks",
+            params={"currency_pair": gate_sym, "interval": _KLINE_INTERVAL,
+                    "from": start_sec, "limit": 200},
+        )
+        if isinstance(data, list) and data:
+            norm = [[r[0], r[5], r[3], r[4], r[2], r[6] if len(r) > 6 else r[1],
+                     int(r[0]) * 1000 + 3_599_999] for r in data]
+            return _norm_kline_rows(norm)
+
+        data = get_json(
+            "https://open-api.bingx.com/openApi/spot/v2/market/kline",
+            params={"symbol": bing_sym, "interval": _KLINE_INTERVAL,
+                    "startTime": start_ms, "limit": 200},
+        )
+        if isinstance(data, dict) and data.get("code") == 0:
+            rows = data.get("data")
+            if isinstance(rows, list) and rows:
+                norm = [[r[0], r[1], r[2], r[3], r[4], r[5],
+                         int(r[6]) if len(r) > 6 else int(r[0]) + 3_599_999]
+                        for r in rows]
+                return _norm_kline_rows(norm)
+
+        data = get_json(
+            "https://api.kucoin.com/api/v1/market/candles",
+            params={"symbol": kucoin_sym, "type": "1hour", "startAt": start_sec},
+        )
+        if isinstance(data, dict) and data.get("code") == "200000":
+            rows = data.get("data")
+            if isinstance(rows, list) and rows:
+                norm = [[r[0], r[1], r[3], r[4], r[2], r[5],
+                         int(r[0]) * 1000 + 3_599_999] for r in rows]
+                return _norm_kline_rows(norm)
+
+        for ex, ex_sym in (
+            (Bybit(), compact),
+            (Bitget(), compact),
+            (GateIO(), gate_sym),
+            (BingX(), bing_sym),
+            (KuCoin(), kucoin_sym),
+        ):
+            kl = ex.get_klines(ex_sym, _KLINE_INTERVAL, limit=200)
+            if not kl:
+                continue
+            n = len(kl["close"])
+            if n == 0:
+                continue
+            step = 3_600_000
+            end_ms = int(time.time() * 1000)
+            start_est = end_ms - n * step
+            norm = []
+            for i in range(n):
+                open_ms = start_est + i * step
+                if open_ms + step <= start_ms:
+                    continue
+                norm.append([open_ms, kl["open"][i], kl["high"][i], kl["low"][i],
+                             kl["close"][i], kl["volume"][i], open_ms + step - 1])
+            if norm:
+                return _norm_kline_rows(norm)
+
+    return None
+
+
+def _fetch_klines_since(symbol: str, start_ms: int, base: str | None = None) -> Optional[List[list]]:
+    """Свечи 1h с start_ms: Binance spot → futures → другие биржи."""
+    for url in (_SBASE, _FBASE):
+        kl = _fetch_binance_klines(url, symbol, start_ms)
+        if kl:
+            return kl
+    return _fetch_exchange_klines(start_ms, symbol, base)
 
 
 def check_open_trades() -> int:
@@ -104,7 +269,7 @@ def check_open_trades() -> int:
             continue
 
         start_ms = int(t["time"] * 1000)
-        kl = _fetch_klines_since(bn, start_ms) if bn else None
+        kl = _fetch_klines_since(bn or t.get("symbol", ""), start_ms, t.get("base")) if bn or t.get("symbol") else None
         if not kl:
             # монета не на Binance или нет данных — закроем по времени, если пора
             if now - t["time"] >= _MAX_HOLD_HOURS * 3600:
@@ -123,6 +288,8 @@ def check_open_trades() -> int:
                 high = float(c[2])
                 low = float(c[3])
                 close_ms = int(c[6])
+                if close_ms < start_ms:
+                    continue
             except (TypeError, ValueError, IndexError):
                 continue
             if low <= stop:          # консервативно: стоп раньше тейка
