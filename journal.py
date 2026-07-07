@@ -21,6 +21,22 @@ _SBASE = "https://api.binance.com"
 _MAX_HOLD_HOURS = 72  # через сколько часов закрывать сделку «по времени»
 
 
+def to_binance_symbol(symbol: str, base: str | None = None) -> str:
+    """Символ для Binance spot API: LTC-USDT / LTC_USDT → LTCUSDT."""
+    if symbol:
+        s = symbol.strip().upper().replace("-", "").replace("_", "")
+        if s.endswith("USDT"):
+            return s
+    b = (base or "").strip().upper()
+    if b:
+        return f"{b}USDT"
+    return symbol.strip().upper().replace("-", "").replace("_", "") if symbol else ""
+
+
+def _trade_binance_symbol(t: dict) -> str:
+    return t.get("binance_symbol") or to_binance_symbol(t.get("symbol", ""), t.get("base"))
+
+
 def load_trades() -> List[dict]:
     if TRADES_FILE.exists():
         try:
@@ -43,6 +59,7 @@ def log_signal(d) -> None:
     trades.append({
         "time": time.time(),
         "symbol": d.symbol,
+        "binance_symbol": to_binance_symbol(d.symbol, d.base),
         "base": d.base,
         "confidence": d.confidence,
         "entry": d.entry,
@@ -69,9 +86,15 @@ def check_open_trades() -> int:
     """Проверяет открытые сделки, отмечает исход. Возвращает число закрытых."""
     trades = load_trades()
     closed = 0
+    changed = False
     now = time.time()
 
     for t in trades:
+        bn = _trade_binance_symbol(t)
+        if t.get("binance_symbol") != bn:
+            t["binance_symbol"] = bn
+            changed = True
+
         if t.get("status") != "open":
             continue
         entry = t.get("entry")
@@ -81,13 +104,15 @@ def check_open_trades() -> int:
             continue
 
         start_ms = int(t["time"] * 1000)
-        kl = _fetch_klines_since(t["symbol"], start_ms)
+        kl = _fetch_klines_since(bn, start_ms) if bn else None
         if not kl:
             # монета не на Binance или нет данных — закроем по времени, если пора
             if now - t["time"] >= _MAX_HOLD_HOURS * 3600:
                 t["status"] = "timeout"
                 t["exit_time"] = now
+                t["pnl_pct"] = 0.0
                 closed += 1
+                changed = True
             continue
 
         outcome = None
@@ -113,6 +138,7 @@ def check_open_trades() -> int:
             t["exit_time"] = exit_ms / 1000 if exit_ms else now
             t["pnl_pct"] = (exit_price - entry) / entry * 100
             closed += 1
+            changed = True
         elif now - t["time"] >= _MAX_HOLD_HOURS * 3600:
             last_close = float(kl[-1][4])
             t["status"] = "timeout"
@@ -120,8 +146,9 @@ def check_open_trades() -> int:
             t["exit_time"] = now
             t["pnl_pct"] = (last_close - entry) / entry * 100
             closed += 1
+            changed = True
 
-    if closed:
+    if changed:
         save_trades(trades)
     return closed
 
