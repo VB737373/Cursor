@@ -5073,5 +5073,46 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1783412542.3537316,
+    "symbol": "UMXMUSDT",
+    "base": "UMXM",
+    "confidence": 73.9,
+    "entry": 2.19599,
+    "stop": 2.08427356,
+    "take": 2.21851832,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 61 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈2.17305",
+      "Market Regime: рынок 24ч +0.2%, BTC доминация 56%",
+      "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783412542.717615,
+    "symbol": "PUMP_USDT",
+    "base": "PUMP",
+    "confidence": 70.1,
+    "entry": 0.0016648,
+    "stop": 0.00144147,
+    "take": 0.00172838,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.004/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.00155676",
+      "Market Regime: рынок 24ч +0.2%, BTC доминация 56%",
+      "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
