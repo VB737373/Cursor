@@ -232,10 +232,10 @@
       "Fear & Greed: F&G 23 (Extreme Fear) — рынок осторожен",
       "CoinMarketCap: CMC 7д +13.5%"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "loss",
+    "exit_price": 0.01386987,
+    "exit_time": 1783454399.999,
+    "pnl_pct": -8.930597504924497,
     "binance_symbol": "SENTUSDT"
   },
   {
@@ -3918,10 +3918,10 @@
       "Market Regime: рынок 24ч +1.0%, BTC доминация 56%",
       "Fear & Greed: F&G 24 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "loss",
+    "exit_price": 0.00245985,
+    "exit_time": 1783457999.999,
+    "pnl_pct": -35.72380454664228,
     "binance_symbol": "ZEUSUSDT"
   },
   {
@@ -5054,10 +5054,10 @@
       "Market Regime: рынок 24ч +0.3%, BTC доминация 56%",
       "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "loss",
+    "exit_price": 1.63013887,
+    "exit_time": 1783454399.999,
+    "pnl_pct": -8.747264330497094,
     "binance_symbol": "GRAMUSDT"
   },
   {
@@ -5387,10 +5387,10 @@
       "Market Regime: рынок 24ч +0.6%, BTC доминация 56%",
       "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "win",
+    "exit_price": 0.28580266,
+    "exit_time": 1783454399.999,
+    "pnl_pct": 6.842115887850456,
     "binance_symbol": "NESUSDT"
   },
   {
@@ -5682,10 +5682,10 @@
       "Market Regime: рынок 24ч +0.1%, BTC доминация 56%",
       "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 3.31469596,
+    "exit_time": 1783450799.999,
+    "pnl_pct": 2.362298807979739
   },
   {
     "time": 1783441772.3510742,
@@ -5975,6 +5975,50 @@
       "Fear & Greed: F&G 27 (Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $1.2M vs шорт $0.7M; 🏛 Auros Global: лонг $1.2M",
       "DefiLlama: TVL BSC +2.2% за 7д"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783457378.3085568,
+    "symbol": "NES-USDT",
+    "binance_symbol": "NESUSDT",
+    "base": "NES",
+    "confidence": 69.7,
+    "entry": 0.2784,
+    "stop": 0.24922885,
+    "take": 0.29784744,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.260305",
+      "Market Regime: рынок 24ч -0.6%, BTC доминация 56%",
+      "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783457378.68973,
+    "symbol": "UNI-USDT",
+    "binance_symbol": "UNIUSDT",
+    "base": "UNI",
+    "confidence": 69.3,
+    "entry": 3.2355,
+    "stop": 3.10293674,
+    "take": 3.32387551,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.004/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈3.19541",
+      "Market Regime: рынок 24ч -0.6%, BTC доминация 56%",
+      "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
     ],
     "status": "open",
     "exit_price": null,
