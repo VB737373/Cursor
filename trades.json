@@ -1053,10 +1053,10 @@
       "Market Regime: рынок 24ч -0.6%, BTC доминация 56%",
       "Fear & Greed: F&G 23 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "loss",
+    "exit_price": 43.31965,
+    "exit_time": 1783504799.999,
+    "pnl_pct": -5.949522362136342,
     "binance_symbol": "LTCUSDT"
   },
   {
@@ -1098,10 +1098,10 @@
       "Fear & Greed: F&G 23 (Extreme Fear) — рынок осторожен",
       "Hyperliquid Market Makers: 🏛 Auros Global: лонг $0.3M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "loss",
+    "exit_price": 0.07167313,
+    "exit_time": 1783501199.999,
+    "pnl_pct": -7.72096047379941,
     "binance_symbol": "DOGEUSDT"
   },
   {
@@ -1921,10 +1921,10 @@
       "Fear & Greed: F&G 23 (Extreme Fear) — рынок осторожен",
       "Hyperliquid Market Makers: 🏛 Auros Global: лонг $0.3M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "loss",
+    "exit_price": 0.07167313,
+    "exit_time": 1783501199.999,
+    "pnl_pct": -8.369815903860902,
     "binance_symbol": "DOGEUSDT"
   },
   {
@@ -2557,10 +2557,10 @@
       "Fear & Greed: F&G 23 (Extreme Fear) — рынок осторожен",
       "Hyperliquid Market Makers: 🏛 Auros Global: лонг $0.3M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "loss",
+    "exit_price": 0.07167313,
+    "exit_time": 1783501199.999,
+    "pnl_pct": -8.252521761392721,
     "binance_symbol": "DOGEUSDT"
   },
   {
@@ -2831,10 +2831,10 @@
       "Fear & Greed: F&G 24 (Extreme Fear) — рынок осторожен",
       "Hyperliquid Market Makers: 🏛 Auros Global: лонг $0.3M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "loss",
+    "exit_price": 0.07167313,
+    "exit_time": 1783501199.999,
+    "pnl_pct": -8.252521761392721,
     "binance_symbol": "DOGEUSDT"
   },
   {
@@ -4054,10 +4054,10 @@
       "Market Regime: рынок 24ч +0.6%, BTC доминация 56%",
       "Fear & Greed: F&G 24 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "loss",
+    "exit_price": 0.07283424,
+    "exit_time": 1783501199.999,
+    "pnl_pct": -8.683249749247747,
     "binance_symbol": "ENAUSDT"
   },
   {
@@ -4640,10 +4640,10 @@
       "Market Regime: рынок 24ч +0.6%, BTC доминация 56%",
       "Fear & Greed: F&G 24 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "loss",
+    "exit_price": 0.0731459,
+    "exit_time": 1783501199.999,
+    "pnl_pct": -7.033680732079309,
     "binance_symbol": "ENAUSDT"
   },
   {
@@ -5120,10 +5120,10 @@
       "Market Regime: рынок 24ч +0.3%, BTC доминация 56%",
       "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "loss",
+    "exit_price": 0.0731459,
+    "exit_time": 1783501199.999,
+    "pnl_pct": -6.701658163265304,
     "binance_symbol": "ENAUSDT"
   },
   {
@@ -6130,10 +6130,10 @@
       "Market Regime: рынок 24ч -0.8%, BTC доминация 56%",
       "Fear & Greed: F&G 20 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.30807931,
+    "exit_time": 1783497599.999,
+    "pnl_pct": 6.234244827586212
   },
   {
     "time": 1783472683.8826897,
@@ -6257,6 +6257,71 @@
       "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.260305",
       "Market Regime: рынок 24ч -1.1%, BTC доминация 56%",
+      "Fear & Greed: F&G 20 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783504606.16812,
+    "symbol": "UMXMUSDT",
+    "binance_symbol": "UMXMUSDT",
+    "base": "UMXM",
+    "confidence": 73.4,
+    "entry": 2.21149,
+    "stop": 2.10179983,
+    "take": 2.23434858,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 61 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈2.13569",
+      "Market Regime: рынок 24ч -2.1%, BTC доминация 56%",
+      "Fear & Greed: F&G 20 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783504606.4928389,
+    "symbol": "UNI-USDT",
+    "binance_symbol": "UNIUSDT",
+    "base": "UNI",
+    "confidence": 69.5,
+    "entry": 3.2507,
+    "stop": 3.04927929,
+    "take": 3.38498047,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 52 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.010% [Bit-0.031/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈3.19357",
+      "Market Regime: рынок 24ч -2.1%, BTC доминация 56%",
+      "Fear & Greed: F&G 20 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783504606.8087094,
+    "symbol": "NES-USDT",
+    "binance_symbol": "NESUSDT",
+    "base": "NES",
+    "confidence": 69.5,
+    "entry": 0.3054,
+    "stop": 0.27163902,
+    "take": 0.32790732,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 65 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.260305",
+      "Market Regime: рынок 24ч -2.1%, BTC доминация 56%",
       "Fear & Greed: F&G 20 (Extreme Fear) — выход из страха возможен"
     ],
     "status": "open",
