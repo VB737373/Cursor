@@ -1531,10 +1531,10 @@
       "Fear & Greed: F&G 23 (Extreme Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $0.4M vs шорт $0.1M; 🏛 Auros Global: лонг $0.4M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "timeout",
+    "exit_price": 232.8,
+    "exit_time": 1783544729.4603105,
+    "pnl_pct": -5.1228756571708,
     "binance_symbol": "BCHUSDT"
   },
   {
@@ -6536,6 +6536,27 @@
       "Multi-Timeframe: 4h-тренд смешанный",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.99969",
       "Market Regime: рынок 24ч -2.2%, BTC доминация 56%",
+      "Fear & Greed: F&G 20 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783544790.6204898,
+    "symbol": "USD1_USDT",
+    "binance_symbol": "USD1USDT",
+    "base": "USD1",
+    "confidence": 70.0,
+    "entry": 0.9997,
+    "stop": 0.99639781,
+    "take": 0.99998468,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 54 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд смешанный",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.99969",
+      "Market Regime: рынок 24ч -1.9%, BTC доминация 56%",
       "Fear & Greed: F&G 20 (Extreme Fear) — выход из страха возможен"
     ],
     "status": "open",
