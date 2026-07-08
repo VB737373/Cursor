@@ -1761,10 +1761,10 @@
       "Fear & Greed: F&G 23 (Extreme Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $0.4M vs шорт $0.1M; 🏛 Auros Global: лонг $0.4M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "timeout",
+    "exit_price": 234.0,
+    "exit_time": 1783549941.3508627,
+    "pnl_pct": -4.548235774015911,
     "binance_symbol": "BCHUSDT"
   },
   {
@@ -6554,6 +6554,72 @@
     "take": 0.99998468,
     "reasons": [
       "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 54 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд смешанный",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.99969",
+      "Market Regime: рынок 24ч -1.9%, BTC доминация 56%",
+      "Fear & Greed: F&G 20 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "win",
+    "exit_price": 0.99998468,
+    "exit_time": 1783547999.999,
+    "pnl_pct": 0.028476542962881476
+  },
+  {
+    "time": 1783549982.0071433,
+    "symbol": "TRX-USDT",
+    "binance_symbol": "TRXUSDT",
+    "base": "TRX",
+    "confidence": 70.4,
+    "entry": 0.3296,
+    "stop": 0.32581162,
+    "take": 0.33122147,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 50 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.000% [Bit+0.010/HL-0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.327332",
+      "Market Regime: рынок 24ч -1.9%, BTC доминация 56%",
+      "Fear & Greed: F&G 20 (Extreme Fear) — выход из страха возможен",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $1.8M vs шорт $0.0M; 🏛 Auros Global: лонг $1.1M; 🏛 Wintermute: лонг $0.8M",
+      "DefiLlama: TVL Tron +8.0% за 7д"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783549982.5739882,
+    "symbol": "UMXMUSDT",
+    "binance_symbol": "UMXMUSDT",
+    "base": "UMXM",
+    "confidence": 70.0,
+    "entry": 2.20459,
+    "stop": 2.11293612,
+    "take": 2.22908289,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 54 (импульс)",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈2.17371",
+      "Market Regime: рынок 24ч -1.9%, BTC доминация 56%",
+      "Fear & Greed: F&G 20 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783549983.06598,
+    "symbol": "USD1_USDT",
+    "binance_symbol": "USD1USDT",
+    "base": "USD1",
+    "confidence": 70.0,
+    "entry": 0.9997,
+    "stop": 0.99639781,
+    "take": 0.9999919,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 53 (импульс), MACD>0",
       "Multi-Timeframe: 4h-тренд смешанный",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.99969",
       "Market Regime: рынок 24ч -1.9%, BTC доминация 56%",
