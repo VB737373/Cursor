@@ -2901,10 +2901,10 @@
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $1.2M vs шорт $0.6M; 🏛 Auros Global: лонг $1.2M",
       "DefiLlama: TVL BSC +3.5% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "timeout",
+    "exit_price": 568.0,
+    "exit_time": 1783571384.3250434,
+    "pnl_pct": -3.9567128846804156,
     "binance_symbol": "BNBUSDT"
   },
   {
