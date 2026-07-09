@@ -2147,10 +2147,10 @@
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $1.2M vs шорт $0.6M; 🏛 Auros Global: лонг $1.2M",
       "DefiLlama: TVL BSC +1.3% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "timeout",
+    "exit_price": 568.3,
+    "exit_time": 1783555641.4515898,
+    "pnl_pct": -3.8409475465313108,
     "binance_symbol": "BNBUSDT"
   },
   {
@@ -2580,10 +2580,10 @@
       "Fear & Greed: F&G 23 (Extreme Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $0.4M vs шорт $0.1M; 🏛 Auros Global: лонг $0.4M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "timeout",
+    "exit_price": 235.0,
+    "exit_time": 1783555641.4515898,
+    "pnl_pct": -3.9758100764107343,
     "binance_symbol": "BCHUSDT"
   },
   {
@@ -2604,10 +2604,10 @@
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $1.2M vs шорт $0.6M; 🏛 Auros Global: лонг $1.2M",
       "DefiLlama: TVL BSC +1.3% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null,
+    "status": "timeout",
+    "exit_price": 568.3,
+    "exit_time": 1783555641.4515898,
+    "pnl_pct": -3.6616375656891043,
     "binance_symbol": "BNBUSDT"
   },
   {
@@ -6624,6 +6624,27 @@
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.99969",
       "Market Regime: рынок 24ч -1.9%, BTC доминация 56%",
       "Fear & Greed: F&G 20 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "win",
+    "exit_price": 0.9999919,
+    "exit_time": 1783551599.999,
+    "pnl_pct": 0.029198759627889523
+  },
+  {
+    "time": 1783555696.8740816,
+    "symbol": "USD1_USDT",
+    "binance_symbol": "USD1USDT",
+    "base": "USD1",
+    "confidence": 72.9,
+    "entry": 0.9998,
+    "stop": 0.99639781,
+    "take": 1.00007924,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.99969",
+      "Market Regime: рынок 24ч -1.9%, BTC доминация 56%",
+      "Fear & Greed: F&G 22 (Extreme Fear) — рынок осторожен"
     ],
     "status": "open",
     "exit_price": null,
