@@ -8198,10 +8198,10 @@
       "Market Regime: рынок 24ч +2.2%, BTC доминация 56%",
       "Fear & Greed: F&G 23 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.00092099,
+    "exit_time": 1783945780.2663295,
+    "pnl_pct": -13.204222033738567
   },
   {
     "time": 1783682742.7983418,
@@ -8267,10 +8267,10 @@
       "Fear & Greed: F&G 23 (Extreme Fear) — рынок осторожен",
       "CoinGecko (FDV/MCap): FDV/MCap 1.0x — низкий риск разблокировки (cap $1290.4B)"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 62734.03,
+    "exit_time": 1783945780.2663295,
+    "pnl_pct": -2.5808590595689194
   },
   {
     "time": 1783690042.4726126,
@@ -11113,10 +11113,10 @@
       "Market Regime: рынок 24ч -0.1%, BTC доминация 56%",
       "Fear & Greed: F&G 26 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 2.35329886,
+    "exit_time": 1783947599.999,
+    "pnl_pct": -13.602362141126367
   },
   {
     "time": 1783841314.0685568,
@@ -11767,10 +11767,10 @@
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $1.9M vs шорт $0.0M; 🏛 Auros Global: лонг $1.1M; 🏛 Wintermute: лонг $0.8M",
       "DefiLlama: TVL Tron +5.3% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.32712607,
+    "exit_time": 1783940399.999,
+    "pnl_pct": -1.215138154914694
   },
   {
     "time": 1783875864.0472338,
@@ -12043,10 +12043,10 @@
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $1.9M vs шорт $0.0M; 🏛 Auros Global: лонг $1.1M; 🏛 Wintermute: лонг $0.8M",
       "DefiLlama: TVL Tron +5.2% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.32733265,
+    "exit_time": 1783940399.999,
+    "pnl_pct": -1.3315297663903503
   },
   {
     "time": 1783885145.3204281,
@@ -12179,10 +12179,10 @@
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $1.9M vs шорт $0.0M; 🏛 Auros Global: лонг $1.1M; 🏛 Wintermute: лонг $0.8M",
       "DefiLlama: TVL Tron +5.2% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.32733265,
+    "exit_time": 1783940399.999,
+    "pnl_pct": -1.2898736467537206
   },
   {
     "time": 1783889045.2871542,
@@ -12429,10 +12429,10 @@
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $1.9M vs шорт $0.0M; 🏛 Auros Global: лонг $1.1M; 🏛 Wintermute: лонг $0.8M",
       "DefiLlama: TVL Tron +5.0% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.32733265,
+    "exit_time": 1783940399.999,
+    "pnl_pct": -1.316656617425382
   },
   {
     "time": 1783892888.8235683,
@@ -12519,10 +12519,10 @@
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $1.9M vs шорт $0.0M; 🏛 Auros Global: лонг $1.1M; 🏛 Wintermute: лонг $0.8M",
       "DefiLlama: TVL Tron +5.0% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.32733265,
+    "exit_time": 1783940399.999,
+    "pnl_pct": -1.251161457704837
   },
   {
     "time": 1783896326.8672764,
@@ -12632,10 +12632,10 @@
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $1.9M vs шорт $0.0M; 🏛 Auros Global: лонг $1.1M; 🏛 Wintermute: лонг $0.8M",
       "DefiLlama: TVL Tron +4.9% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.32733265,
+    "exit_time": 1783940399.999,
+    "pnl_pct": -1.2809427589118714
   },
   {
     "time": 1783900361.846233,
@@ -12783,6 +12783,50 @@
       "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.069638",
       "Market Regime: рынок 24ч -1.1%, BTC доминация 56%",
+      "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783945843.3786955,
+    "symbol": "UMXMUSDT",
+    "binance_symbol": "UMXMUSDT",
+    "base": "UMXM",
+    "confidence": 72.4,
+    "entry": 2.28542,
+    "stop": 2.18764552,
+    "take": 2.31216664,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈2.26408",
+      "Market Regime: рынок 24ч -1.6%, BTC доминация 56%",
+      "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1783945843.6885695,
+    "symbol": "WLD_USDT",
+    "binance_symbol": "WLDUSDT",
+    "base": "WLD",
+    "confidence": 70.4,
+    "entry": 0.4236,
+    "stop": 0.3785609,
+    "take": 0.43935149,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 54 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.383525",
+      "Hyperliquid Whales: киты в лонге: 2 поз. $4.1M vs шорт $0.2M",
+      "Market Regime: рынок 24ч -1.6%, BTC доминация 56%",
       "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
     ],
     "status": "open",
