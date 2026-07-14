@@ -13178,5 +13178,117 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1784025853.0884268,
+    "symbol": "UMXMUSDT",
+    "binance_symbol": "UMXMUSDT",
+    "base": "UMXM",
+    "confidence": 72.9,
+    "entry": 2.2978,
+    "stop": 2.19957941,
+    "take": 2.33145667,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 66 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈2.26717",
+      "Market Regime: рынок 24ч -0.4%, BTC доминация 56%",
+      "Fear & Greed: F&G 22 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784025853.6429965,
+    "symbol": "AAVE-USDT",
+    "binance_symbol": "AAVEUSDT",
+    "base": "AAVE",
+    "confidence": 71.2,
+    "entry": 96.093,
+    "stop": 93.36867345,
+    "take": 97.9092177,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 54 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit-0.000/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈95.2",
+      "Hyperliquid Whales: киты в лонге: 2 поз. $7.9M vs шорт $0.0M",
+      "Market Regime: рынок 24ч -0.4%, BTC доминация 56%",
+      "Fear & Greed: F&G 22 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784025854.1868827,
+    "symbol": "UNI-USDT",
+    "binance_symbol": "UNIUSDT",
+    "base": "UNI",
+    "confidence": 69.7,
+    "entry": 3.6132,
+    "stop": 3.48216208,
+    "take": 3.69795243,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.004% [Bit+0.001/HL+0.008] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈3.52025",
+      "Market Regime: рынок 24ч -0.4%, BTC доминация 56%",
+      "Fear & Greed: F&G 22 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784025854.6649575,
+    "symbol": "ENA_USDT",
+    "binance_symbol": "ENAUSDT",
+    "base": "ENA",
+    "confidence": 69.3,
+    "entry": 0.08325,
+    "stop": 0.07690858,
+    "take": 0.0854386,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 70 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.005/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0791885",
+      "Market Regime: рынок 24ч -0.4%, BTC доминация 56%",
+      "Fear & Greed: F&G 22 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784025855.2093885,
+    "symbol": "INJ_USDT",
+    "binance_symbol": "INJUSDT",
+    "base": "INJ",
+    "confidence": 69.0,
+    "entry": 5.025,
+    "stop": 4.78894992,
+    "take": 5.1672429,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 67 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.000/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈4.88383",
+      "Market Regime: рынок 24ч -0.4%, BTC доминация 56%",
+      "Fear & Greed: F&G 22 (Extreme Fear) — рынок осторожен",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $0.2M vs шорт $0.0M; 🏛 Auros Global: лонг $0.2M",
+      "DefiLlama: TVL Injective +2.1% за 7д"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
