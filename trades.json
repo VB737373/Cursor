@@ -12201,10 +12201,10 @@
       "Market Regime: рынок 24ч -0.3%, BTC доминация 56%",
       "Fear & Greed: F&G 26 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 2.6538,
+    "exit_time": 1784152674.8522367,
+    "pnl_pct": 0.11695023955935718
   },
   {
     "time": 1783889045.5898929,
@@ -12293,10 +12293,10 @@
       "Market Regime: рынок 24ч -0.3%, BTC доминация 56%",
       "Fear & Greed: F&G 26 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.4099,
+    "exit_time": 1784152674.8522367,
+    "pnl_pct": -4.072080505499655
   },
   {
     "time": 1783889046.7379267,
@@ -12315,10 +12315,10 @@
       "Market Regime: рынок 24ч -0.3%, BTC доминация 56%",
       "Fear & Greed: F&G 26 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 3.615,
+    "exit_time": 1784152674.8522367,
+    "pnl_pct": -1.958125406812747
   },
   {
     "time": 1783892887.252625,
@@ -12361,10 +12361,10 @@
       "Market Regime: рынок 24ч -0.5%, BTC доминация 56%",
       "Fear & Greed: F&G 26 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.4099,
+    "exit_time": 1784152674.8522367,
+    "pnl_pct": -3.5756292637026563
   },
   {
     "time": 1783892887.917852,
@@ -12383,10 +12383,10 @@
       "Market Regime: рынок 24ч -0.5%, BTC доминация 56%",
       "Fear & Greed: F&G 26 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 3.615,
+    "exit_time": 1784152674.8522367,
+    "pnl_pct": -1.525469899210014
   },
   {
     "time": 1783892888.2115693,
@@ -12451,10 +12451,10 @@
       "Market Regime: рынок 24ч -0.5%, BTC доминация 56%",
       "Fear & Greed: F&G 26 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 2.6538,
+    "exit_time": 1784152674.8522367,
+    "pnl_pct": 1.518687119850038
   },
   {
     "time": 1783892889.1484604,
@@ -16663,6 +16663,50 @@
       "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $0.2M vs шорт $0.0M; 🏛 Auros Global: лонг $0.2M",
       "DefiLlama: TVL Injective +5.5% за 7д"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784152747.9158173,
+    "symbol": "UMXMUSDT",
+    "binance_symbol": "UMXMUSDT",
+    "base": "UMXM",
+    "confidence": 74.2,
+    "entry": 2.31638,
+    "stop": 2.20578055,
+    "take": 2.34952838,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈2.26621",
+      "Market Regime: рынок 24ч +0.4%, BTC доминация 56%",
+      "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784152748.2822268,
+    "symbol": "XLM-USDT",
+    "binance_symbol": "XLMUSDT",
+    "base": "XLM",
+    "confidence": 71.1,
+    "entry": 0.1895,
+    "stop": 0.18221571,
+    "take": 0.1937421,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 62 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.185956",
+      "Market Regime: рынок 24ч +0.4%, BTC доминация 56%",
+      "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $0.3M vs шорт $0.0M; 🏛 Auros Global: лонг $0.2M"
     ],
     "status": "open",
     "exit_price": null,
