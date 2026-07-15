@@ -14457,10 +14457,10 @@
       "Market Regime: рынок 24ч +3.3%, BTC доминация 56%",
       "Fear & Greed: F&G 22 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 2.69012695,
+    "exit_time": 1784095199.999,
+    "pnl_pct": 4.4425573630469355
   },
   {
     "time": 1784059781.3067014,
@@ -14637,10 +14637,10 @@
       "Market Regime: рынок 24ч +3.6%, BTC доминация 56%",
       "Fear & Greed: F&G 22 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 2.69970665,
+    "exit_time": 1784098799.999,
+    "pnl_pct": 4.324393307056182
   },
   {
     "time": 1784064689.3226666,
@@ -15357,6 +15357,72 @@
       "Hyperliquid Whales: киты в лонге: 1 поз. $2.3M vs шорт $0.0M",
       "Market Regime: рынок 24ч +2.8%, BTC доминация 56%",
       "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "win",
+    "exit_price": 0.63604166,
+    "exit_time": 1784098799.999,
+    "pnl_pct": 0.9429709569909475
+  },
+  {
+    "time": 1784100559.543773,
+    "symbol": "UMXMUSDT",
+    "binance_symbol": "UMXMUSDT",
+    "base": "UMXM",
+    "confidence": 74.7,
+    "entry": 2.31198,
+    "stop": 2.21153543,
+    "take": 2.34470733,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 64 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈2.26175",
+      "Market Regime: рынок 24ч +2.9%, BTC доминация 56%",
+      "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784100560.025748,
+    "symbol": "ASTER-USDT",
+    "binance_symbol": "ASTERUSDT",
+    "base": "ASTER",
+    "confidence": 71.9,
+    "entry": 0.6372,
+    "stop": 0.61958166,
+    "take": 0.64386439,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 66 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.005/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.629847",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $2.3M vs шорт $0.0M",
+      "Market Regime: рынок 24ч +2.9%, BTC доминация 56%",
+      "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784100560.479984,
+    "symbol": "RONUSDT",
+    "binance_symbol": "RONUSDT",
+    "base": "RON",
+    "confidence": 69.0,
+    "entry": 94.8,
+    "stop": 89.13407316,
+    "take": 96.40617735,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд смешанный",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈91.091",
+      "Market Regime: рынок 24ч +2.9%, BTC доминация 56%",
+      "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен",
+      "CoinGecko (FDV/MCap): FDV/MCap 1.3x — низкий риск разблокировки (cap $0.0B)"
     ],
     "status": "open",
     "exit_price": null,
