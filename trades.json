@@ -13513,10 +13513,10 @@
       "Market Regime: рынок 24ч +1.6%, BTC доминация 56%",
       "Fear & Greed: F&G 22 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 3.49002642,
+    "exit_time": 1784293199.999,
+    "pnl_pct": -4.758584761488924
   },
   {
     "time": 1784039081.5653884,
@@ -13535,10 +13535,10 @@
       "Market Regime: рынок 24ч +1.6%, BTC доминация 56%",
       "Fear & Greed: F&G 22 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.08097,
+    "exit_time": 1784299320.7025878,
+    "pnl_pct": -3.549731983323403
   },
   {
     "time": 1784039081.871473,
@@ -13874,10 +13874,10 @@
       "Market Regime: рынок 24ч +3.5%, BTC доминация 56%",
       "Fear & Greed: F&G 22 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 3.49002642,
+    "exit_time": 1784293199.999,
+    "pnl_pct": -4.922047021004171
   },
   {
     "time": 1784049391.0801091,
@@ -16234,10 +16234,10 @@
       "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $0.2M vs шорт $0.0M; 🏛 Auros Global: лонг $0.2M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.18174911,
+    "exit_time": 1784296799.999,
+    "pnl_pct": -3.8364497354497407
   },
   {
     "time": 1784137666.5235193,
@@ -17085,10 +17085,10 @@
       "Market Regime: рынок 24ч -1.4%, BTC доминация 56%",
       "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.07877895,
+    "exit_time": 1784296799.999,
+    "pnl_pct": -6.935676314235089
   },
   {
     "time": 1784220570.1709075,
@@ -17173,10 +17173,10 @@
       "Market Regime: рынок 24ч -1.6%, BTC доминация 56%",
       "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.07880767,
+    "exit_time": 1784296799.999,
+    "pnl_pct": -6.4930351210251525
   },
   {
     "time": 1784230891.2975237,
@@ -17241,10 +17241,10 @@
       "Market Regime: рынок 24ч -1.1%, BTC доминация 56%",
       "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.07880767,
+    "exit_time": 1784296799.999,
+    "pnl_pct": -6.923739222865241
   },
   {
     "time": 1784235369.212368,
@@ -17263,10 +17263,10 @@
       "Market Regime: рынок 24ч -1.3%, BTC доминация 56%",
       "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.00648956,
+    "exit_time": 1784296799.999,
+    "pnl_pct": -9.917268184342035
   },
   {
     "time": 1784235369.5411909,
@@ -17309,10 +17309,10 @@
       "Market Regime: рынок 24ч -1.3%, BTC доминация 56%",
       "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.07880767,
+    "exit_time": 1784296799.999,
+    "pnl_pct": -6.159002143367472
   },
   {
     "time": 1784239356.995789,
@@ -17333,10 +17333,10 @@
       "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $0.3M vs шорт $0.0M; 🏛 Auros Global: лонг $0.3M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.83596456,
+    "exit_time": 1784296799.999,
+    "pnl_pct": -4.099511299759098
   },
   {
     "time": 1784239357.4205613,
@@ -17377,10 +17377,10 @@
       "Market Regime: рынок 24ч -1.0%, BTC доминация 56%",
       "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.07880767,
+    "exit_time": 1784296799.999,
+    "pnl_pct": -6.326316415071913
   },
   {
     "time": 1784244327.8698425,
@@ -17425,10 +17425,10 @@
       "Fear & Greed: F&G 27 (Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $0.3M vs шорт $0.0M; 🏛 Auros Global: лонг $0.3M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.83596456,
+    "exit_time": 1784296799.999,
+    "pnl_pct": -3.457147476613932
   },
   {
     "time": 1784261755.6547291,
@@ -17618,6 +17618,27 @@
       "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.00018411",
       "Market Regime: рынок 24ч -1.3%, BTC доминация 56%",
+      "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784299389.2047582,
+    "symbol": "USD1_USDT",
+    "binance_symbol": "USD1USDT",
+    "base": "USD1",
+    "confidence": 73.2,
+    "entry": 1.0001,
+    "stop": 0.99649352,
+    "take": 1.00037679,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 67 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.999804",
+      "Market Regime: рынок 24ч -1.9%, BTC доминация 56%",
       "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
     ],
     "status": "open",
