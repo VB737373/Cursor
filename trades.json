@@ -13985,10 +13985,10 @@
       "Fear & Greed: F&G 22 (Extreme Fear) — рынок осторожен",
       "DefiLlama: TVL Sui +1.8% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.7411,
+    "exit_time": 1784309832.3424518,
+    "pnl_pct": -1.8280566962511637
   },
   {
     "time": 1784049392.6672597,
