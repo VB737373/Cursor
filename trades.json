@@ -17020,10 +17020,10 @@
       "Market Regime: рынок 24ч -0.6%, BTC доминация 56%",
       "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.30648,
+    "exit_time": 1784453195.1239522,
+    "pnl_pct": -1.1354838709677495
   },
   {
     "time": 1784200626.8102837,
@@ -18949,6 +18949,49 @@
       "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010] (норма)",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈2.733e-06",
       "Market Regime: рынок 24ч +0.9%, BTC доминация 57%",
+      "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
+    ],
+    "status": "win",
+    "exit_price": 2.84e-06,
+    "exit_time": 1784451599.999,
+    "pnl_pct": 1.4285714285714302
+  },
+  {
+    "time": 1784453253.7209935,
+    "symbol": "UMXMUSDT",
+    "binance_symbol": "UMXMUSDT",
+    "base": "UMXM",
+    "confidence": 73.4,
+    "entry": 2.37441,
+    "stop": 2.23163395,
+    "take": 2.40006651,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 60 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈2.26356",
+      "Market Regime: рынок 24ч +0.8%, BTC доминация 56%",
+      "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784453254.0226152,
+    "symbol": "PEPE_USDT",
+    "binance_symbol": "PEPEUSDT",
+    "base": "PEPE",
+    "confidence": 70.5,
+    "entry": 2.82e-06,
+    "stop": 2.7e-06,
+    "take": 2.87e-06,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 69 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈2.733e-06",
+      "Market Regime: рынок 24ч +0.8%, BTC доминация 56%",
       "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
     ],
     "status": "open",
