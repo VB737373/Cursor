@@ -19125,10 +19125,10 @@
       "Fear & Greed: F&G 28 (Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $0.2M vs шорт $0.0M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.18606812,
+    "exit_time": 1784527199.999,
+    "pnl_pct": -2.2751470588235345
   },
   {
     "time": 1784476599.7251666,
@@ -19215,10 +19215,10 @@
       "Market Regime: рынок 24ч +0.5%, BTC доминация 56%",
       "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.00503619,
+    "exit_time": 1784537999.999,
+    "pnl_pct": -12.093035433758063
   },
   {
     "time": 1784480468.0256696,
@@ -19306,10 +19306,10 @@
       "Fear & Greed: F&G 28 (Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $0.2M vs шорт $0.0M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.18542106,
+    "exit_time": 1784527199.999,
+    "pnl_pct": -2.152474934036941
   },
   {
     "time": 1784488770.7381546,
@@ -19329,10 +19329,10 @@
       "Fear & Greed: F&G 28 (Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $0.2M vs шорт $0.0M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.18568443,
+    "exit_time": 1784527199.999,
+    "pnl_pct": -2.219889415481833
   },
   {
     "time": 1784488771.1601727,
@@ -19398,10 +19398,10 @@
       "Fear & Greed: F&G 28 (Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $0.2M vs шорт $0.0M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.18606812,
+    "exit_time": 1784527199.999,
+    "pnl_pct": -2.6331135531135472
   },
   {
     "time": 1784492643.849919,
@@ -19489,10 +19489,10 @@
       "Fear & Greed: F&G 28 (Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $0.2M vs шорт $0.0M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.18629144,
+    "exit_time": 1784527199.999,
+    "pnl_pct": -2.8213667188315106
   },
   {
     "time": 1784496256.0782003,
@@ -19672,6 +19672,52 @@
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $0.2M vs шорт $0.0M",
       "DefiLlama: TVL Injective +3.9% за 7д"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784535895.532286,
+    "symbol": "PI_USDT",
+    "binance_symbol": "PIUSDT",
+    "base": "PI",
+    "confidence": 69.3,
+    "entry": 0.0988,
+    "stop": 0.08971316,
+    "take": 0.1048579,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 64 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0807964",
+      "Market Regime: рынок 24ч -0.6%, BTC доминация 56%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784535895.915265,
+    "symbol": "INJ_USDT",
+    "binance_symbol": "INJUSDT",
+    "base": "INJ",
+    "confidence": 69.0,
+    "entry": 5.137,
+    "stop": 4.9107235,
+    "take": 5.23184677,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 54 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.004% [Bit-0.017/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈5.10443",
+      "Market Regime: рынок 24ч -0.6%, BTC доминация 56%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $0.2M vs шорт $0.0M",
+      "DefiLlama: TVL Injective +3.3% за 7д"
     ],
     "status": "open",
     "exit_price": null,
