@@ -18158,10 +18158,10 @@
       "Market Regime: рынок 24ч +0.8%, BTC доминация 56%",
       "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.00222321,
+    "exit_time": 1784509199.999,
+    "pnl_pct": 21.973445986723004
   },
   {
     "time": 1784372535.564201,
@@ -18749,10 +18749,10 @@
       "Market Regime: рынок 24ч +1.0%, BTC доминация 57%",
       "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.00240575,
+    "exit_time": 1784509199.999,
+    "pnl_pct": 17.663601682480667
   },
   {
     "time": 1784422864.217136,
@@ -19261,10 +19261,10 @@
       "Market Regime: рынок 24ч +0.2%, BTC доминация 56%",
       "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 2.88e-06,
+    "exit_time": 1784509199.999,
+    "pnl_pct": 1.7667844522968177
   },
   {
     "time": 1784484068.256842,
@@ -19581,6 +19581,30 @@
       "Fear & Greed: F&G 28 (Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $0.2M vs шорт $0.0M",
       "DefiLlama: TVL Injective +1.9% за 7д"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784509657.62413,
+    "symbol": "INJ_USDT",
+    "binance_symbol": "INJUSDT",
+    "base": "INJ",
+    "confidence": 69.0,
+    "entry": 5.126,
+    "stop": 4.89842052,
+    "take": 5.22172785,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 53 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.001/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈5.10443",
+      "Market Regime: рынок 24ч -0.1%, BTC доминация 56%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $0.2M vs шорт $0.0M",
+      "DefiLlama: TVL Injective +3.3% за 7д"
     ],
     "status": "open",
     "exit_price": null,
