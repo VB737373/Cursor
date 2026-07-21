@@ -22380,5 +22380,48 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1784668850.6205723,
+    "symbol": "SPYX_USDT",
+    "binance_symbol": "SPYXUSDT",
+    "base": "SPYX",
+    "confidence": 73.4,
+    "entry": 751.79,
+    "stop": 743.63182136,
+    "take": 757.22878576,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 68 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈748.15",
+      "Market Regime: рынок 24ч +1.2%, BTC доминация 57%",
+      "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784668851.0069358,
+    "symbol": "XAUT_USDT",
+    "binance_symbol": "XAUTUSDT",
+    "base": "XAUT",
+    "confidence": 70.1,
+    "entry": 4075.3,
+    "stop": 3967.118832,
+    "take": 4096.08141449,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 64 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.004% [Bit+0.004] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈4009.83",
+      "Market Regime: рынок 24ч +1.2%, BTC доминация 57%",
+      "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
