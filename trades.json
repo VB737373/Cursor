@@ -22488,5 +22488,26 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1784676607.8017998,
+    "symbol": "SPYX_USDT",
+    "binance_symbol": "SPYXUSDT",
+    "base": "SPYX",
+    "confidence": 73.4,
+    "entry": 751.55,
+    "stop": 743.7647916,
+    "take": 756.6842808,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 65 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈748.15",
+      "Market Regime: рынок 24ч +1.2%, BTC доминация 57%",
+      "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
