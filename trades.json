@@ -19922,10 +19922,10 @@
       "Market Regime: рынок 24ч +1.1%, BTC доминация 57%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 4.12e-06,
+    "exit_time": 1784830405.910137,
+    "pnl_pct": -3.28638497652581
   },
   {
     "time": 1784566711.6577384,
@@ -19944,10 +19944,10 @@
       "Market Regime: рынок 24ч +1.1%, BTC доминация 57%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 46.61,
+    "exit_time": 1784830405.910137,
+    "pnl_pct": -1.5628299894403421
   },
   {
     "time": 1784566712.106949,
@@ -19989,10 +19989,10 @@
       "Market Regime: рынок 24ч +1.1%, BTC доминация 57%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 2.772e-06,
+    "exit_time": 1784830405.910137,
+    "pnl_pct": -4.7422680412371205
   },
   {
     "time": 1784566713.0252657,
@@ -20571,10 +20571,10 @@
       "Market Regime: рынок 24ч +1.3%, BTC доминация 57%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.07955182,
+    "exit_time": 1784829599.999,
+    "pnl_pct": -30.37039824945296
   },
   {
     "time": 1784588357.0465672,
@@ -24269,6 +24269,28 @@
       "Market Regime: рынок 24ч -1.7%, BTC доминация 57%",
       "Fear & Greed: F&G 31 (Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $0.4M vs шорт $0.0M; 🏛 Wintermute: лонг $0.3M"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784830467.264991,
+    "symbol": "RE_USDT",
+    "binance_symbol": "REUSDT",
+    "base": "RE",
+    "confidence": 69.3,
+    "entry": 0.528,
+    "stop": 0.47266928,
+    "take": 0.56488714,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 68 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.473987",
+      "Market Regime: рынок 24ч -1.7%, BTC доминация 57%",
+      "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
     ],
     "status": "open",
     "exit_price": null,
