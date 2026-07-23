@@ -24021,10 +24021,10 @@
       "Market Regime: рынок 24ч -0.2%, BTC доминация 57%",
       "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.59998167,
+    "exit_time": 1784793599.999,
+    "pnl_pct": -16.277343957132686
   },
   {
     "time": 1784788206.404523,
@@ -24082,6 +24082,73 @@
     "take": 0.00204437,
     "reasons": [
       "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 59 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.000693177",
+      "Market Regime: рынок 24ч -0.2%, BTC доминация 57%",
+      "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784797925.9938257,
+    "symbol": "OUSDT",
+    "binance_symbol": "OUSDT",
+    "base": "O",
+    "confidence": 71.2,
+    "entry": 0.62563,
+    "stop": 0.50538328,
+    "take": 0.70579448,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 51 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.829% [Bit-0.829] (шорты платят лонгам)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.5874",
+      "Market Regime: рынок 24ч -0.2%, BTC доминация 57%",
+      "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784797926.321118,
+    "symbol": "BANK_USDT",
+    "binance_symbol": "BANKUSDT",
+    "base": "BANK",
+    "confidence": 69.8,
+    "entry": 0.25773,
+    "stop": 0.20420201,
+    "take": 0.29341533,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 69 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.18219",
+      "News: новостей: 4, тон +1.00",
+      "Market Regime: рынок 24ч -0.2%, BTC доминация 57%",
+      "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784797926.6526883,
+    "symbol": "AKE_USDT",
+    "binance_symbol": "AKEUSDT",
+    "base": "AKE",
+    "confidence": 69.3,
+    "entry": 0.0018925,
+    "stop": 0.00162851,
+    "take": 0.00206849,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 60 (импульс), MACD>0",
       "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
       "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.000693177",
