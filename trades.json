@@ -20951,10 +20951,10 @@
       "Market Regime: рынок 24ч +1.2%, BTC доминация 57%",
       "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 2.781e-06,
+    "exit_time": 1784873328.6700432,
+    "pnl_pct": -5.408163265306111
   },
   {
     "time": 1784606161.4469244,
@@ -22851,10 +22851,10 @@
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0448592",
       "Fear & Greed: F&G 33 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.0490295,
+    "exit_time": 1784869199.999,
+    "pnl_pct": 6.548809109874816
   },
   {
     "time": 1784721102.0604818,
@@ -22916,10 +22916,10 @@
       "Market Regime: рынок 24ч -0.6%, BTC доминация 57%",
       "Fear & Greed: F&G 33 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.04856616,
+    "exit_time": 1784869199.999,
+    "pnl_pct": 6.229843825189193
   },
   {
     "time": 1784721103.5624352,
@@ -23113,10 +23113,10 @@
       "Market Regime: рынок 24ч -0.6%, BTC доминация 57%",
       "Fear & Greed: F&G 33 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.04795454,
+    "exit_time": 1784869199.999,
+    "pnl_pct": 6.482824469856774
   },
   {
     "time": 1784734817.513492,
@@ -23291,10 +23291,10 @@
       "Market Regime: рынок 24ч +0.2%, BTC доминация 57%",
       "Fear & Greed: F&G 33 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.04810599,
+    "exit_time": 1784869199.999,
+    "pnl_pct": 6.095871377530768
   },
   {
     "time": 1784740629.4777944,
@@ -24467,6 +24467,54 @@
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.02552",
       "Market Regime: рынок 24ч -0.8%, BTC доминация 57%",
       "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784873409.3004346,
+    "symbol": "INJ_USDT",
+    "binance_symbol": "INJUSDT",
+    "base": "INJ",
+    "confidence": 69.4,
+    "entry": 5.386,
+    "stop": 5.005937,
+    "take": 5.50129479,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 72 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.010/HL+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈5.1081",
+      "Market Regime: рынок 24ч -1.0%, BTC доминация 57%",
+      "Fear & Greed: F&G 28 (Fear) — рынок осторожен",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $0.2M vs шорт $0.0M",
+      "DefiLlama: TVL Injective +33.2% за 7д"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1784873409.7084818,
+    "symbol": "TRX_USDT",
+    "binance_symbol": "TRXUSDT",
+    "base": "TRX",
+    "confidence": 69.0,
+    "entry": 0.33002,
+    "stop": 0.32308862,
+    "take": 0.33123012,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 67 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010/HL+0.009] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.326885",
+      "Market Regime: рынок 24ч -1.0%, BTC доминация 57%",
+      "Fear & Greed: F&G 28 (Fear) — рынок осторожен",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $1.8M vs шорт $0.0M; 🏛 Auros Global: лонг $1.1M; 🏛 Wintermute: лонг $0.7M",
+      "DefiLlama: TVL Tron +2.3% за 7д"
     ],
     "status": "open",
     "exit_price": null,
