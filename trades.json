@@ -25242,5 +25242,69 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1785018408.2944477,
+    "symbol": "ANTFUN_USDT",
+    "binance_symbol": "ANTFUNUSDT",
+    "base": "ANTFUN",
+    "confidence": 75.4,
+    "entry": 0.042172,
+    "stop": 0.04083772,
+    "take": 0.04306152,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 56 (импульс), MACD>0",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0419965",
+      "Market Regime: рынок 24ч +0.4%, BTC доминация 57%",
+      "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1785018408.642857,
+    "symbol": "ZAMA_USDT",
+    "binance_symbol": "ZAMAUSDT",
+    "base": "ZAMA",
+    "confidence": 70.5,
+    "entry": 0.05625,
+    "stop": 0.04877922,
+    "take": 0.06073118,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 56 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0517115",
+      "Market Regime: рынок 24ч +0.4%, BTC доминация 57%",
+      "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1785018408.9610806,
+    "symbol": "SHIB-USDT",
+    "binance_symbol": "SHIBUSDT",
+    "base": "SHIB",
+    "confidence": 69.7,
+    "entry": 4.9e-06,
+    "stop": 4.24e-06,
+    "take": 5.13e-06,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 71 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.002% [Bit-0.002] (норма)",
+      "Volume Profile (POC): отбой от POC (накопление); POC≈4.92706e-06",
+      "Market Regime: рынок 24ч +0.4%, BTC доминация 57%",
+      "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
