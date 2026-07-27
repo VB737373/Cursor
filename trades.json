@@ -26591,10 +26591,10 @@
       "Market Regime: рынок 24ч +0.6%, BTC доминация 56%",
       "Fear & Greed: F&G 26 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.05936209,
+    "exit_time": 1785113999.999,
+    "pnl_pct": 7.774310094408138
   },
   {
     "time": 1785095042.333299,
@@ -27017,10 +27017,10 @@
       "Market Regime: рынок 24ч +1.7%, BTC доминация 56%",
       "Fear & Greed: F&G 26 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.99989857,
+    "exit_time": 1785110399.999,
+    "pnl_pct": 0.0198629588876672
   },
   {
     "time": 1785107045.4778934,
@@ -27085,6 +27085,97 @@
       "Market Regime: рынок 24ч +1.7%, BTC доминация 56%",
       "Fear & Greed: F&G 26 (Fear) — рынок осторожен",
       "Hyperliquid Market Makers: 🏛 Auros Global: лонг $0.3M"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1785114513.812885,
+    "symbol": "USD1_USDT",
+    "binance_symbol": "USD1USDT",
+    "base": "USD1",
+    "confidence": 73.9,
+    "entry": 0.9997,
+    "stop": 0.99652144,
+    "take": 0.9998968,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.999598",
+      "Market Regime: рынок 24ч +1.2%, BTC доминация 56%",
+      "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1785114514.173047,
+    "symbol": "ENA_USDT",
+    "binance_symbol": "ENAUSDT",
+    "base": "ENA",
+    "confidence": 71.5,
+    "entry": 0.08982,
+    "stop": 0.08455397,
+    "take": 0.09185573,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 69 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.005/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0861233",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $0.3M vs шорт $0.0M",
+      "Market Regime: рынок 24ч +1.2%, BTC доминация 56%",
+      "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1785114514.5156875,
+    "symbol": "ONDO_USDT",
+    "binance_symbol": "ONDOUSDT",
+    "base": "ONDO",
+    "confidence": 70.3,
+    "entry": 0.4035,
+    "stop": 0.37617009,
+    "take": 0.41393576,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 62 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.005/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.399901",
+      "Market Regime: рынок 24ч +1.2%, BTC доминация 56%",
+      "Fear & Greed: F&G 30 (Fear) — рынок осторожен",
+      "Hyperliquid Market Makers: 🏛 Wintermute: лонг $0.3M"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1785114514.873424,
+    "symbol": "XRP-USDT",
+    "binance_symbol": "XRPUSDT",
+    "base": "XRP",
+    "confidence": 69.1,
+    "entry": 1.1103,
+    "stop": 1.081745,
+    "take": 1.11817594,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд смешанный",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.006/HL+0.007] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈1.08921",
+      "Hyperliquid Whales: киты в лонге: 2 поз. $4.6M vs шорт $0.0M",
+      "Market Regime: рынок 24ч +1.2%, BTC доминация 56%",
+      "Fear & Greed: F&G 30 (Fear) — рынок осторожен",
+      "Hyperliquid Market Makers: 🏛 Auros Global: лонг $2.1M"
     ],
     "status": "open",
     "exit_price": null,
