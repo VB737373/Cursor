@@ -28721,5 +28721,68 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1785329967.3980687,
+    "symbol": "ANTFUN_USDT",
+    "binance_symbol": "ANTFUNUSDT",
+    "base": "ANTFUN",
+    "confidence": 74.6,
+    "entry": 0.043734,
+    "stop": 0.04153789,
+    "take": 0.04485423,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 64 (импульс), MACD>0",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0422188",
+      "Market Regime: рынок 24ч +0.8%, BTC доминация 57%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1785329967.9150407,
+    "symbol": "USD1_USDT",
+    "binance_symbol": "USD1USDT",
+    "base": "USD1",
+    "confidence": 73.4,
+    "entry": 1.0,
+    "stop": 0.99652942,
+    "take": 1.00026167,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 59 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.9996",
+      "Market Regime: рынок 24ч +0.8%, BTC доминация 57%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1785329968.329127,
+    "symbol": "COTI-USDT",
+    "binance_symbol": "COTIUSDT",
+    "base": "COTI",
+    "confidence": 70.1,
+    "entry": 0.01442,
+    "stop": 0.01081369,
+    "take": 0.01682421,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 68 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.038% [Bit-0.038] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0112047",
+      "Market Regime: рынок 24ч +0.8%, BTC доминация 57%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
