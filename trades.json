@@ -27765,10 +27765,10 @@
       "Market Regime: рынок 24ч -0.1%, BTC доминация 57%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.05679609,
+    "exit_time": 1785355199.999,
+    "pnl_pct": -10.97791536050156
   },
   {
     "time": 1785178585.1679974,
@@ -28905,10 +28905,10 @@
       "Market Regime: рынок 24ч +0.6%, BTC доминация 57%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 1.00035185,
+    "exit_time": 1785351599.999,
+    "pnl_pct": 0.025182481751819055
   },
   {
     "time": 1785348359.8615348,
@@ -28967,6 +28967,28 @@
       "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0421731",
       "Market Regime: рынок 24ч +0.6%, BTC доминация 57%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1785354769.48625,
+    "symbol": "COTI-USDT",
+    "binance_symbol": "COTIUSDT",
+    "base": "COTI",
+    "confidence": 70.8,
+    "entry": 0.01544,
+    "stop": 0.01152075,
+    "take": 0.01805283,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 64 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.075% [Bit-0.075] (шорты платят лонгам)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0111025",
+      "Market Regime: рынок 24ч -0.5%, BTC доминация 56%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
     "status": "open",
