@@ -27830,10 +27830,10 @@
       "Market Regime: рынок 24ч +0.3%, BTC доминация 57%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.05399193,
+    "exit_time": 1785373199.999,
+    "pnl_pct": -11.546641546526864
   },
   {
     "time": 1785183721.9706595,
@@ -28128,10 +28128,10 @@
       "Market Regime: рынок 24ч -1.4%, BTC доминация 56%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 94.25314972,
+    "exit_time": 1785373199.999,
+    "pnl_pct": -6.809225113703782
   },
   {
     "time": 1785255528.562345,
@@ -28949,10 +28949,10 @@
       "Market Regime: рынок 24ч +0.6%, BTC доминация 57%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.01824933,
+    "exit_time": 1785373199.999,
+    "pnl_pct": 16.758349328214965
   },
   {
     "time": 1785348360.6850255,
@@ -28991,10 +28991,10 @@
       "Market Regime: рынок 24ч -0.5%, BTC доминация 56%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.01805283,
+    "exit_time": 1785373199.999,
+    "pnl_pct": 16.922474093264235
   },
   {
     "time": 1785358434.3187938,
@@ -29013,10 +29013,10 @@
       "Market Regime: рынок 24ч -0.7%, BTC доминация 56%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.01855762,
+    "exit_time": 1785373199.999,
+    "pnl_pct": 16.20300563556668
   },
   {
     "time": 1785362376.8270166,
@@ -29035,10 +29035,10 @@
       "Market Regime: рынок 24ч -0.7%, BTC доминация 56%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.01839564,
+    "exit_time": 1785373199.999,
+    "pnl_pct": 15.91455576559548
   },
   {
     "time": 1785366315.834097,
@@ -29056,6 +29056,27 @@
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0111025",
       "Market Regime: рынок 24ч -0.2%, BTC доминация 56%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "win",
+    "exit_price": 0.01854986,
+    "exit_time": 1785373199.999,
+    "pnl_pct": 14.434669956816798
+  },
+  {
+    "time": 1785372870.8476398,
+    "symbol": "AEONUSDT",
+    "binance_symbol": "AEONUSDT",
+    "base": "AEON",
+    "confidence": 69.6,
+    "entry": 0.10696,
+    "stop": 0.08637911,
+    "take": 0.12068059,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 52 (импульс), MACD>0",
+      "Derivatives (Funding/OI): funding avg -0.025% [Bit-0.025] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.09472",
+      "Market Regime: рынок 24ч -0.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
     ],
     "status": "open",
     "exit_price": null,
