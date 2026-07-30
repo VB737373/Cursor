@@ -27490,10 +27490,10 @@
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен",
       "Hyperliquid Market Makers: 🏛 Wintermute: лонг $0.3M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.4161,
+    "exit_time": 1785402790.727543,
+    "pnl_pct": 0.7750060547348114
   },
   {
     "time": 1785142498.0354016,
@@ -29100,10 +29100,10 @@
       "Market Regime: рынок 24ч +0.6%, BTC доминация 57%",
       "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.01920848,
+    "exit_time": 1785394799.999,
+    "pnl_pct": 18.133333333333333
   },
   {
     "time": 1785383724.6233299,
@@ -29161,6 +29161,70 @@
       "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.00255585",
       "Market Regime: рынок 24ч -0.6%, BTC доминация 57%",
+      "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1785402826.2572608,
+    "symbol": "ANTFUN_USDT",
+    "binance_symbol": "ANTFUNUSDT",
+    "base": "ANTFUN",
+    "confidence": 73.2,
+    "entry": 0.0439,
+    "stop": 0.04141018,
+    "take": 0.0447379,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 59 (импульс), MACD>0",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0421731",
+      "Market Regime: рынок 24ч -0.5%, BTC доминация 57%",
+      "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1785402826.8205647,
+    "symbol": "AKE_USDT",
+    "binance_symbol": "AKEUSDT",
+    "base": "AKE",
+    "confidence": 69.3,
+    "entry": 0.0039853,
+    "stop": 0.00312761,
+    "take": 0.0045571,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 51 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.00255585",
+      "Market Regime: рынок 24ч -0.5%, BTC доминация 57%",
+      "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1785402827.3568876,
+    "symbol": "SIREN-USDT",
+    "binance_symbol": "SIRENUSDT",
+    "base": "SIREN",
+    "confidence": 69.3,
+    "entry": 0.06417,
+    "stop": 0.04991264,
+    "take": 0.07367491,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 60 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0532025",
+      "Market Regime: рынок 24ч -0.5%, BTC доминация 57%",
       "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
     ],
     "status": "open",
