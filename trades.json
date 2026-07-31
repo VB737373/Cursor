@@ -29483,10 +29483,10 @@
       "Fear & Greed: F&G 28 (Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $2.9M vs шорт $1.1M; 🏛 Auros Global: лонг $0.4M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 4023.8529176,
+    "exit_time": 1785506399.999,
+    "pnl_pct": -1.9309173206469226
   },
   {
     "time": 1785432359.0305336,
@@ -29740,10 +29740,10 @@
       "Market Regime: рынок 24ч +1.4%, BTC доминация 57%",
       "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 4020.310776,
+    "exit_time": 1785509999.999,
+    "pnl_pct": -1.8670480374926863
   },
   {
     "time": 1785447746.8445652,
@@ -29872,10 +29872,10 @@
       "Market Regime: рынок 24ч +1.5%, BTC доминация 57%",
       "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 96.80305538,
+    "exit_time": 1785506399.999,
+    "pnl_pct": -3.156270253506468
   },
   {
     "time": 1785459847.1432207,
@@ -30110,10 +30110,10 @@
       "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен",
       "CoinGecko (FDV/MCap): FDV/MCap 1.3x — низкий риск разблокировки (cap $0.0B)"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 82.5847004,
+    "exit_time": 1785509999.999,
+    "pnl_pct": -4.801498097982706
   },
   {
     "time": 1785502480.5913415,
@@ -30172,6 +30172,48 @@
       "Derivatives (Funding/OI): funding avg -0.005% [Bit-0.005] (норма)",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0111785",
       "Market Regime: рынок 24ч -1.4%, BTC доминация 56%",
+      "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "win",
+    "exit_price": 0.01727445,
+    "exit_time": 1785506399.999,
+    "pnl_pct": 14.856715425531918
+  },
+  {
+    "time": 1785511113.4468834,
+    "symbol": "USD1_USDT",
+    "binance_symbol": "USD1USDT",
+    "base": "USD1",
+    "confidence": 72.4,
+    "entry": 1.0001,
+    "stop": 0.99649751,
+    "take": 1.00031151,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 53 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.9996",
+      "Market Regime: рынок 24ч -2.4%, BTC доминация 56%",
+      "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1785511114.281762,
+    "symbol": "KOMA_USDT",
+    "binance_symbol": "KOMAUSDT",
+    "base": "KOMA",
+    "confidence": 71.6,
+    "entry": 0.022577,
+    "stop": 0.01499553,
+    "take": 0.02763131,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0140546",
+      "Market Regime: рынок 24ч -2.4%, BTC доминация 56%",
       "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
     ],
     "status": "open",
