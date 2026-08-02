@@ -31254,5 +31254,71 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1785658929.8865914,
+    "symbol": "SHIB-USDT",
+    "binance_symbol": "SHIBUSDT",
+    "base": "SHIB",
+    "confidence": 70.1,
+    "entry": 4.99e-06,
+    "stop": 4.58e-06,
+    "take": 5.14e-06,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈4.72181e-06",
+      "Market Regime: рынок 24ч +0.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1785658930.26408,
+    "symbol": "DOT-USDT",
+    "binance_symbol": "DOTUSDT",
+    "base": "DOT",
+    "confidence": 70.1,
+    "entry": 0.7926,
+    "stop": 0.75489251,
+    "take": 0.80457223,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.762213",
+      "Market Regime: рынок 24ч +0.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 27 (Fear) — рынок осторожен",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $0.2M vs шорт $0.0M"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1785658930.7690182,
+    "symbol": "9BIT-USDT",
+    "binance_symbol": "9BITUSDT",
+    "base": "9BIT",
+    "confidence": 69.5,
+    "entry": 0.050008,
+    "stop": 0.04668851,
+    "take": 0.05013586,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс)",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0469982",
+      "Market Regime: рынок 24ч +0.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
