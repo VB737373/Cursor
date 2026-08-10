@@ -42836,10 +42836,10 @@
       "Market Regime: рынок 24ч +0.2%, BTC доминация 57%",
       "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 1.27733598,
+    "exit_time": 1786319999.999,
+    "pnl_pct": 14.180386162510047
   },
   {
     "time": 1786305456.2178462,
@@ -42969,10 +42969,10 @@
       "Market Regime: рынок 24ч +0.2%, BTC доминация 57%",
       "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 1.28656198,
+    "exit_time": 1786319999.999,
+    "pnl_pct": 13.413432651622003
   },
   {
     "time": 1786311000.602178,
@@ -43292,6 +43292,92 @@
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0134785",
       "Market Regime: рынок 24ч +0.1%, BTC доминация 57%",
       "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786320056.976491,
+    "symbol": "BMT_USDT",
+    "binance_symbol": "BMTUSDT",
+    "base": "BMT",
+    "confidence": 72.9,
+    "entry": 0.03371,
+    "stop": 0.0230116,
+    "take": 0.04084227,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 67 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0242724",
+      "Market Regime: рынок 24ч -0.1%, BTC доминация 57%",
+      "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786320057.658952,
+    "symbol": "USD1_USDT",
+    "binance_symbol": "USD1USDT",
+    "base": "USD1",
+    "confidence": 72.4,
+    "entry": 1.0006,
+    "stop": 0.99709571,
+    "take": 1.00083528,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 60 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈1.00031",
+      "Market Regime: рынок 24ч -0.1%, BTC доминация 57%",
+      "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786320058.1386843,
+    "symbol": "CYS_USDT",
+    "binance_symbol": "CYSUSDT",
+    "base": "CYS",
+    "confidence": 69.3,
+    "entry": 1.058,
+    "stop": 0.78446804,
+    "take": 1.24035464,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 55 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.82495",
+      "Market Regime: рынок 24ч -0.1%, BTC доминация 57%",
+      "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786320058.6199322,
+    "symbol": "MUBARAK_USDT",
+    "binance_symbol": "MUBARAKUSDT",
+    "base": "MUBARAK",
+    "confidence": 69.3,
+    "entry": 0.025538,
+    "stop": 0.02052439,
+    "take": 0.02888041,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 71 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0134785",
+      "Market Regime: рынок 24ч -0.1%, BTC доминация 57%",
+      "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
     "status": "open",
     "exit_price": null,
