@@ -38157,10 +38157,10 @@
       "Market Regime: рынок 24ч +0.7%, BTC доминация 57%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 1.0002,
+    "exit_time": 1786411593.3057988,
+    "pnl_pct": -0.04397185801087264
   },
   {
     "time": 1786147140.440801,
@@ -43552,10 +43552,10 @@
       "Market Regime: рынок 24ч +0.3%, BTC доминация 57%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 88.84055636,
+    "exit_time": 1786413599.999,
+    "pnl_pct": -3.5180751954821945
   },
   {
     "time": 1786346906.5961637,
@@ -43595,10 +43595,10 @@
       "Market Regime: рынок 24ч +0.5%, BTC доминация 57%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 88.92410496,
+    "exit_time": 1786413599.999,
+    "pnl_pct": -3.9073860384698635
   },
   {
     "time": 1786346907.2843645,
@@ -43725,10 +43725,10 @@
       "Market Regime: рынок 24ч +0.5%, BTC доминация 57%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 88.92410496,
+    "exit_time": 1786413599.999,
+    "pnl_pct": -3.4367785946204266
   },
   {
     "time": 1786352357.0851264,
@@ -44116,10 +44116,10 @@
       "Market Regime: рынок 24ч -0.7%, BTC доминация 57%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 1.33701869,
+    "exit_time": 1786409999.999,
+    "pnl_pct": 21.304544547269096
   },
   {
     "time": 1786372610.9049788,
@@ -44376,10 +44376,10 @@
       "Market Regime: рынок 24ч -1.6%, BTC доминация 56%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 4381.27123439,
+    "exit_time": 1786409999.999,
+    "pnl_pct": 0.6055531559852261
   },
   {
     "time": 1786391685.402683,
@@ -44508,10 +44508,10 @@
       "Market Regime: рынок 24ч -1.3%, BTC доминация 56%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 4394.84764807,
+    "exit_time": 1786409999.999,
+    "pnl_pct": 0.5870101636455252
   },
   {
     "time": 1786397985.3653073,
@@ -44574,10 +44574,10 @@
       "Market Regime: рынок 24ч -1.4%, BTC доминация 57%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 4394.31567435,
+    "exit_time": 1786409999.999,
+    "pnl_pct": 0.5564227540045844
   },
   {
     "time": 1786401330.9893565,
@@ -44640,10 +44640,10 @@
       "Market Regime: рынок 24ч -1.4%, BTC доминация 56%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 4393.30639271,
+    "exit_time": 1786409999.999,
+    "pnl_pct": 0.5287262072674103
   },
   {
     "time": 1786404828.3438637,
@@ -44726,6 +44726,28 @@
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈4330.68",
       "Market Regime: рынок 24ч -1.1%, BTC доминация 56%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
+    ],
+    "status": "win",
+    "exit_price": 4396.31818218,
+    "exit_time": 1786413599.999,
+    "pnl_pct": 0.528633087441692
+  },
+  {
+    "time": 1786411670.6707258,
+    "symbol": "CYS_USDT",
+    "binance_symbol": "CYSUSDT",
+    "base": "CYS",
+    "confidence": 69.3,
+    "entry": 1.3003,
+    "stop": 1.02215991,
+    "take": 1.48572672,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 64 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.003% [Bit-0.003] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.815751",
+      "Market Regime: рынок 24ч -1.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
     "status": "open",
     "exit_price": null,
