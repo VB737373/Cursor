@@ -44181,10 +44181,10 @@
       "Market Regime: рынок 24ч -1.3%, BTC доминация 57%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 1.37790307,
+    "exit_time": 1786438799.999,
+    "pnl_pct": 19.807240239979134
   },
   {
     "time": 1786381185.1336548,
@@ -44246,10 +44246,10 @@
       "Market Regime: рынок 24ч -1.7%, BTC доминация 56%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 1.37888856,
+    "exit_time": 1786438799.999,
+    "pnl_pct": 19.003068956589278
   },
   {
     "time": 1786384553.1974697,
@@ -44988,10 +44988,10 @@
       "Market Regime: рынок 24ч -1.5%, BTC доминация 57%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.24109264,
+    "exit_time": 1786442399.999,
+    "pnl_pct": 6.161444297666227
   },
   {
     "time": 1786437363.7127204,
@@ -45009,6 +45009,27 @@
       "Order Flow (стакан/дельта): стакан сбалансирован, дельта развернулась вверх",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.410521",
       "Market Regime: рынок 24ч -1.5%, BTC доминация 57%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786440859.38689,
+    "symbol": "9BIT-USDT",
+    "binance_symbol": "9BITUSDT",
+    "base": "9BIT",
+    "confidence": 72.4,
+    "entry": 0.050151,
+    "stop": 0.04973096,
+    "take": 0.05043103,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 53 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.050072",
+      "Market Regime: рынок 24ч -1.0%, BTC доминация 57%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
     "status": "open",
