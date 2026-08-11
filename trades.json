@@ -41409,10 +41409,10 @@
       "Market Regime: рынок 24ч -0.1%, BTC доминация 57%",
       "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 45.0057764,
+    "exit_time": 1786388399.999,
+    "pnl_pct": -2.669168685121107
   },
   {
     "time": 1786268278.5606909,
@@ -43963,10 +43963,10 @@
       "Market Regime: рынок 24ч +0.1%, BTC доминация 57%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 1.37069517,
+    "exit_time": 1786409999.999,
+    "pnl_pct": 15.934633341791438
   },
   {
     "time": 1786366949.825526,
@@ -44963,6 +44963,52 @@
       "Derivatives (Funding/OI): funding avg -0.066% [Bit-0.066] (шорты платят лонгам)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.815751",
       "Market Regime: рынок 24ч -1.8%, BTC доминация 57%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786437363.0650966,
+    "symbol": "MMTUSDT",
+    "binance_symbol": "MMTUSDT",
+    "base": "MMT",
+    "confidence": 70.3,
+    "entry": 0.2271,
+    "stop": 0.20048474,
+    "take": 0.24109264,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 66 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bin+0.004/Byb+0.005/Bit+0.005] (норма), OI +2.2% + цена вверх (приток денег)",
+      "Order Flow (стакан/дельта): стакан сбалансирован, дельта развернулась вверх",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.221475",
+      "Market Regime: рынок 24ч -1.5%, BTC доминация 57%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786437363.7127204,
+    "symbol": "REUSDT",
+    "binance_symbol": "REUSDT",
+    "base": "RE",
+    "confidence": 70.3,
+    "entry": 0.4292,
+    "stop": 0.37942231,
+    "take": 0.44883047,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.051% [Bin-0.035/Byb-0.066/Bit-0.050] (шорты платят лонгам), L/S 0.6 (перевес шортов)",
+      "Order Flow (стакан/дельта): стакан сбалансирован, дельта развернулась вверх",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.410521",
+      "Market Regime: рынок 24ч -1.5%, BTC доминация 57%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
     "status": "open",
