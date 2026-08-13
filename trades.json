@@ -44814,10 +44814,10 @@
       "Market Regime: рынок 24ч -1.0%, BTC доминация 56%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 4423.67717963,
+    "exit_time": 1786582799.999,
+    "pnl_pct": 0.6502054476576093
   },
   {
     "time": 1786423753.853951,
@@ -45984,10 +45984,10 @@
       "Market Regime: рынок 24ч +0.0%, BTC доминация 56%",
       "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 4423.78390284,
+    "exit_time": 1786582799.999,
+    "pnl_pct": 0.5977010310403715
   },
   {
     "time": 1786528896.4508953,
@@ -46814,6 +46814,50 @@
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.472139",
       "Market Regime: рынок 24ч -0.3%, BTC доминация 56%",
       "Fear & Greed: F&G 27 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786585664.1048157,
+    "symbol": "VELVET_USDT",
+    "binance_symbol": "VELVETUSDT",
+    "base": "VELVET",
+    "confidence": 69.9,
+    "entry": 0.66474,
+    "stop": 0.53694291,
+    "take": 0.74993806,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 53 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.472139",
+      "Market Regime: рынок 24ч -0.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786585664.53666,
+    "symbol": "APRUSDT",
+    "binance_symbol": "APRUSDT",
+    "base": "APR",
+    "confidence": 69.3,
+    "entry": 0.50251,
+    "stop": 0.3300234,
+    "take": 0.61750107,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.194854",
+      "Market Regime: рынок 24ч -0.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
     "status": "open",
     "exit_price": null,
