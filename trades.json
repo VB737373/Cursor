@@ -44332,10 +44332,10 @@
       "Market Regime: рынок 24ч -1.6%, BTC доминация 56%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.050138,
+    "exit_time": 1786649691.5754743,
+    "pnl_pct": 0.03391791863690494
   },
   {
     "time": 1786388096.6222744,
@@ -47164,10 +47164,10 @@
       "Market Regime: рынок 24ч -0.5%, BTC доминация 56%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.00687222,
+    "exit_time": 1786651199.999,
+    "pnl_pct": 13.472252035070925
   },
   {
     "time": 1786645657.586567,
@@ -47224,6 +47224,70 @@
       "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), рост объёма",
       "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈81.0403",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786649745.3745255,
+    "symbol": "ACU-USDT",
+    "binance_symbol": "ACUUSDT",
+    "base": "ACU",
+    "confidence": 70.5,
+    "entry": 0.1314,
+    "stop": 0.10924412,
+    "take": 0.14617059,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 65 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.12687",
+      "Market Regime: рынок 24ч +0.0%, BTC доминация 56%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786649745.8958387,
+    "symbol": "GOMINING-USDT",
+    "binance_symbol": "GOMININGUSDT",
+    "base": "GOMINING",
+    "confidence": 70.0,
+    "entry": 0.28843,
+    "stop": 0.28337871,
+    "take": 0.2909519,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 68 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд смешанный",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.286224",
+      "Market Regime: рынок 24ч +0.0%, BTC доминация 56%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786649746.389632,
+    "symbol": "9BIT-USDT",
+    "binance_symbol": "9BITUSDT",
+    "base": "9BIT",
+    "confidence": 69.5,
+    "entry": 0.050146,
+    "stop": 0.04968953,
+    "take": 0.05045031,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 52 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд смешанный",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0500736",
+      "Market Regime: рынок 24ч +0.0%, BTC доминация 56%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
     "status": "open",
