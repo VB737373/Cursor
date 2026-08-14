@@ -45223,10 +45223,10 @@
       "Market Regime: рынок 24ч -0.5%, BTC доминация 56%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.050085,
+    "exit_time": 1786722531.505213,
+    "pnl_pct": -0.219145333200516
   },
   {
     "time": 1786462228.8060043,
@@ -47807,6 +47807,72 @@
       "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.197822",
       "Market Regime: рынок 24ч -1.4%, BTC доминация 56%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786722604.9942708,
+    "symbol": "WLD_USDT",
+    "binance_symbol": "WLDUSDT",
+    "base": "WLD",
+    "confidence": 69.7,
+    "entry": 0.3462,
+    "stop": 0.31929124,
+    "take": 0.35543112,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 59 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.004% [Bit-0.002/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.3391",
+      "Market Regime: рынок 24ч -0.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786722605.4313157,
+    "symbol": "H_USDT",
+    "binance_symbol": "HUSDT",
+    "base": "H",
+    "confidence": 69.3,
+    "entry": 0.11939,
+    "stop": 0.1012088,
+    "take": 0.1315108,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 65 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.078584",
+      "Market Regime: рынок 24ч -0.5%, BTC доминация 56%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786722605.8634646,
+    "symbol": "APRUSDT",
+    "binance_symbol": "APRUSDT",
+    "base": "APR",
+    "confidence": 69.3,
+    "entry": 0.53319,
+    "stop": 0.40503928,
+    "take": 0.61862381,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 59 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.197822",
+      "Market Regime: рынок 24ч -0.5%, BTC доминация 56%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
     "status": "open",
