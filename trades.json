@@ -46553,10 +46553,10 @@
       "Fear & Greed: F&G 27 (Fear) — рынок осторожен",
       "CoinGecko (FDV/MCap): FDV/MCap 1.3x — низкий риск разблокировки (cap $0.0B)"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 82.786,
+    "exit_time": 1786820147.1394315,
+    "pnl_pct": -0.897816510247079
   },
   {
     "time": 1786559174.0248222,
@@ -52855,10 +52855,10 @@
       "Fear & Greed: F&G 34 (Fear) — рынок осторожен",
       "CoinGecko (FDV/MCap): FDV/MCap 1.3x — низкий риск разблокировки (cap $0.0B)"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 79.2487384,
+    "exit_time": 1786820399.999,
+    "pnl_pct": -4.27277752276956
   },
   {
     "time": 1786818371.998832,
@@ -52940,6 +52940,137 @@
       "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
       "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0536561",
+      "Market Regime: рынок 24ч +0.3%, BTC доминация 56%",
+      "Fear & Greed: F&G 34 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786820236.176001,
+    "symbol": "WAL_USDT",
+    "binance_symbol": "WALUSDT",
+    "base": "WAL",
+    "confidence": 72.1,
+    "entry": 0.02541,
+    "stop": 0.02147453,
+    "take": 0.02803364,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 66 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.954% [Bit-0.954] (шорты платят лонгам)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0253038",
+      "Market Regime: рынок 24ч +0.3%, BTC доминация 56%",
+      "Fear & Greed: F&G 34 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786820236.5291774,
+    "symbol": "RONUSDT",
+    "binance_symbol": "RONUSDT",
+    "base": "RON",
+    "confidence": 72.0,
+    "entry": 82.786,
+    "stop": 79.2487384,
+    "take": 83.75746417,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈81.0444",
+      "Market Regime: рынок 24ч +0.3%, BTC доминация 56%",
+      "Fear & Greed: F&G 34 (Fear) — рынок осторожен",
+      "CoinGecko (FDV/MCap): FDV/MCap 1.3x — низкий риск разблокировки (cap $0.0B)"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786820236.8968139,
+    "symbol": "H_USDT",
+    "binance_symbol": "HUSDT",
+    "base": "H",
+    "confidence": 70.1,
+    "entry": 0.14534,
+    "stop": 0.11929301,
+    "take": 0.16270466,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 66 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0781373",
+      "Market Regime: рынок 24ч +0.3%, BTC доминация 56%",
+      "Fear & Greed: F&G 34 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786820237.2971678,
+    "symbol": "WLD_USDT",
+    "binance_symbol": "WLDUSDT",
+    "base": "WLD",
+    "confidence": 70.1,
+    "entry": 0.3506,
+    "stop": 0.32782556,
+    "take": 0.35906089,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 64 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.336777",
+      "Market Regime: рынок 24ч +0.3%, BTC доминация 56%",
+      "Fear & Greed: F&G 34 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786820237.6561413,
+    "symbol": "AEONUSDT",
+    "binance_symbol": "AEONUSDT",
+    "base": "AEON",
+    "confidence": 70.1,
+    "entry": 0.08214,
+    "stop": 0.06955639,
+    "take": 0.09052908,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 64 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0536561",
+      "Market Regime: рынок 24ч +0.3%, BTC доминация 56%",
+      "Fear & Greed: F&G 34 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786820238.0077448,
+    "symbol": "VANRY_USDT",
+    "binance_symbol": "VANRYUSDT",
+    "base": "VANRY",
+    "confidence": 69.5,
+    "entry": 0.008565,
+    "stop": 0.00218703,
+    "take": 0.01281698,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 55 (импульс)",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0015127",
       "Market Regime: рынок 24ч +0.3%, BTC доминация 56%",
       "Fear & Greed: F&G 34 (Fear) — рынок осторожен"
     ],
