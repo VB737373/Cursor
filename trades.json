@@ -49642,10 +49642,10 @@
       "Market Regime: рынок 24ч -0.2%, BTC доминация 56%",
       "Fear & Greed: F&G 34 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.26462374,
+    "exit_time": 1786849199.999,
+    "pnl_pct": -10.931087176035
   },
   {
     "time": 1786765032.531283,
@@ -51854,10 +51854,10 @@
       "Fear & Greed: F&G 34 (Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $0.6M vs шорт $0.0M; 🏛 Auros Global: лонг $0.4M; 🏛 Wintermute: лонг $0.3M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.05817165,
+    "exit_time": 1786849199.999,
+    "pnl_pct": 2.667931521355447
   },
   {
     "time": 1786800552.6348364,
@@ -51986,10 +51986,10 @@
       "Fear & Greed: F&G 34 (Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $0.6M vs шорт $0.0M; 🏛 Auros Global: лонг $0.4M; 🏛 Wintermute: лонг $0.3M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.05807022,
+    "exit_time": 1786849199.999,
+    "pnl_pct": 2.688275862068958
   },
   {
     "time": 1786802056.2512543,
@@ -52354,10 +52354,10 @@
       "Market Regime: рынок 24ч +0.2%, BTC доминация 56%",
       "Fear & Greed: F&G 34 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.15706976,
+    "exit_time": 1786845599.999,
+    "pnl_pct": 11.160481245576783
   },
   {
     "time": 1786808754.0185716,
@@ -53927,10 +53927,10 @@
       "Fear & Greed: F&G 34 (Fear) — рынок осторожен",
       "CoinGecko (FDV/MCap): FDV/MCap 1.3x — низкий риск разблокировки (cap $0.0B)"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 79.2487384,
+    "exit_time": 1786845599.999,
+    "pnl_pct": -4.27277752276956
   },
   {
     "time": 1786842608.0809922,
@@ -53969,6 +53969,50 @@
       "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.007] (норма)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0787088",
       "Market Regime: рынок 24ч -0.0%, BTC доминация 56%",
+      "Fear & Greed: F&G 34 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786848103.1089585,
+    "symbol": "RONUSDT",
+    "binance_symbol": "RONUSDT",
+    "base": "RON",
+    "confidence": 71.1,
+    "entry": 82.786,
+    "stop": 79.2487384,
+    "take": 83.75746417,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈81.0444",
+      "Market Regime: рынок 24ч -0.1%, BTC доминация 56%",
+      "Fear & Greed: F&G 34 (Fear) — рынок осторожен",
+      "CoinGecko (FDV/MCap): FDV/MCap 1.3x — низкий риск разблокировки (cap $0.0B)"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1786848103.4752028,
+    "symbol": "WLD_USDT",
+    "binance_symbol": "WLDUSDT",
+    "base": "WLD",
+    "confidence": 69.3,
+    "entry": 0.3522,
+    "stop": 0.33131706,
+    "take": 0.3606288,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.336045",
+      "Market Regime: рынок 24ч -0.1%, BTC доминация 56%",
       "Fear & Greed: F&G 34 (Fear) — рынок осторожен"
     ],
     "status": "open",
