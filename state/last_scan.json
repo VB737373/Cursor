@@ -1,11 +1,11 @@
 {
-  "time": 1786953054.7478628,
+  "time": 1786955994.6978774,
   "max_symbols": 200,
   "threshold": 69.0,
   "cooldown_min": 15,
   "symbols_scanned": 37,
-  "signals_found": 6,
-  "signals_sent": 6,
-  "duration_sec": 55.3,
+  "signals_found": 4,
+  "signals_sent": 4,
+  "duration_sec": 58.9,
   "error": null
 }
