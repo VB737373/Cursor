@@ -52071,10 +52071,10 @@
       "Market Regime: рынок 24ч +0.6%, BTC доминация 56%",
       "Fear & Greed: F&G 34 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.2873,
+    "exit_time": 1787063423.8122249,
+    "pnl_pct": -0.436650956473518
   },
   {
     "time": 1786803648.0436563,
@@ -56588,10 +56588,10 @@
       "Market Regime: рынок 24ч +0.7%, BTC доминация 56%",
       "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.07328832,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 6.4108141071247084
   },
   {
     "time": 1786953107.3934112,
@@ -57908,10 +57908,10 @@
       "CoinGecko (FDV/MCap): FDV/MCap 1.1x — низкий риск разблокировки (cap $44.2B)",
       "DefiLlama: TVL Solana -0.6% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 76.57976212,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 0.9354977197838321
   },
   {
     "time": 1786978463.5590518,
@@ -58096,10 +58096,10 @@
       "CoinGecko (FDV/MCap): FDV/MCap 1.1x — низкий риск разблокировки (cap $44.2B)",
       "DefiLlama: TVL Solana -0.5% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 76.5290648,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 0.9085770042194053
   },
   {
     "time": 1786980189.6368825,
@@ -58123,10 +58123,10 @@
       "CoinGecko (FDV/MCap): FDV/MCap 1.0x — низкий риск разблокировки (cap $229.7B)",
       "DefiLlama: TVL Ethereum -1.0% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 1920.94119767,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 0.8394549814955783
   },
   {
     "time": 1786981814.4143379,
@@ -58262,10 +58262,10 @@
       "CoinGecko (FDV/MCap): FDV/MCap 1.1x — низкий риск разблокировки (cap $44.3B)",
       "DefiLlama: TVL Solana -0.6% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 76.85192195,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 0.9350170081429002
   },
   {
     "time": 1786981816.584455,
@@ -58309,10 +58309,10 @@
       "Market Regime: рынок 24ч +0.9%, BTC доминация 56%",
       "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.07267991,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 6.428335041733778
   },
   {
     "time": 1786983868.9037573,
@@ -58489,10 +58489,10 @@
       "Market Regime: рынок 24ч +0.9%, BTC доминация 56%",
       "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.07348133,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 6.4329808806488895
   },
   {
     "time": 1786985757.6010258,
@@ -58870,10 +58870,10 @@
       "Market Regime: рынок 24ч +1.2%, BTC доминация 57%",
       "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.07328399,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 6.270287122969838
   },
   {
     "time": 1786989371.311149,
@@ -59071,10 +59071,10 @@
       "Market Regime: рынок 24ч +1.5%, BTC доминация 57%",
       "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.07240799,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 6.232379694835691
   },
   {
     "time": 1786991754.0611136,
@@ -59230,10 +59230,10 @@
       "CoinGecko (FDV/MCap): FDV/MCap 1.1x — низкий риск разблокировки (cap $44.3B)",
       "DefiLlama: TVL Solana -0.1% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 76.72417738,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 0.9263054196264199
   },
   {
     "time": 1786991757.5371113,
@@ -59371,10 +59371,10 @@
       "CoinGecko (FDV/MCap): FDV/MCap 1.1x — низкий риск разблокировки (cap $44.2B)",
       "DefiLlama: TVL Solana -0.1% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 76.55245046,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 0.8862025039536209
   },
   {
     "time": 1786994793.8037732,
@@ -59463,10 +59463,10 @@
       "Market Regime: рынок 24ч +1.4%, BTC доминация 57%",
       "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.07285793,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 6.191415245591017
   },
   {
     "time": 1786996343.6910155,
@@ -59624,10 +59624,10 @@
       "Market Regime: рынок 24ч +1.3%, BTC доминация 57%",
       "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.07298604,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 6.207857974388823
   },
   {
     "time": 1786998275.6440833,
@@ -59784,10 +59784,10 @@
       "CoinGecko (FDV/MCap): FDV/MCap 1.1x — низкий риск разблокировки (cap $44.2B)",
       "DefiLlama: TVL Solana -0.1% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 76.67217339,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 0.9242772015269167
   },
   {
     "time": 1787000099.4645092,
@@ -59918,10 +59918,10 @@
       "CoinGecko (FDV/MCap): FDV/MCap 1.1x — низкий риск разблокировки (cap $44.2B)",
       "DefiLlama: TVL Solana -0.2% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 76.60773243,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 0.892575306203071
   },
   {
     "time": 1787001873.693478,
@@ -60031,10 +60031,10 @@
       "CoinGecko (FDV/MCap): FDV/MCap 1.1x — низкий риск разблокировки (cap $44.2B)",
       "DefiLlama: TVL Solana -0.0% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 76.63773243,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 0.8922227883096446
   },
   {
     "time": 1787003469.8384047,
@@ -60074,10 +60074,10 @@
       "Market Regime: рынок 24ч +1.6%, BTC доминация 57%",
       "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.07321688,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 5.758890654340601
   },
   {
     "time": 1787005390.4608545,
@@ -60535,10 +60535,10 @@
       "Market Regime: рынок 24ч +0.6%, BTC доминация 57%",
       "Fear & Greed: F&G 41 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.07269299,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 6.307385200350985
   },
   {
     "time": 1787024583.7183945,
@@ -60619,10 +60619,10 @@
       "Market Regime: рынок 24ч +0.4%, BTC доминация 57%",
       "Fear & Greed: F&G 41 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.07300304,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 6.032011619462615
   },
   {
     "time": 1787030852.9713275,
@@ -61014,10 +61014,10 @@
       "CoinGecko (FDV/MCap): FDV/MCap 1.1x — низкий риск разблокировки (cap $44.2B)",
       "DefiLlama: TVL Solana +0.4% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 76.58260605,
+    "exit_time": 1787065199.999,
+    "pnl_pct": 0.8594838008692066
   },
   {
     "time": 1787049554.7220166,
@@ -61417,6 +61417,102 @@
       "Market Regime: рынок 24ч +0.2%, BTC доминация 57%",
       "Fear & Greed: F&G 41 (Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $0.7M vs шорт $0.2M; 🏛 Wintermute: лонг $0.7M"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787063484.3537085,
+    "symbol": "PUMP_USDT",
+    "binance_symbol": "PUMPUSDT",
+    "base": "PUMP",
+    "confidence": 70.4,
+    "entry": 0.0028592,
+    "stop": 0.00268681,
+    "take": 0.00295253,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.002% [Bit-0.007/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.002781",
+      "News: новостей: 2, тон +1.00",
+      "Market Regime: рынок 24ч +0.7%, BTC доминация 57%",
+      "Fear & Greed: F&G 41 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787063484.9032779,
+    "symbol": "LIT_USDT",
+    "binance_symbol": "LITUSDT",
+    "base": "LIT",
+    "confidence": 70.3,
+    "entry": 2.399,
+    "stop": 2.24468568,
+    "take": 2.45430098,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 66 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.005/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈2.34162",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $8.0M vs шорт $1.1M",
+      "Market Regime: рынок 24ч +0.7%, BTC доминация 57%",
+      "Fear & Greed: F&G 41 (Fear) — рынок осторожен",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $0.6M vs шорт $0.2M; 🏛 Wintermute: лонг $0.6M"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787063485.4308062,
+    "symbol": "AKE_USDT",
+    "binance_symbol": "AKEUSDT",
+    "base": "AKE",
+    "confidence": 69.7,
+    "entry": 0.0098342,
+    "stop": 0.00821569,
+    "take": 0.01091321,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 56 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): отбой от POC (накопление); POC≈0.00990983",
+      "Market Regime: рынок 24ч +0.7%, BTC доминация 57%",
+      "Fear & Greed: F&G 41 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787063486.0002713,
+    "symbol": "ETH_USDT",
+    "binance_symbol": "ETHUSDT",
+    "base": "ETH",
+    "confidence": 69.0,
+    "entry": 1922.09,
+    "stop": 1866.1144112,
+    "take": 1939.14234999,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 66 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.006% [Bit+0.001/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈1884.91",
+      "Hyperliquid Whales: киты в лонге: 5 поз. $47.0M vs шорт $0.9M",
+      "News: новостей: 11, тон +1.00",
+      "Market Regime: рынок 24ч +0.7%, BTC доминация 57%",
+      "Fear & Greed: F&G 41 (Fear) — рынок осторожен",
+      "Hyperliquid Market Makers: 🏛 Auros Global: лонг $6.7M",
+      "CoinGecko (FDV/MCap): FDV/MCap 1.0x — низкий риск разблокировки (cap $230.9B)",
+      "DefiLlama: TVL Ethereum +0.3% за 7д"
     ],
     "status": "open",
     "exit_price": null,
