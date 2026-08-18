@@ -55545,10 +55545,10 @@
       "Market Regime: рынок 24ч -0.1%, BTC доминация 56%",
       "Fear & Greed: F&G 34 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.290397,
+    "exit_time": 1787072399.999,
+    "pnl_pct": 0.5181723779854711
   },
   {
     "time": 1786915089.9024112,
@@ -55741,10 +55741,10 @@
       "Market Regime: рынок 24ч -0.3%, BTC доминация 56%",
       "Fear & Greed: F&G 34 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.29026089,
+    "exit_time": 1787072399.999,
+    "pnl_pct": 0.5162897807943924
   },
   {
     "time": 1786918717.6515238,
@@ -59278,10 +59278,10 @@
       "Market Regime: рынок 24ч +1.3%, BTC доминация 57%",
       "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.29046095,
+    "exit_time": 1787072399.999,
+    "pnl_pct": 0.6517949961882293
   },
   {
     "time": 1786994791.6373212,
@@ -59484,10 +59484,10 @@
       "Market Regime: рынок 24ч +1.4%, BTC доминация 57%",
       "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.29028381,
+    "exit_time": 1787072399.999,
+    "pnl_pct": 0.667155638784842
   },
   {
     "time": 1786996344.035894,
@@ -59848,10 +59848,10 @@
       "Market Regime: рынок 24ч +1.6%, BTC доминация 57%",
       "Fear & Greed: F&G 31 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.29039628,
+    "exit_time": 1787072399.999,
+    "pnl_pct": 0.6538005615056733
   },
   {
     "time": 1787001872.4175878,
@@ -61678,10 +61678,10 @@
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $1.1M vs шорт $0.0M; 🏛 Wintermute: лонг $0.7M; 🏛 Auros Global: лонг $0.4M",
       "DefiLlama: TVL Tron -0.2% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.33495251,
+    "exit_time": 1787075999.999,
+    "pnl_pct": 0.6165545208771426
   },
   {
     "time": 1787068790.8803,
@@ -61933,6 +61933,96 @@
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 4 поз. $27.9M vs шорт $13.5M; 🏛 Auros Global: лонг $12.5M",
       "CoinGecko (FDV/MCap): FDV/MCap 1.0x — низкий риск разблокировки (cap $231.0B)",
       "DefiLlama: TVL Ethereum +0.2% за 7д"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787073927.6026297,
+    "symbol": "9BIT-USDT",
+    "binance_symbol": "9BITUSDT",
+    "base": "9BIT",
+    "confidence": 73.9,
+    "entry": 0.050122,
+    "stop": 0.0495973,
+    "take": 0.0504718,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 56 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0500874",
+      "Market Regime: рынок 24ч +0.4%, BTC доминация 57%",
+      "Fear & Greed: F&G 41 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787073928.0710745,
+    "symbol": "ACE_USDT",
+    "binance_symbol": "ACEUSDT",
+    "base": "ACE",
+    "confidence": 72.1,
+    "entry": 0.22163,
+    "stop": 0.17518694,
+    "take": 0.25259204,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 66 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.187% [Bit-0.131/HL-0.242] (шорты платят лонгам), funding расходится между биржами (0.111%)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.188808",
+      "Market Regime: рынок 24ч +0.4%, BTC доминация 57%",
+      "Fear & Greed: F&G 41 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787073928.4769077,
+    "symbol": "DOGE_USDT",
+    "binance_symbol": "DOGEUSDT",
+    "base": "DOGE",
+    "confidence": 71.6,
+    "entry": 0.07033,
+    "stop": 0.06913796,
+    "take": 0.07084009,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 59 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0699422",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $2.4M vs шорт $0.1M",
+      "Market Regime: рынок 24ч +0.4%, BTC доминация 57%",
+      "Fear & Greed: F&G 41 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787073928.8661966,
+    "symbol": "LIT_USDT",
+    "binance_symbol": "LITUSDT",
+    "base": "LIT",
+    "confidence": 70.6,
+    "entry": 2.395,
+    "stop": 2.25134564,
+    "take": 2.45067201,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 64 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.001% [Bit-0.001/HL-0.001] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈2.34162",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $8.0M vs шорт $1.1M",
+      "Market Regime: рынок 24ч +0.4%, BTC доминация 57%",
+      "Fear & Greed: F&G 41 (Fear) — рынок осторожен",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $0.6M vs шорт $0.2M; 🏛 Wintermute: лонг $0.6M"
     ],
     "status": "open",
     "exit_price": null,
