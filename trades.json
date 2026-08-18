@@ -49707,10 +49707,10 @@
       "Market Regime: рынок 24ч -0.2%, BTC доминация 56%",
       "Fear & Greed: F&G 34 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.2894,
+    "exit_time": 1787027551.3229895,
+    "pnl_pct": 0.3885111696961322
   },
   {
     "time": 1786768108.8760557,
@@ -60576,6 +60576,47 @@
       "Derivatives (Funding/OI): funding avg +0.002% [Bit+0.002] (норма)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0326705",
       "Market Regime: рынок 24ч +0.3%, BTC доминация 57%",
+      "Fear & Greed: F&G 41 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787027636.3175266,
+    "symbol": "GOMINING-USDT",
+    "binance_symbol": "GOMININGUSDT",
+    "base": "GOMINING",
+    "confidence": 73.4,
+    "entry": 0.28939,
+    "stop": 0.28461339,
+    "take": 0.29104265,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.28685",
+      "Market Regime: рынок 24ч +0.4%, BTC доминация 57%",
+      "Fear & Greed: F&G 41 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787027636.8042986,
+    "symbol": "KII-USDT",
+    "binance_symbol": "KIIUSDT",
+    "base": "KII",
+    "confidence": 70.0,
+    "entry": 0.06885,
+    "stop": 0.06262045,
+    "take": 0.07300304,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 51 (импульс)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.067583",
+      "Market Regime: рынок 24ч +0.4%, BTC доминация 57%",
       "Fear & Greed: F&G 41 (Fear) — рынок осторожен"
     ],
     "status": "open",
