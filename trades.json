@@ -51029,10 +51029,10 @@
       "Market Regime: рынок 24ч +0.3%, BTC доминация 56%",
       "Fear & Greed: F&G 34 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.2876,
+    "exit_time": 1787047201.938111,
+    "pnl_pct": -0.38446884416888916
   },
   {
     "time": 1786787464.3996766,
@@ -60965,6 +60965,54 @@
       "Market Regime: рынок 24ч +0.7%, BTC доминация 57%",
       "Fear & Greed: F&G 41 (Fear) — рынок осторожен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $0.5M vs шорт $0.0M; 🏛 Wintermute: лонг $0.3M; 🏛 Auros Global: лонг $0.2M"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787047296.8499026,
+    "symbol": "ACE_USDT",
+    "binance_symbol": "ACEUSDT",
+    "base": "ACE",
+    "confidence": 72.1,
+    "entry": 0.1881,
+    "stop": 0.15030244,
+    "take": 0.21329838,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 60 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.568% [Bit-0.432/HL-0.704] (шорты платят лонгам), funding расходится между биржами (0.272%)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.160542",
+      "Market Regime: рынок 24ч +0.8%, BTC доминация 57%",
+      "Fear & Greed: F&G 41 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787047297.4311697,
+    "symbol": "SOL_USDT",
+    "binance_symbol": "SOLUSDT",
+    "base": "SOL",
+    "confidence": 69.0,
+    "entry": 75.93,
+    "stop": 74.95109093,
+    "take": 76.58260605,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 53 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.006/HL+0.004] (норма)",
+      "Volume Profile (POC): отбой от POC (накопление); POC≈75.9511",
+      "Hyperliquid Whales: киты в лонге: 3 поз. $0.1M vs шорт $0.0M",
+      "News: новостей: 3, тон +1.00",
+      "Market Regime: рынок 24ч +0.8%, BTC доминация 57%",
+      "Fear & Greed: F&G 41 (Fear) — рынок осторожен",
+      "CoinGecko (FDV/MCap): FDV/MCap 1.1x — низкий риск разблокировки (cap $44.2B)",
+      "DefiLlama: TVL Solana +0.4% за 7д"
     ],
     "status": "open",
     "exit_price": null,
