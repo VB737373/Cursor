@@ -63800,5 +63800,87 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1787121820.700046,
+    "symbol": "PUMP_USDT",
+    "binance_symbol": "PUMPUSDT",
+    "base": "PUMP",
+    "confidence": 71.2,
+    "entry": 0.0029827,
+    "stop": 0.00268962,
+    "take": 0.00309503,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.002% [Bit-0.014/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.00277293",
+      "News: новостей: 2, тон +1.00",
+      "Fear & Greed: F&G 46 (Fear) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787121821.137138,
+    "symbol": "PRCL_USDT",
+    "binance_symbol": "PRCLUSDT",
+    "base": "PRCL",
+    "confidence": 71.2,
+    "entry": 0.009551,
+    "stop": 0.00620065,
+    "take": 0.01178457,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс)",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.00906809",
+      "Fear & Greed: F&G 46 (Fear) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787121821.5415802,
+    "symbol": "KII-USDT",
+    "binance_symbol": "KIIUSDT",
+    "base": "KII",
+    "confidence": 70.8,
+    "entry": 0.07222,
+    "stop": 0.06503965,
+    "take": 0.0770069,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 55 (импульс)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0679434",
+      "Fear & Greed: F&G 46 (Fear) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787121821.9491608,
+    "symbol": "ACE_USDT",
+    "binance_symbol": "ACEUSDT",
+    "base": "ACE",
+    "confidence": 69.8,
+    "entry": 0.23056,
+    "stop": 0.17942525,
+    "take": 0.26464983,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс)",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.416% [Bit-0.266/HL-0.566] (шорты платят лонгам), funding расходится между биржами (0.300%)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.188808",
+      "Fear & Greed: F&G 46 (Fear) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
