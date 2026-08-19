@@ -64761,5 +64761,163 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1787149886.1707036,
+    "symbol": "LINK-USDT",
+    "binance_symbol": "LINKUSDT",
+    "base": "LINK",
+    "confidence": 71.2,
+    "entry": 9.6899,
+    "stop": 9.35048215,
+    "take": 9.85555108,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 56 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.014% [Bit-0.011/HL-0.018] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈9.49624",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $0.3M vs шорт $0.0M",
+      "Market Regime: рынок 24ч +0.8%, BTC доминация 57%",
+      "Fear & Greed: F&G 46 (Fear) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787149886.5955353,
+    "symbol": "DOGE_USDT",
+    "binance_symbol": "DOGEUSDT",
+    "base": "DOGE",
+    "confidence": 70.1,
+    "entry": 0.0706,
+    "stop": 0.06913796,
+    "take": 0.07113097,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0700506",
+      "Market Regime: рынок 24ч +0.8%, BTC доминация 57%",
+      "Fear & Greed: F&G 46 (Fear) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787149886.9611313,
+    "symbol": "AAVE-USDT",
+    "binance_symbol": "AAVEUSDT",
+    "base": "AAVE",
+    "confidence": 69.7,
+    "entry": 89.656,
+    "stop": 85.38086666,
+    "take": 90.9135121,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.005/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈86.7103",
+      "Market Regime: рынок 24ч +0.8%, BTC доминация 57%",
+      "Fear & Greed: F&G 46 (Fear) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787149887.3320646,
+    "symbol": "LTC-USDT",
+    "binance_symbol": "LTCUSDT",
+    "base": "LTC",
+    "confidence": 69.7,
+    "entry": 45.08,
+    "stop": 44.0023956,
+    "take": 45.44732342,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 69 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.000/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈44.5285",
+      "Market Regime: рынок 24ч +0.8%, BTC доминация 57%",
+      "Fear & Greed: F&G 46 (Fear) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787149887.7050376,
+    "symbol": "DOS-USDT",
+    "binance_symbol": "DOSUSDT",
+    "base": "DOS",
+    "confidence": 69.6,
+    "entry": 0.264,
+    "stop": 0.23427281,
+    "take": 0.28381813,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 61 (импульс), MACD>0",
+      "Derivatives (Funding/OI): funding avg -0.018% [Bit-0.018] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.226434",
+      "Market Regime: рынок 24ч +0.8%, BTC доминация 57%",
+      "Fear & Greed: F&G 46 (Fear) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787149888.0636976,
+    "symbol": "PRCL_USDT",
+    "binance_symbol": "PRCLUSDT",
+    "base": "PRCL",
+    "confidence": 69.5,
+    "entry": 0.009236,
+    "stop": 0.00616335,
+    "take": 0.01128443,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс)",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.00906809",
+      "Market Regime: рынок 24ч +0.8%, BTC доминация 57%",
+      "Fear & Greed: F&G 46 (Fear) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787149888.4268563,
+    "symbol": "ETH_USDT",
+    "binance_symbol": "ETHUSDT",
+    "base": "ETH",
+    "confidence": 69.4,
+    "entry": 1935.13,
+    "stop": 1867.2968532,
+    "take": 1951.43381957,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 68 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.002% [Bit-0.004/HL+0.000] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈1884.61",
+      "Hyperliquid Whales: киты в лонге: 8 поз. $239.0M vs шорт $0.1M",
+      "News: новостей: 5, тон +1.00",
+      "Market Regime: рынок 24ч +0.8%, BTC доминация 57%",
+      "Fear & Greed: F&G 46 (Fear) — нейтрально",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 4 поз. $33.9M vs шорт $6.3M; 🏛 Auros Global: лонг $16.6M",
+      "CoinGecko (FDV/MCap): FDV/MCap 1.0x — низкий риск разблокировки (cap $233.6B)",
+      "DefiLlama: TVL Ethereum +2.2% за 7д"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
