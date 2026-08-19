@@ -64221,5 +64221,89 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1787138576.5524793,
+    "symbol": "LTC-USDT",
+    "binance_symbol": "LTCUSDT",
+    "base": "LTC",
+    "confidence": 69.7,
+    "entry": 44.84,
+    "stop": 44.0173506,
+    "take": 45.2009467,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.004% [Bit-0.002/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈44.5311",
+      "Market Regime: рынок 24ч +0.4%, BTC доминация 56%",
+      "Fear & Greed: F&G 46 (Fear) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787138577.2981386,
+    "symbol": "DOS-USDT",
+    "binance_symbol": "DOSUSDT",
+    "base": "DOS",
+    "confidence": 69.6,
+    "entry": 0.2684,
+    "stop": 0.2408642,
+    "take": 0.2867572,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 68 (импульс), MACD>0",
+      "Derivatives (Funding/OI): funding avg -0.022% [Bit-0.022] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.2286",
+      "Market Regime: рынок 24ч +0.4%, BTC доминация 56%",
+      "Fear & Greed: F&G 46 (Fear) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787138577.86308,
+    "symbol": "PRCL_USDT",
+    "binance_symbol": "PRCLUSDT",
+    "base": "PRCL",
+    "confidence": 69.5,
+    "entry": 0.009174,
+    "stop": 0.00585398,
+    "take": 0.01138735,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс)",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.00906809",
+      "Market Regime: рынок 24ч +0.4%, BTC доминация 56%",
+      "Fear & Greed: F&G 46 (Fear) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787138578.4116888,
+    "symbol": "KII-USDT",
+    "binance_symbol": "KIIUSDT",
+    "base": "KII",
+    "confidence": 69.3,
+    "entry": 0.07126,
+    "stop": 0.06505853,
+    "take": 0.07539431,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 52 (импульс)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0679434",
+      "Market Regime: рынок 24ч +0.4%, BTC доминация 56%",
+      "Fear & Greed: F&G 46 (Fear) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
