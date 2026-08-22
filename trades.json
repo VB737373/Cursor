@@ -89134,5 +89134,113 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1787387528.5242004,
+    "symbol": "OKB_USDT",
+    "binance_symbol": "OKBUSDT",
+    "base": "OKB",
+    "confidence": 73.2,
+    "entry": 111.32,
+    "stop": 100.4214292,
+    "take": 118.16099184,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 54 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈107.454",
+      "Market Regime: рынок 24ч -0.4%, BTC доминация 59%",
+      "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787387528.9091928,
+    "symbol": "ZAMA-USDT",
+    "binance_symbol": "ZAMAUSDT",
+    "base": "ZAMA",
+    "confidence": 70.9,
+    "entry": 0.05574,
+    "stop": 0.04444557,
+    "take": 0.06326962,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 56 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0462306",
+      "Market Regime: рынок 24ч -0.4%, BTC доминация 59%",
+      "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787387529.286958,
+    "symbol": "MELANIA-USDT",
+    "binance_symbol": "MELANIAUSDT",
+    "base": "MELANIA",
+    "confidence": 69.9,
+    "entry": 0.11292,
+    "stop": 0.08707735,
+    "take": 0.13014843,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 60 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.022% [Bit+0.005/HL-0.050] (норма), funding расходится между биржами (0.055%)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0806058",
+      "Market Regime: рынок 24ч -0.4%, BTC доминация 59%",
+      "Fear & Greed: F&G 71 (Greed) — аппетит к риску",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $0.2M vs шорт $0.0M; 🏛 Wintermute: лонг $0.2M"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787387529.6766136,
+    "symbol": "BONK_USDT",
+    "binance_symbol": "BONKUSDT",
+    "base": "BONK",
+    "confidence": 69.7,
+    "entry": 3.23e-06,
+    "stop": 2.81e-06,
+    "take": 3.51e-06,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс)",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈2.91682e-06",
+      "Market Regime: рынок 24ч -0.4%, BTC доминация 59%",
+      "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787387530.1797287,
+    "symbol": "GOMINING-USDT",
+    "binance_symbol": "GOMININGUSDT",
+    "base": "GOMINING",
+    "confidence": 69.2,
+    "entry": 0.3168,
+    "stop": 0.2840453,
+    "take": 0.32054166,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 52 (импульс)",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.28717",
+      "Market Regime: рынок 24ч -0.4%, BTC доминация 59%",
+      "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
