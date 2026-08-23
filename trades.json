@@ -88639,10 +88639,10 @@
       "Market Regime: рынок 24ч +0.4%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.01365844,
+    "exit_time": 1787461199.999,
+    "pnl_pct": -7.58836265223274
   },
   {
     "time": 1787380631.1786027,
@@ -91795,6 +91795,51 @@
       "Market Regime: рынок 24ч -5.9%, BTC доминация 59%",
       "Fear & Greed: F&G 66 (Greed) — аппетит к риску",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $1.0M vs шорт $0.0M; 🏛 Wintermute: лонг $0.9M"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787459757.5486407,
+    "symbol": "TUT_USDT",
+    "binance_symbol": "TUTUSDT",
+    "base": "TUT",
+    "confidence": 69.3,
+    "entry": 0.06106,
+    "stop": 0.04062894,
+    "take": 0.07468071,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 61 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0324957",
+      "Market Regime: рынок 24ч -5.8%, BTC доминация 59%",
+      "Fear & Greed: F&G 66 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787459757.9987514,
+    "symbol": "ZRO-USDT",
+    "binance_symbol": "ZROUSDT",
+    "base": "ZRO",
+    "confidence": 69.3,
+    "entry": 1.1404,
+    "stop": 1.0135674,
+    "take": 1.22495507,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 61 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.024% [Bit+0.005/HL+0.043] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.858818",
+      "Market Regime: рынок 24ч -5.8%, BTC доминация 59%",
+      "Fear & Greed: F&G 66 (Greed) — аппетит к риску",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $1.0M vs шорт $0.0M; 🏛 Wintermute: лонг $0.8M"
     ],
     "status": "open",
     "exit_price": null,
