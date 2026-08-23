@@ -91890,5 +91890,50 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1787464634.191403,
+    "symbol": "TUT_USDT",
+    "binance_symbol": "TUTUSDT",
+    "base": "TUT",
+    "confidence": 69.3,
+    "entry": 0.06331,
+    "stop": 0.04248687,
+    "take": 0.07719209,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 62 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0324957",
+      "Market Regime: рынок 24ч -7.3%, BTC доминация 59%",
+      "Fear & Greed: F&G 66 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787464634.6442287,
+    "symbol": "ZRO-USDT",
+    "binance_symbol": "ZROUSDT",
+    "base": "ZRO",
+    "confidence": 69.3,
+    "entry": 1.1495,
+    "stop": 1.021694,
+    "take": 1.234704,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 62 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.021% [Bit+0.005/HL+0.036] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.863383",
+      "Market Regime: рынок 24ч -7.3%, BTC доминация 59%",
+      "Fear & Greed: F&G 66 (Greed) — аппетит к риску",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $1.0M vs шорт $0.0M; 🏛 Wintermute: лонг $0.9M"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
