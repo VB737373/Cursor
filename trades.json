@@ -88844,10 +88844,10 @@
       "Market Regime: рынок 24ч +0.7%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.01380596,
+    "exit_time": 1787457599.999,
+    "pnl_pct": -7.404694835680743
   },
   {
     "time": 1787383880.719239,
@@ -89062,10 +89062,10 @@
       "Market Regime: рынок 24ч +0.6%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.01370596,
+    "exit_time": 1787457599.999,
+    "pnl_pct": -7.454692775151928
   },
   {
     "time": 1787385498.1877792,
@@ -91314,10 +91314,10 @@
       "Market Regime: рынок 24ч -3.9%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.07081492,
+    "exit_time": 1787457599.999,
+    "pnl_pct": 19.923657917019487
   },
   {
     "time": 1787437224.2278795,
@@ -91531,10 +91531,10 @@
       "Market Regime: рынок 24ч -4.2%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.07097569,
+    "exit_time": 1787457599.999,
+    "pnl_pct": 21.325965811965794
   },
   {
     "time": 1787440832.060963,
@@ -91772,6 +91772,29 @@
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈87.6621",
       "Market Regime: рынок 24ч -4.4%, BTC доминация 59%",
       "Fear & Greed: F&G 66 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787456957.9538445,
+    "symbol": "ZRO-USDT",
+    "binance_symbol": "ZROUSDT",
+    "base": "ZRO",
+    "confidence": 69.3,
+    "entry": 1.1526,
+    "stop": 1.02448196,
+    "take": 1.23801203,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 64 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.015% [Bit+0.005/HL+0.026] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.865063",
+      "Market Regime: рынок 24ч -5.9%, BTC доминация 59%",
+      "Fear & Greed: F&G 66 (Greed) — аппетит к риску",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $1.0M vs шорт $0.0M; 🏛 Wintermute: лонг $0.9M"
     ],
     "status": "open",
     "exit_price": null,
