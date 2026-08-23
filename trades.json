@@ -90733,10 +90733,10 @@
       "Market Regime: рынок 24ч -1.2%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 38.72942607,
+    "exit_time": 1787468399.999,
+    "pnl_pct": -10.327793308636247
   },
   {
     "time": 1787430093.7840393,
@@ -90926,10 +90926,10 @@
       "Market Regime: рынок 24ч -1.4%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 38.6029975,
+    "exit_time": 1787468399.999,
+    "pnl_pct": -10.744514450867051
   },
   {
     "time": 1787431780.4999685,
@@ -91928,6 +91928,51 @@
       "Derivatives (Funding/OI): funding avg +0.021% [Bit+0.005/HL+0.036] (норма)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.863383",
       "Market Regime: рынок 24ч -7.3%, BTC доминация 59%",
+      "Fear & Greed: F&G 66 (Greed) — аппетит к риску",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $1.0M vs шорт $0.0M; 🏛 Wintermute: лонг $0.9M"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787467086.6356125,
+    "symbol": "TUT_USDT",
+    "binance_symbol": "TUTUSDT",
+    "base": "TUT",
+    "confidence": 69.3,
+    "entry": 0.06314,
+    "stop": 0.04288924,
+    "take": 0.07664051,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 62 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0324957",
+      "Market Regime: рынок 24ч -4.8%, BTC доминация 59%",
+      "Fear & Greed: F&G 66 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1787467087.1638343,
+    "symbol": "ZRO-USDT",
+    "binance_symbol": "ZROUSDT",
+    "base": "ZRO",
+    "confidence": 69.3,
+    "entry": 1.1689,
+    "stop": 1.04205594,
+    "take": 1.2534627,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 65 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.019% [Bit+0.005/HL+0.032] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.863383",
+      "Market Regime: рынок 24ч -4.8%, BTC доминация 59%",
       "Fear & Greed: F&G 66 (Greed) — аппетит к риску",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $1.0M vs шорт $0.0M; 🏛 Wintermute: лонг $0.9M"
     ],
