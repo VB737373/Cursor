@@ -113564,10 +113564,10 @@
       "Market Regime: рынок 24ч +1.9%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.0853,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -8.190722204283722
   },
   {
     "time": 1787635906.1730037,
@@ -113904,10 +113904,10 @@
       "Market Regime: рынок 24ч +1.9%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.35200281,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -11.020523255813956
   },
   {
     "time": 1787635912.4355915,
@@ -113993,10 +113993,10 @@
       "Market Regime: рынок 24ч +1.9%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.15727077,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -11.396749295774642
   },
   {
     "time": 1787635914.1501474,
@@ -114015,10 +114015,10 @@
       "Market Regime: рынок 24ч +1.9%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.07536323,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -8.19438421244974
   },
   {
     "time": 1787635914.57733,
@@ -114037,10 +114037,10 @@
       "Market Regime: рынок 24ч +1.9%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 1.43563015,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -7.211081308169595
   },
   {
     "time": 1787635914.9986007,
@@ -114063,10 +114063,10 @@
       "Hyperliquid Market Makers: 🏛 Wintermute: лонг $2.7M",
       "CoinGecko (FDV/MCap): FDV/MCap 1.0x — низкий риск разблокировки (cap $1618.2B)"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 77850.0,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -3.462694562661819
   },
   {
     "time": 1787635915.4137602,
@@ -114267,10 +114267,10 @@
       "Market Regime: рынок 24ч +1.7%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.0853,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -7.9628830384117375
   },
   {
     "time": 1787637807.6536078,
@@ -114356,10 +114356,10 @@
       "Market Regime: рынок 24ч +1.7%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.35428196,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -9.737080254777073
   },
   {
     "time": 1787637809.396545,
@@ -114630,10 +114630,10 @@
       "Market Regime: рынок 24ч +1.7%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.15747416,
+    "exit_time": 1787932799.999,
+    "pnl_pct": -11.927203579418338
   },
   {
     "time": 1787637815.0080285,
@@ -114697,10 +114697,10 @@
       "Market Regime: рынок 24ч +1.7%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.07536323,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -7.801284560802533
   },
   {
     "time": 1787637816.3144717,
@@ -114741,10 +114741,10 @@
       "Market Regime: рынок 24ч +1.7%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 1.43762415,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -7.441144089621423
   },
   {
     "time": 1787637817.2581694,
@@ -114788,10 +114788,10 @@
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску",
       "CoinGecko (FDV/MCap): FDV/MCap 1.0x — низкий риск разблокировки (cap $1620.4B)"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 77850.0,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -3.5697165556613863
   },
   {
     "time": 1787637818.1810415,
@@ -115014,10 +115014,10 @@
       "Market Regime: рынок 24ч +1.0%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.0853,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -7.513824135313894
   },
   {
     "time": 1787641447.0643883,
@@ -115125,10 +115125,10 @@
       "Market Regime: рынок 24ч +1.0%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.35428196,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -9.158471794871796
   },
   {
     "time": 1787641449.1739058,
@@ -115192,10 +115192,10 @@
       "Market Regime: рынок 24ч +1.0%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 1.44540673,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -6.324904082955279
   },
   {
     "time": 1787641450.497072,
@@ -115330,10 +115330,10 @@
       "Market Regime: рынок 24ч +1.0%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.07536323,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -7.902688500549917
   },
   {
     "time": 1787641453.028328,
@@ -115421,10 +115421,10 @@
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску",
       "CoinGecko (FDV/MCap): FDV/MCap 1.0x — низкий риск разблокировки (cap $1616.6B)"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 77846.0,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -3.496853724208724
   },
   {
     "time": 1787641454.7351956,
@@ -115687,10 +115687,10 @@
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску",
       "Hyperliquid Market Makers: 🏛 Auros Global: лонг $0.2M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 790.0,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -7.290270641997268
   },
   {
     "time": 1787645398.2047055,
@@ -115709,10 +115709,10 @@
       "Market Regime: рынок 24ч +0.5%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.2537,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -5.827765404602818
   },
   {
     "time": 1787645398.6296117,
@@ -115863,10 +115863,10 @@
       "Market Regime: рынок 24ч +0.9%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.05001,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -0.7442691277165829
   },
   {
     "time": 1787649002.8574886,
@@ -115973,10 +115973,10 @@
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску",
       "Hyperliquid Market Makers: 🏛 Auros Global: лонг $0.3M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 790.0,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -6.142330996792211
   },
   {
     "time": 1787649006.0219026,
@@ -116039,10 +116039,10 @@
       "Market Regime: рынок 24ч +0.9%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.2537,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -6.176035502958578
   },
   {
     "time": 1787649008.3139682,
@@ -116129,10 +116129,10 @@
       "Market Regime: рынок 24ч -1.3%, BTC доминация 60%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.05001,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -0.5567707297673543
   },
   {
     "time": 1787652210.8340168,
@@ -116262,10 +116262,10 @@
       "Market Regime: рынок 24ч -1.2%, BTC доминация 60%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.05001,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -0.5903750969050006
   },
   {
     "time": 1787654602.3616343,
@@ -116329,10 +116329,10 @@
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску",
       "Hyperliquid Market Makers: 🏛 Auros Global: лонг $0.5M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 789.62,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -6.121672551747097
   },
   {
     "time": 1787654604.223184,
@@ -116418,10 +116418,10 @@
       "Market Regime: рынок 24ч -1.0%, BTC доминация 60%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.05001,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -0.5824702304037565
   },
   {
     "time": 1787657187.6376789,
@@ -116506,10 +116506,10 @@
       "Market Regime: рынок 24ч -1.0%, BTC доминация 60%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.05001,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -0.5073112503730196
   },
   {
     "time": 1787659001.4966917,
@@ -116594,10 +116594,10 @@
       "Market Regime: рынок 24ч -2.2%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.05001,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -0.48553348987145534
   },
   {
     "time": 1787661928.0824964,
@@ -116809,10 +116809,10 @@
       "Volume Profile (POC): цена в Value Area под POC; POC≈0.0599718",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.05001,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -0.4776119402985156
   },
   {
     "time": 1787672514.766068,
@@ -116874,10 +116874,10 @@
       "Market Regime: рынок 24ч -3.2%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.6845,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -3.5643843336151013
   },
   {
     "time": 1787672516.675069,
@@ -117093,10 +117093,10 @@
       "Market Regime: рынок 24ч -2.5%, BTC доминация 59%",
       "Fear & Greed: F&G 74 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.6845,
+    "exit_time": 1787938549.7401648,
+    "pnl_pct": -2.9628579529345096
   },
   {
     "time": 1787679163.7389772,
@@ -118961,10 +118961,10 @@
       "Market Regime: рынок 24ч -3.6%, BTC доминация 59%",
       "Fear & Greed: F&G 65 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 1.44832698,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -5.511026878914398
   },
   {
     "time": 1787712502.793869,
@@ -119114,10 +119114,10 @@
       "Market Regime: рынок 24ч -4.5%, BTC доминация 59%",
       "Fear & Greed: F&G 65 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.25113103,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -9.794888649425289
   },
   {
     "time": 1787716399.69247,
@@ -119136,10 +119136,10 @@
       "Market Regime: рынок 24ч -4.5%, BTC доминация 59%",
       "Fear & Greed: F&G 65 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.50287284,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -12.982723654611522
   },
   {
     "time": 1787716400.2868054,
@@ -119243,10 +119243,10 @@
       "Market Regime: рынок 24ч -4.2%, BTC доминация 59%",
       "Fear & Greed: F&G 65 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.24851423,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -10.44532252252253
   },
   {
     "time": 1787719150.4597907,
@@ -119288,10 +119288,10 @@
       "Market Regime: рынок 24ч -4.2%, BTC доминация 59%",
       "Fear & Greed: F&G 65 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.50287284,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -11.85401577563541
   },
   {
     "time": 1787719151.6718314,
@@ -119354,10 +119354,10 @@
       "Market Regime: рынок 24ч -4.2%, BTC доминация 59%",
       "Fear & Greed: F&G 65 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.24913939,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -10.316994240460764
   },
   {
     "time": 1787722428.4969594,
@@ -119421,10 +119421,10 @@
       "Market Regime: рынок 24ч -4.2%, BTC доминация 59%",
       "Fear & Greed: F&G 65 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 1.4525302,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -5.292417030710052
   },
   {
     "time": 1787722430.0814984,
@@ -119531,10 +119531,10 @@
       "Market Regime: рынок 24ч -4.7%, BTC доминация 59%",
       "Fear & Greed: F&G 65 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.24833176,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -10.446534439235478
   },
   {
     "time": 1787726747.717979,
@@ -120816,10 +120816,10 @@
       "Market Regime: рынок 24ч -1.7%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.66988031,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -8.07186633731302
   },
   {
     "time": 1787790522.0257301,
@@ -121059,10 +121059,10 @@
       "Market Regime: рынок 24ч -0.6%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.7132731,
+    "exit_time": 1787925599.999,
+    "pnl_pct": -10.784768423146057
   },
   {
     "time": 1787825399.1266685,
@@ -121126,10 +121126,10 @@
       "Market Regime: рынок 24ч -0.6%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 121.66682124,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -5.716062676782159
   },
   {
     "time": 1787825400.4449086,
@@ -121237,10 +121237,10 @@
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску",
       "DefiLlama: TVL Injective +20.9% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 5.25699369,
+    "exit_time": 1787914799.999,
+    "pnl_pct": -4.971191431670285
   },
   {
     "time": 1787825402.6555798,
@@ -121260,10 +121260,10 @@
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $1.2M vs шорт $0.0M; 🏛 Wintermute: лонг $0.9M; 🏛 Auros Global: лонг $0.3M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 1.12417732,
+    "exit_time": 1787929199.999,
+    "pnl_pct": -8.921873126468437
   },
   {
     "time": 1787825403.0715227,
@@ -121282,10 +121282,10 @@
       "Market Regime: рынок 24ч -0.6%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.67767885,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -5.378546495392334
   },
   {
     "time": 1787825403.5036566,
@@ -121372,10 +121372,10 @@
       "Hyperliquid Market Makers: 🏛 Auros Global: лонг $0.4M",
       "DefiLlama: TVL BSC +6.9% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 691.18576332,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -3.150915990937029
   },
   {
     "time": 1787825405.4539366,
@@ -121552,10 +121552,10 @@
       "Market Regime: рынок 24ч -0.5%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 121.4882386,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -5.164367545119599
   },
   {
     "time": 1787863294.2481234,
@@ -121618,10 +121618,10 @@
       "Market Regime: рынок 24ч -0.5%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.35428196,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -6.373689217758987
   },
   {
     "time": 1787863296.277099,
@@ -121641,10 +121641,10 @@
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску",
       "DefiLlama: TVL Injective +20.9% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 5.22231756,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -4.962373794358517
   },
   {
     "time": 1787863296.8819182,
@@ -121683,10 +121683,10 @@
       "Market Regime: рынок 24ч -0.5%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.66188615,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -12.373233758789013
   },
   {
     "time": 1787863298.0806258,
@@ -121705,10 +121705,10 @@
       "Market Regime: рынок 24ч -0.5%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 5.26e-06,
+    "exit_time": 1787914799.999,
+    "pnl_pct": -3.308823529411765
   },
   {
     "time": 1787863298.6839547,
@@ -121777,10 +121777,10 @@
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску",
       "DefiLlama: TVL Near +12.4% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 1.83045212,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -5.153006891548787
   },
   {
     "time": 1787863301.639575,
@@ -121841,10 +121841,10 @@
       "Market Regime: рынок 24ч -1.6%, BTC доминация 59%",
       "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.02273471,
+    "exit_time": 1787936399.999,
+    "pnl_pct": -16.139026189597924
   },
   {
     "time": 1787893654.8131034,
