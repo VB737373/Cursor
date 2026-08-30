@@ -121465,10 +121465,10 @@
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $33.4M vs шорт $11.4M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 80.666,
+    "exit_time": 1788131357.1034417,
+    "pnl_pct": -5.165765342111457
   },
   {
     "time": 1787863291.7805855,
@@ -121663,10 +121663,10 @@
       "Market Regime: рынок 24ч -0.5%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.1959,
+    "exit_time": 1788131357.1034417,
+    "pnl_pct": -11.075805719473447
   },
   {
     "time": 1787863297.478561,
@@ -121727,10 +121727,10 @@
       "Market Regime: рынок 24ч -0.5%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.008854,
+    "exit_time": 1788131357.1034417,
+    "pnl_pct": -7.866805411030174
   },
   {
     "time": 1787863300.384133,
@@ -122533,10 +122533,10 @@
       "Market Regime: рынок 24ч -1.6%, BTC доминация 59%",
       "Fear & Greed: F&G 68 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.00461695,
+    "exit_time": 1788127199.999,
+    "pnl_pct": -7.42029276117907
   },
   {
     "time": 1788043446.8391218,
@@ -122799,10 +122799,10 @@
       "Market Regime: рынок 24ч -2.8%, BTC доминация 59%",
       "Fear & Greed: F&G 69 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.00461352,
+    "exit_time": 1788127199.999,
+    "pnl_pct": -8.188656716417904
   },
   {
     "time": 1788073452.0882993,
