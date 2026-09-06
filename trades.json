@@ -126473,10 +126473,10 @@
       "Market Regime: рынок 24ч +2.3%, BTC доминация 59%",
       "Fear & Greed: F&G 65 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.789709,
+    "exit_time": 1788730351.873497,
+    "pnl_pct": -0.413750488656853
   },
   {
     "time": 1788467416.901362,
@@ -126539,10 +126539,10 @@
       "Market Regime: рынок 24ч +2.3%, BTC доминация 59%",
       "Fear & Greed: F&G 65 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.443452,
+    "exit_time": 1788730351.873497,
+    "pnl_pct": -10.760240037671903
   },
   {
     "time": 1788467418.7631726,
@@ -126583,10 +126583,10 @@
       "Market Regime: рынок 24ч +2.3%, BTC доминация 59%",
       "Fear & Greed: F&G 65 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 1.032,
+    "exit_time": 1788730351.873497,
+    "pnl_pct": -10.338835794960904
   },
   {
     "time": 1788467420.050566,
@@ -126719,10 +126719,10 @@
       "CoinGecko (FDV/MCap): FDV/MCap 1.0x — низкий риск разблокировки (cap $306.2B)",
       "DefiLlama: TVL Ethereum +0.0% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 2505.51,
+    "exit_time": 1788730351.873497,
+    "pnl_pct": -0.2249956195542951
   },
   {
     "time": 1788467423.831021,
@@ -126742,10 +126742,10 @@
       "Market Regime: рынок 24ч +2.3%, BTC доминация 59%",
       "Fear & Greed: F&G 65 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.2155,
+    "exit_time": 1788730351.873497,
+    "pnl_pct": 0.8895131086142252
   },
   {
     "time": 1788467424.4742405,
@@ -131335,10 +131335,10 @@
       "Market Regime: рынок 24ч -1.8%, BTC доминация 59%",
       "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.08964109,
+    "exit_time": 1788724799.999,
+    "pnl_pct": -23.29189628615437
   },
   {
     "time": 1788643844.3233926,
@@ -131974,10 +131974,10 @@
       "Fear & Greed: F&G 73 (Greed) — аппетит к риску",
       "Hyperliquid Market Makers: 🏛 Wintermute: лонг $0.3M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.38209325,
+    "exit_time": 1788731999.999,
+    "pnl_pct": 1.837220149253736
   },
   {
     "time": 1788675531.2221158,
@@ -132132,10 +132132,10 @@
       "Fear & Greed: F&G 73 (Greed) — аппетит к риску",
       "DefiLlama: TVL Avalanche +6.0% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 7.77627577,
+    "exit_time": 1788728399.999,
+    "pnl_pct": 1.3327569715923824
   },
   {
     "time": 1788675535.2115622,
@@ -132248,10 +132248,10 @@
       "Fear & Greed: F&G 73 (Greed) — аппетит к риску",
       "Hyperliquid Market Makers: 🏛 Wintermute: лонг $0.3M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.38478888,
+    "exit_time": 1788731999.999,
+    "pnl_pct": 2.03894988066826
   },
   {
     "time": 1788693227.9235559,
@@ -132562,6 +132562,140 @@
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.375447",
       "Market Regime: рынок 24ч -3.4%, BTC доминация 59%",
       "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1788730413.4459727,
+    "symbol": "BONK-USDT",
+    "binance_symbol": "BONKUSDT",
+    "base": "BONK",
+    "confidence": 72.9,
+    "entry": 3.43e-06,
+    "stop": 3.08e-06,
+    "take": 3.58e-06,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 56 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈3.29142e-06",
+      "Market Regime: рынок 24ч -2.9%, BTC доминация 59%",
+      "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1788730414.1178434,
+    "symbol": "DASH-USDT",
+    "binance_symbol": "DASHUSDT",
+    "base": "DASH",
+    "confidence": 69.7,
+    "entry": 71.22,
+    "stop": 63.50134285,
+    "take": 76.36577143,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈68.0244",
+      "Market Regime: рынок 24ч -2.9%, BTC доминация 59%",
+      "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1788730414.7606947,
+    "symbol": "ADA_USDT",
+    "binance_symbol": "ADAUSDT",
+    "base": "ADA",
+    "confidence": 69.7,
+    "entry": 0.22221,
+    "stop": 0.20022352,
+    "take": 0.22669231,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 60 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.003/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.220765",
+      "Market Regime: рынок 24ч -2.9%, BTC доминация 59%",
+      "Fear & Greed: F&G 73 (Greed) — аппетит к риску",
+      "DefiLlama: TVL Cardano +13.2% за 7д"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1788730415.3109963,
+    "symbol": "WIF-USDT",
+    "binance_symbol": "WIFUSDT",
+    "base": "WIF",
+    "confidence": 69.7,
+    "entry": 0.2169,
+    "stop": 0.20167316,
+    "take": 0.22243006,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 61 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.005/HL+0.014] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.214316",
+      "Market Regime: рынок 24ч -2.9%, BTC доминация 59%",
+      "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1788730415.8666248,
+    "symbol": "XRP_USDT",
+    "binance_symbol": "XRPUSDT",
+    "base": "XRP",
+    "confidence": 69.5,
+    "entry": 1.4257,
+    "stop": 1.33720631,
+    "take": 1.44314563,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 60 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈1.39502",
+      "News: новостей: 3, тон +1.00",
+      "Market Regime: рынок 24ч -2.9%, BTC доминация 59%",
+      "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1788730416.4402244,
+    "symbol": "ONDO_USDT",
+    "binance_symbol": "ONDOUSDT",
+    "base": "ONDO",
+    "confidence": 69.1,
+    "entry": 0.3852,
+    "stop": 0.3495482,
+    "take": 0.39352049,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 67 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.013% [Bit+0.005/HL+0.021] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.3691",
+      "Market Regime: рынок 24ч -2.9%, BTC доминация 59%",
+      "Fear & Greed: F&G 73 (Greed) — аппетит к риску",
+      "Hyperliquid Market Makers: 🏛 Wintermute: лонг $0.2M"
     ],
     "status": "open",
     "exit_price": null,
