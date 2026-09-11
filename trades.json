@@ -136880,5 +136880,27 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1789156813.6008842,
+    "symbol": "ETHFI_USDT",
+    "binance_symbol": "ETHFIUSDT",
+    "base": "ETHFI",
+    "confidence": 69.7,
+    "entry": 0.6907,
+    "stop": 0.60745216,
+    "take": 0.73883821,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 56 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.005/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.67585",
+      "Market Regime: рынок 24ч -2.1%, BTC доминация 58%",
+      "Fear & Greed: F&G 56 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
