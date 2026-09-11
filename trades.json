@@ -136145,10 +136145,10 @@
       "Market Regime: рынок 24ч -3.6%, BTC доминация 59%",
       "Fear & Greed: F&G 69 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.03542224,
+    "exit_time": 1789084799.999,
+    "pnl_pct": -6.6853530031612225
   },
   {
     "time": 1789028354.2592437,
@@ -136233,10 +136233,10 @@
       "Market Regime: рынок 24ч -5.9%, BTC доминация 59%",
       "Fear & Greed: F&G 69 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 1.20232459,
+    "exit_time": 1789081199.999,
+    "pnl_pct": -6.7314723450469325
   },
   {
     "time": 1789059894.1065295,
@@ -136402,6 +136402,53 @@
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈1.34137",
       "Market Regime: рынок 24ч -3.8%, BTC доминация 58%",
       "Fear & Greed: F&G 69 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789086319.6941133,
+    "symbol": "FFUSDT",
+    "binance_symbol": "FFUSDT",
+    "base": "FF",
+    "confidence": 72.3,
+    "entry": 0.16888,
+    "stop": 0.15730832,
+    "take": 0.17659446,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 72 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.013% [Bin+0.005/Byb+0.005/Bit+0.028] (норма), OI +1.8% + цена вверх (приток денег), L/S 0.7 (перевес шортов)",
+      "Order Flow (стакан/дельта): стакан: перевес покупок +36%, CVD растёт (покупатели давят)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.119241",
+      "Market Regime: рынок 24ч -4.4%, BTC доминация 58%",
+      "Fear & Greed: F&G 56 (Greed) — аппетит к риску",
+      "CoinGecko (FDV/MCap): FDV/MCap 3.2x — риск разблокировки (cap $0.5B)"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789086320.3716433,
+    "symbol": "BTW_USDT",
+    "binance_symbol": "BTWUSDT",
+    "base": "BTW",
+    "confidence": 70.4,
+    "entry": 0.4998,
+    "stop": 0.42501113,
+    "take": 0.52286647,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 71 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bin+0.011/Byb+0.005/Bit+0.005] (норма), рост на закрытии шортов, L/S 0.7 (перевес шортов)",
+      "Order Flow (стакан/дельта): стакан сбалансирован, CVD растёт (покупатели давят)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.449033",
+      "Market Regime: рынок 24ч -4.4%, BTC доминация 58%",
+      "Fear & Greed: F&G 56 (Greed) — аппетит к риску"
     ],
     "status": "open",
     "exit_price": null,
