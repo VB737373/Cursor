@@ -134565,10 +134565,10 @@
       "Hyperliquid Market Makers: 🏛 Auros Global: лонг $0.4M",
       "DefiLlama: TVL BSC +3.0% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 713.3,
+    "exit_time": 1789118939.2215714,
+    "pnl_pct": -5.560704355885079
   },
   {
     "time": 1788874100.3529162,
@@ -136360,10 +136360,10 @@
       "Market Regime: рынок 24ч -3.8%, BTC доминация 58%",
       "Fear & Greed: F&G 69 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 1.15760256,
+    "exit_time": 1789109999.999,
+    "pnl_pct": 2.9163015647226107
   },
   {
     "time": 1789078674.962902,
@@ -136576,6 +136576,92 @@
       "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.449033",
       "Market Regime: рынок 24ч -4.0%, BTC доминация 58%",
+      "Fear & Greed: F&G 56 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789118991.6169858,
+    "symbol": "USD1_USDT",
+    "binance_symbol": "USD1USDT",
+    "base": "USD1",
+    "confidence": 72.4,
+    "entry": 1.0,
+    "stop": 0.9965693,
+    "take": 1.00028183,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 65 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.999802",
+      "Market Regime: рынок 24ч -3.6%, BTC доминация 58%",
+      "Fear & Greed: F&G 56 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789118992.264148,
+    "symbol": "NIULAI-USDT",
+    "binance_symbol": "NIULAIUSDT",
+    "base": "NIULAI",
+    "confidence": 70.7,
+    "entry": 0.1409,
+    "stop": 0.10926547,
+    "take": 0.16198968,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 71 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.082499",
+      "Liquidation Zones (оценка): перекос к шорт-ликвидациям сверху (топливо для роста)",
+      "Market Regime: рынок 24ч -3.6%, BTC доминация 58%",
+      "Fear & Greed: F&G 56 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789118992.9130323,
+    "symbol": "MARSCOIN-USDT",
+    "binance_symbol": "MARSCOINUSDT",
+    "base": "MARSCOIN",
+    "confidence": 69.6,
+    "entry": 0.1289,
+    "stop": 0.10749689,
+    "take": 0.14316874,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 62 (импульс), MACD>0",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.10939",
+      "Market Regime: рынок 24ч -3.6%, BTC доминация 58%",
+      "Fear & Greed: F&G 56 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789118993.5567362,
+    "symbol": "RAYUSDT",
+    "binance_symbol": "RAYUSDT",
+    "base": "RAY",
+    "confidence": 69.3,
+    "entry": 1.6136,
+    "stop": 1.34840261,
+    "take": 1.79039826,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.017% [Bit-0.017] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈1.33919",
+      "Market Regime: рынок 24ч -3.6%, BTC доминация 58%",
       "Fear & Greed: F&G 56 (Greed) — аппетит к риску"
     ],
     "status": "open",
