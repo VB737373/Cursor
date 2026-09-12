@@ -136684,10 +136684,10 @@
       "Market Regime: рынок 24ч -1.3%, BTC доминация 58%",
       "Fear & Greed: F&G 56 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.26672854,
+    "exit_time": 1789174799.999,
+    "pnl_pct": 10.355208936698393
   },
   {
     "time": 1789134342.5143375,
@@ -136770,10 +136770,10 @@
       "Market Regime: рынок 24ч -1.3%, BTC доминация 58%",
       "Fear & Greed: F&G 56 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.08421913,
+    "exit_time": 1789181999.999,
+    "pnl_pct": 4.238046908843366
   },
   {
     "time": 1789147849.3530774,
@@ -136790,10 +136790,10 @@
       "Market Regime: рынок 24ч -1.3%, BTC доминация 58%",
       "Fear & Greed: F&G 56 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.26885748,
+    "exit_time": 1789174799.999,
+    "pnl_pct": 10.809660800395651
   },
   {
     "time": 1789147850.063981,
@@ -137026,6 +137026,199 @@
       "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.999808",
       "Market Regime: рынок 24ч -1.4%, BTC доминация 58%",
+      "Fear & Greed: F&G 63 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789188890.0166087,
+    "symbol": "OKB_USDT",
+    "binance_symbol": "OKBUSDT",
+    "base": "OKB",
+    "confidence": 73.7,
+    "entry": 114.13,
+    "stop": 110.30433655,
+    "take": 116.6804423,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 56 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈113.623",
+      "Market Regime: рынок 24ч -1.8%, BTC доминация 58%",
+      "Fear & Greed: F&G 63 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789188890.6102605,
+    "symbol": "CNPYUSDT",
+    "binance_symbol": "CNPYUSDT",
+    "base": "CNPY",
+    "confidence": 70.9,
+    "entry": 0.2533,
+    "stop": 0.2149942,
+    "take": 0.2788372,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 61 (импульс), MACD>0",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.202257",
+      "Liquidation Zones (оценка): перекос к шорт-ликвидациям сверху (топливо для роста)",
+      "Market Regime: рынок 24ч -1.8%, BTC доминация 58%",
+      "Fear & Greed: F&G 63 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789188891.2342298,
+    "symbol": "LAB_USDT",
+    "binance_symbol": "LABUSDT",
+    "base": "LAB",
+    "confidence": 70.3,
+    "entry": 0.08008,
+    "stop": 0.05979462,
+    "take": 0.09360358,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0698183",
+      "Market Regime: рынок 24ч -1.8%, BTC доминация 58%",
+      "Fear & Greed: F&G 63 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789188891.7700908,
+    "symbol": "ETHFI_USDT",
+    "binance_symbol": "ETHFIUSDT",
+    "base": "ETHFI",
+    "confidence": 70.3,
+    "entry": 0.7038,
+    "stop": 0.62057268,
+    "take": 0.75178763,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.005/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.67482",
+      "Market Regime: рынок 24ч -1.8%, BTC доминация 58%",
+      "Fear & Greed: F&G 63 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789188892.3233595,
+    "symbol": "USD1-USDT",
+    "binance_symbol": "USD1USDT",
+    "base": "USD1",
+    "confidence": 69.7,
+    "entry": 1.00003,
+    "stop": 0.99654696,
+    "take": 1.00113764,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 51 (импульс)",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.999917",
+      "Market Regime: рынок 24ч -1.8%, BTC доминация 58%",
+      "Fear & Greed: F&G 63 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789188892.865079,
+    "symbol": "XCN_USDT",
+    "binance_symbol": "XCNUSDT",
+    "base": "XCN",
+    "confidence": 69.7,
+    "entry": 0.004341,
+    "stop": 0.00378848,
+    "take": 0.00470935,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 53 (импульс)",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.00415781",
+      "Market Regime: рынок 24ч -1.8%, BTC доминация 58%",
+      "Fear & Greed: F&G 63 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789188893.404745,
+    "symbol": "LTC-USDT",
+    "binance_symbol": "LTCUSDT",
+    "base": "LTC",
+    "confidence": 69.5,
+    "entry": 53.75,
+    "stop": 52.18332779,
+    "take": 54.79444814,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 55 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.009/HL+0.010] (норма)",
+      "Volume Profile (POC): отбой от POC (накопление); POC≈54.0305",
+      "Market Regime: рынок 24ч -1.8%, BTC доминация 58%",
+      "Fear & Greed: F&G 63 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789188893.9532719,
+    "symbol": "PIEVERSE-USDT",
+    "binance_symbol": "PIEVERSEUSDT",
+    "base": "PIEVERSE",
+    "confidence": 69.5,
+    "entry": 1.2723,
+    "stop": 1.18685144,
+    "take": 1.32926571,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): отбой от POC (накопление); POC≈1.27979",
+      "Market Regime: рынок 24ч -1.8%, BTC доминация 58%",
+      "Fear & Greed: F&G 63 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789188894.499676,
+    "symbol": "STORJ_USDT",
+    "binance_symbol": "STORJUSDT",
+    "base": "STORJ",
+    "confidence": 69.2,
+    "entry": 0.05908,
+    "stop": 0.04013388,
+    "take": 0.07171075,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 61 (импульс)",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0307069",
+      "Market Regime: рынок 24ч -1.8%, BTC доминация 58%",
       "Fear & Greed: F&G 63 (Greed) — аппетит к риску"
     ],
     "status": "open",
