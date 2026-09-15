@@ -137637,10 +137637,10 @@
       "Fear & Greed: F&G 63 (Greed) — аппетит к риску",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $0.8M vs шорт $0.0M; 🏛 Auros Global: лонг $0.4M; 🏛 Wintermute: лонг $0.4M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.05694,
+    "exit_time": 1789513302.2456,
+    "pnl_pct": -2.181755712076963
   },
   {
     "time": 1789247575.3782082,
@@ -139053,10 +139053,10 @@
       "Market Regime: рынок 24ч -6.4%, BTC доминация 59%",
       "Fear & Greed: F&G 69 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.08546482,
+    "exit_time": 1789513199.999,
+    "pnl_pct": 3.244566858744357
   },
   {
     "time": 1789503870.1713061,
@@ -139095,6 +139095,50 @@
       "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0155912",
       "Market Regime: рынок 24ч -6.4%, BTC доминация 59%",
+      "Fear & Greed: F&G 69 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789513369.1426501,
+    "symbol": "RONUSDT",
+    "binance_symbol": "RONUSDT",
+    "base": "RON",
+    "confidence": 71.1,
+    "entry": 73.2,
+    "stop": 70.84139466,
+    "take": 74.77240356,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 55 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈72.4118",
+      "Market Regime: рынок 24ч -6.5%, BTC доминация 58%",
+      "Fear & Greed: F&G 69 (Greed) — аппетит к риску",
+      "CoinGecko (FDV/MCap): FDV/MCap 1.3x — низкий риск разблокировки (cap $0.0B)"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789513369.6526039,
+    "symbol": "DGAIUSDT",
+    "binance_symbol": "DGAIUSDT",
+    "base": "DGAI",
+    "confidence": 69.7,
+    "entry": 0.760348,
+    "stop": 0.73212977,
+    "take": 0.77916015,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 53 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.758195",
+      "Market Regime: рынок 24ч -6.5%, BTC доминация 58%",
       "Fear & Greed: F&G 69 (Greed) — аппетит к риску"
     ],
     "status": "open",
