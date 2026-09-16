@@ -139031,10 +139031,10 @@
       "Market Regime: рынок 24ч -6.4%, BTC доминация 59%",
       "Fear & Greed: F&G 69 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.41365873,
+    "exit_time": 1789520399.999,
+    "pnl_pct": 9.419053035312782
   },
   {
     "time": 1789503869.710774,
@@ -139140,6 +139140,28 @@
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.758195",
       "Market Regime: рынок 24ч -6.5%, BTC доминация 58%",
       "Fear & Greed: F&G 69 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789522318.1721988,
+    "symbol": "RONUSDT",
+    "binance_symbol": "RONUSDT",
+    "base": "RON",
+    "confidence": 69.9,
+    "entry": 73.27,
+    "stop": 70.848814,
+    "take": 74.58843638,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 56 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈72.4118",
+      "Market Regime: рынок 24ч -5.5%, BTC доминация 59%",
+      "Fear & Greed: F&G 51 (Neutral) — нейтрально",
+      "CoinGecko (FDV/MCap): FDV/MCap 1.3x — низкий риск разблокировки (cap $0.0B)"
     ],
     "status": "open",
     "exit_price": null,
