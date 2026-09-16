@@ -139097,10 +139097,10 @@
       "Market Regime: рынок 24ч -6.4%, BTC доминация 59%",
       "Fear & Greed: F&G 69 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.02105018,
+    "exit_time": 1789577999.999,
+    "pnl_pct": -23.000574290093308
   },
   {
     "time": 1789513369.1426501,
@@ -139207,10 +139207,10 @@
       "Market Regime: рынок 24ч -4.2%, BTC доминация 59%",
       "Fear & Greed: F&G 51 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.77125209,
+    "exit_time": 1789577999.999,
+    "pnl_pct": 19.29099809753606
   },
   {
     "time": 1789562588.3759289,
@@ -139249,6 +139249,28 @@
       "Derivatives (Funding/OI): funding avg -0.041% [Bit-0.041] (норма)",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.167069",
       "Market Regime: рынок 24ч -4.2%, BTC доминация 59%",
+      "Fear & Greed: F&G 51 (Neutral) — нейтрально"
+    ],
+    "status": "win",
+    "exit_price": 0.21095593,
+    "exit_time": 1789563599.999,
+    "pnl_pct": 23.735075370989506
+  },
+  {
+    "time": 1789579708.8572516,
+    "symbol": "SYN_USDT",
+    "binance_symbol": "SYNUSDT",
+    "base": "SYN",
+    "confidence": 70.2,
+    "entry": 0.18127,
+    "stop": 0.1213391,
+    "take": 0.22122393,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 66 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.054% [Bit-0.054] (шорты платят лонгам)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.17846",
+      "Market Regime: рынок 24ч -3.8%, BTC доминация 59%",
       "Fear & Greed: F&G 51 (Neutral) — нейтрально"
     ],
     "status": "open",
