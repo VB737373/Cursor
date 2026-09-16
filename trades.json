@@ -138923,10 +138923,10 @@
       "Fear & Greed: F&G 69 (Greed) — аппетит к риску",
       "CoinGecko (FDV/MCap): FDV/MCap 1.3x — низкий риск разблокировки (cap $0.0B)"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 70.5321668,
+    "exit_time": 1789585199.999,
+    "pnl_pct": -3.802282051282044
   },
   {
     "time": 1789493344.2147553,
@@ -139010,10 +139010,10 @@
       "Fear & Greed: F&G 69 (Greed) — аппетит к риску",
       "CoinGecko (FDV/MCap): FDV/MCap 1.3x — низкий риск разблокировки (cap $0.0B)"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 70.68689032,
+    "exit_time": 1789585199.999,
+    "pnl_pct": -3.472770285402158
   },
   {
     "time": 1789503869.2400553,
@@ -139119,10 +139119,10 @@
       "Fear & Greed: F&G 69 (Greed) — аппетит к риску",
       "CoinGecko (FDV/MCap): FDV/MCap 1.3x — низкий риск разблокировки (cap $0.0B)"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 70.84139466,
+    "exit_time": 1789585199.999,
+    "pnl_pct": -3.222138442622947
   },
   {
     "time": 1789513369.6526039,
@@ -139185,10 +139185,10 @@
       "Fear & Greed: F&G 51 (Neutral) — нейтрально",
       "CoinGecko (FDV/MCap): FDV/MCap 1.3x — низкий риск разблокировки (cap $0.0B)"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 70.6904904,
+    "exit_time": 1789585199.999,
+    "pnl_pct": -4.2653163596966435
   },
   {
     "time": 1789562586.8339193,
@@ -139229,10 +139229,10 @@
       "Fear & Greed: F&G 51 (Neutral) — нейтрально",
       "CoinGecko (FDV/MCap): FDV/MCap 1.3x — низкий риск разблокировки (cap $0.0B)"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 70.6904904,
+    "exit_time": 1789585199.999,
+    "pnl_pct": -4.742635224363283
   },
   {
     "time": 1789562588.8958707,
@@ -139271,6 +139271,71 @@
       "Derivatives (Funding/OI): funding avg -0.054% [Bit-0.054] (шорты платят лонгам)",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.17846",
       "Market Regime: рынок 24ч -3.8%, BTC доминация 59%",
+      "Fear & Greed: F&G 51 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789590122.0947423,
+    "symbol": "DEBITUSDT",
+    "binance_symbol": "DEBITUSDT",
+    "base": "DEBIT",
+    "confidence": 71.6,
+    "entry": 2.7338,
+    "stop": 2.28642218,
+    "take": 3.03205188,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈1.99182",
+      "Market Regime: рынок 24ч -2.6%, BTC доминация 58%",
+      "Fear & Greed: F&G 51 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789590122.602971,
+    "symbol": "KIIUSDT",
+    "binance_symbol": "KIIUSDT",
+    "base": "KII",
+    "confidence": 71.1,
+    "entry": 0.084307,
+    "stop": 0.07641656,
+    "take": 0.08777101,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0801868",
+      "Market Regime: рынок 24ч -2.6%, BTC доминация 58%",
+      "Fear & Greed: F&G 51 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789590123.0725157,
+    "symbol": "LIT_USDT",
+    "binance_symbol": "LITUSDT",
+    "base": "LIT",
+    "confidence": 69.6,
+    "entry": 4.518,
+    "stop": 4.07258548,
+    "take": 4.74276323,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 67 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.005/HL+0.010] (норма)",
+      "Volume Profile (POC): отбой от POC (накопление); POC≈4.51846",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $2.5M vs шорт $0.0M",
+      "Market Regime: рынок 24ч -2.6%, BTC доминация 58%",
       "Fear & Greed: F&G 51 (Neutral) — нейтрально"
     ],
     "status": "open",
