@@ -139382,10 +139382,10 @@
       "Market Regime: рынок 24ч -2.5%, BTC доминация 58%",
       "Fear & Greed: F&G 51 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 4.76773357,
+    "exit_time": 1789613999.999,
+    "pnl_pct": 4.831432937554965
   },
   {
     "time": 1789609013.7804832,
@@ -139493,6 +139493,96 @@
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.141007",
       "Liquidation Zones (оценка): перекос к шорт-ликвидациям сверху (топливо для роста)",
       "Market Regime: рынок 24ч -1.5%, BTC доминация 58%",
+      "Fear & Greed: F&G 50 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789628991.9249527,
+    "symbol": "KIIUSDT",
+    "binance_symbol": "KIIUSDT",
+    "base": "KII",
+    "confidence": 71.8,
+    "entry": 0.083841,
+    "stop": 0.07641656,
+    "take": 0.08614138,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0801868",
+      "Market Regime: рынок 24ч -1.7%, BTC доминация 58%",
+      "Fear & Greed: F&G 50 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789628992.5330973,
+    "symbol": "VVV_USDT",
+    "binance_symbol": "VVVUSDT",
+    "base": "VVV",
+    "confidence": 70.8,
+    "entry": 25.005,
+    "stop": 21.89409009,
+    "take": 26.27828065,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 70 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.005/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈24.0174",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $3.1M vs шорт $0.0M",
+      "Market Regime: рынок 24ч -1.7%, BTC доминация 58%",
+      "Fear & Greed: F&G 50 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789628993.083711,
+    "symbol": "LIT_USDT",
+    "binance_symbol": "LITUSDT",
+    "base": "LIT",
+    "confidence": 69.4,
+    "entry": 4.798,
+    "stop": 4.09878664,
+    "take": 5.02023466,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 67 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit-0.001/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈4.51846",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $2.6M vs шорт $0.0M",
+      "Liquidation Zones (оценка): перекос к шорт-ликвидациям сверху (топливо для роста)",
+      "Market Regime: рынок 24ч -1.7%, BTC доминация 58%",
+      "Fear & Greed: F&G 50 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789628993.6552453,
+    "symbol": "PONS_USDT",
+    "binance_symbol": "PONSUSDT",
+    "base": "PONS",
+    "confidence": 69.3,
+    "entry": 0.65025,
+    "stop": 0.59124485,
+    "take": 0.68958677,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 66 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.022% [Bit+0.005/HL+0.039] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.639402",
+      "Market Regime: рынок 24ч -1.7%, BTC доминация 58%",
       "Fear & Greed: F&G 50 (Neutral) — нейтрально"
     ],
     "status": "open",
