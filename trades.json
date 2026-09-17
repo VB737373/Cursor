@@ -139997,10 +139997,10 @@
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈20.8524",
       "Fear & Greed: F&G 50 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 20.3156696,
+    "exit_time": 1789678799.999,
+    "pnl_pct": -2.6094458293384455
   },
   {
     "time": 1789677042.9687192,
@@ -140234,6 +140234,93 @@
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈54.115",
       "Liquidation Zones (оценка): перекос к шорт-ликвидациям сверху (топливо для роста)",
       "Fear & Greed: F&G 50 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789686150.4726849,
+    "symbol": "TA-USDT",
+    "binance_symbol": "TAUSDT",
+    "base": "TA",
+    "confidence": 73.2,
+    "entry": 0.05327,
+    "stop": 0.04627595,
+    "take": 0.05455406,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 67 (импульс), MACD>0",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0508377",
+      "Market Regime: рынок 24ч -1.7%, BTC доминация 58%",
+      "Fear & Greed: F&G 50 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789686150.9596078,
+    "symbol": "RZTOUSDT",
+    "binance_symbol": "RZTOUSDT",
+    "base": "RZTO",
+    "confidence": 72.4,
+    "entry": 20.86,
+    "stop": 20.3156696,
+    "take": 21.06339634,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 64 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈20.8524",
+      "Market Regime: рынок 24ч -1.7%, BTC доминация 58%",
+      "Fear & Greed: F&G 50 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789686151.3993266,
+    "symbol": "DEBITUSDT",
+    "binance_symbol": "DEBITUSDT",
+    "base": "DEBIT",
+    "confidence": 72.4,
+    "entry": 2.6494,
+    "stop": 2.23187538,
+    "take": 2.92774975,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 53 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈1.99862",
+      "Market Regime: рынок 24ч -1.7%, BTC доминация 58%",
+      "Fear & Greed: F&G 50 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789686151.8375828,
+    "symbol": "ZEC-USDT",
+    "binance_symbol": "ZECUSDT",
+    "base": "ZEC",
+    "confidence": 70.0,
+    "entry": 1477.168,
+    "stop": 1376.60792276,
+    "take": 1544.20805149,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 67 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.018% [Bit-0.045/HL+0.010] (норма), funding расходится между биржами (0.055%)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈1140.98",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $7.4M vs шорт $0.0M",
+      "News: новостей: 2, тон +1.00",
+      "Market Regime: рынок 24ч -1.7%, BTC доминация 58%",
+      "Fear & Greed: F&G 50 (Neutral) — нейтрально",
+      "Hyperliquid Market Makers: 🏛 Auros Global: лонг $0.3M"
     ],
     "status": "open",
     "exit_price": null,
