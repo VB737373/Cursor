@@ -139516,10 +139516,10 @@
       "Market Regime: рынок 24ч -1.7%, BTC доминация 58%",
       "Fear & Greed: F&G 50 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.081804,
+    "exit_time": 1789898227.849949,
+    "pnl_pct": -2.429598883601099
   },
   {
     "time": 1789628992.5330973,
@@ -143962,10 +143962,10 @@
       "Market Regime: рынок 24ч -2.0%, BTC доминация 58%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.6168289,
+    "exit_time": 1789894799.999,
+    "pnl_pct": -30.234813097325112
   },
   {
     "time": 1789848197.1838207,
@@ -144161,6 +144161,51 @@
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈3.38197e-06",
       "News: новостей: 1, тон +1.00",
       "Market Regime: рынок 24ч -3.1%, BTC доминация 59%",
+      "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789898315.0178921,
+    "symbol": "ONE-USDT",
+    "binance_symbol": "ONEUSDT",
+    "base": "ONE",
+    "confidence": 70.8,
+    "entry": 0.00518,
+    "stop": 0.00233346,
+    "take": 0.00707769,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 61 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.067% [Bit-0.067] (шорты платят лонгам)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.00104352",
+      "Market Regime: рынок 24ч -4.7%, BTC доминация 59%",
+      "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1789898315.5517027,
+    "symbol": "VVV_USDT",
+    "binance_symbol": "VVVUSDT",
+    "base": "VVV",
+    "confidence": 70.8,
+    "entry": 27.648,
+    "stop": 25.61121187,
+    "take": 29.00585875,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 56 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.009% [Bit+0.005/HL+0.013] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈22.3918",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $2.8M vs шорт $0.0M",
+      "Market Regime: рынок 24ч -4.7%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
     "status": "open",
