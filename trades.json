@@ -155320,10 +155320,10 @@
       "Market Regime: рынок 24ч -1.1%, BTC доминация 58%",
       "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.77037948,
+    "exit_time": 1790715599.999,
+    "pnl_pct": 9.49111426947129
   },
   {
     "time": 1790666630.369674,
@@ -155540,10 +155540,10 @@
       "Market Regime: рынок 24ч -2.3%, BTC доминация 58%",
       "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.75544808,
+    "exit_time": 1790711999.999,
+    "pnl_pct": 8.075547925608014
   },
   {
     "time": 1790691289.0688012,
@@ -155719,6 +155719,142 @@
       "Derivatives (Funding/OI): funding avg +0.026% [Bit+0.010/HL+0.041] (норма)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈2.94607",
       "Market Regime: рынок 24ч -3.3%, BTC доминация 58%",
+      "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1790724416.5306327,
+    "symbol": "RONUSDT",
+    "binance_symbol": "RONUSDT",
+    "base": "RON",
+    "confidence": 72.4,
+    "entry": 76.335,
+    "stop": 68.0285004,
+    "take": 77.76377301,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈72.9666",
+      "Market Regime: рынок 24ч -2.5%, BTC доминация 58%",
+      "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1790724417.0370145,
+    "symbol": "KIIUSDT",
+    "binance_symbol": "KIIUSDT",
+    "base": "KII",
+    "confidence": 72.4,
+    "entry": 0.092509,
+    "stop": 0.07857377,
+    "take": 0.09565394,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 69 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0797645",
+      "Market Regime: рынок 24ч -2.5%, BTC доминация 58%",
+      "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1790724417.5011966,
+    "symbol": "NEAR-USDT",
+    "binance_symbol": "NEARUSDT",
+    "base": "NEAR",
+    "confidence": 71.1,
+    "entry": 4.9699,
+    "stop": 4.57506405,
+    "take": 5.23312397,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 53 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈4.92453",
+      "Hyperliquid Whales: киты в лонге: 4 поз. $37.3M vs шорт $0.0M",
+      "News: новостей: 5, тон +1.00",
+      "Market Regime: рынок 24ч -2.5%, BTC доминация 58%",
+      "Fear & Greed: F&G 73 (Greed) — аппетит к риску",
+      "DefiLlama: TVL Near +15.9% за 7д"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1790724417.9704804,
+    "symbol": "PUMP-USDT",
+    "binance_symbol": "PUMPUSDT",
+    "base": "PUMP",
+    "confidence": 70.8,
+    "entry": 0.00594,
+    "stop": 0.0053222,
+    "take": 0.00635187,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 70 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.009% [Bit+0.005/HL+0.014] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.00506568",
+      "Hyperliquid Whales: киты в лонге: 4 поз. $20.2M vs шорт $0.0M",
+      "Market Regime: рынок 24ч -2.5%, BTC доминация 58%",
+      "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1790724418.4300153,
+    "symbol": "ZRO_USDT",
+    "binance_symbol": "ZROUSDT",
+    "base": "ZRO",
+    "confidence": 70.8,
+    "entry": 1.6869,
+    "stop": 1.52788583,
+    "take": 1.79290945,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 61 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.005/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈1.53678",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $1.7M vs шорт $0.0M",
+      "Market Regime: рынок 24ч -2.5%, BTC доминация 58%",
+      "Fear & Greed: F&G 73 (Greed) — аппетит к риску",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $2.1M vs шорт $0.0M; 🏛 Wintermute: лонг $1.5M; 🏛 Auros Global: лонг $0.6M"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1790724418.8977218,
+    "symbol": "QNT-USDT",
+    "binance_symbol": "QNTUSDT",
+    "base": "QNT",
+    "confidence": 69.7,
+    "entry": 266.075,
+    "stop": 216.53108103,
+    "take": 299.10427932,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈253.491",
+      "Market Regime: рынок 24ч -2.5%, BTC доминация 58%",
       "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
     ],
     "status": "open",
