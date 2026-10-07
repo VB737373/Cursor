@@ -159366,10 +159366,10 @@
       "Market Regime: рынок 24ч -2.8%, BTC доминация 59%",
       "Fear & Greed: F&G 65 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.05262,
+    "exit_time": 1791395645.3969839,
+    "pnl_pct": -11.56302521008403
   },
   {
     "time": 1791134491.197935,
@@ -159389,10 +159389,10 @@
       "Market Regime: рынок 24ч -2.8%, BTC доминация 59%",
       "Fear & Greed: F&G 65 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.1004,
+    "exit_time": 1791395645.3969839,
+    "pnl_pct": -4.198473282442749
   },
   {
     "time": 1791134491.780407,
@@ -159459,10 +159459,10 @@
       "Market Regime: рынок 24ч -2.8%, BTC доминация 59%",
       "Fear & Greed: F&G 65 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.7842,
+    "exit_time": 1791395645.3969839,
+    "pnl_pct": -9.79986197377501
   },
   {
     "time": 1791134493.5286522,
@@ -160198,10 +160198,10 @@
       "Fear & Greed: F&G 70 (Greed) — аппетит к риску",
       "CoinGecko (FDV/MCap): FDV/MCap 1.3x — низкий риск разблокировки (cap $0.1B)"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 83.86224517,
+    "exit_time": 1791377999.999,
+    "pnl_pct": -2.6555482646546853
   },
   {
     "time": 1791225939.087114,
@@ -160360,10 +160360,10 @@
       "Market Regime: рынок 24ч -1.7%, BTC доминация 59%",
       "Fear & Greed: F&G 70 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 19.80111304,
+    "exit_time": 1791381599.999,
+    "pnl_pct": 0.6921588609204244
   },
   {
     "time": 1791225942.489104,
@@ -160561,10 +160561,10 @@
       "Fear & Greed: F&G 73 (Greed) — аппетит к риску",
       "CoinGecko (FDV/MCap): FDV/MCap 1.3x — низкий риск разблокировки (cap $0.1B)"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 84.34227909,
+    "exit_time": 1791374399.999,
+    "pnl_pct": -2.3703216923254953
   },
   {
     "time": 1791246956.511662,
@@ -160767,10 +160767,10 @@
       "Market Regime: рынок 24ч -2.4%, BTC доминация 59%",
       "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.04722243,
+    "exit_time": 1791374399.999,
+    "pnl_pct": -7.376125375125037
   },
   {
     "time": 1791270680.9054549,
@@ -161122,10 +161122,10 @@
       "Fear & Greed: F&G 73 (Greed) — аппетит к риску",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $2.2M vs шорт $0.0M; 🏛 Wintermute: лонг $1.6M; 🏛 Auros Global: лонг $0.6M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 2.09842749,
+    "exit_time": 1791385199.999,
+    "pnl_pct": -7.120458106493158
   },
   {
     "time": 1791315728.2347386,
@@ -161409,6 +161409,70 @@
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.00637651",
       "Hyperliquid Whales: киты в лонге: 4 поз. $28.4M vs шорт $3.1M",
       "Market Regime: рынок 24ч -5.5%, BTC доминация 59%",
+      "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
+    ],
+    "status": "loss",
+    "exit_price": 0.00607001,
+    "exit_time": 1791385199.999,
+    "pnl_pct": -6.485749499306739
+  },
+  {
+    "time": 1791395708.704349,
+    "symbol": "RAIUSDT",
+    "binance_symbol": "RAIUSDT",
+    "base": "RAI",
+    "confidence": 73.7,
+    "entry": 11.313,
+    "stop": 10.60748978,
+    "take": 11.47743804,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈11.1975",
+      "Market Regime: рынок 24ч -5.7%, BTC доминация 59%",
+      "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1791395709.4787118,
+    "symbol": "ELIZAOS_USDT",
+    "binance_symbol": "ELIZAOSUSDT",
+    "base": "ELIZAOS",
+    "confidence": 72.4,
+    "entry": 0.0009811,
+    "stop": 0.00056639,
+    "take": 0.00125757,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 65 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.000419622",
+      "Market Regime: рынок 24ч -5.7%, BTC доминация 59%",
+      "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1791395710.0738196,
+    "symbol": "BTW_USDT",
+    "binance_symbol": "BTWUSDT",
+    "base": "BTW",
+    "confidence": 69.7,
+    "entry": 1.2699,
+    "stop": 1.1130508,
+    "take": 1.33152616,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 65 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈1.1956",
+      "Market Regime: рынок 24ч -5.7%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
     "status": "open",
