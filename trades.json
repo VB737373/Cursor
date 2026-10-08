@@ -160585,10 +160585,10 @@
       "Market Regime: рынок 24ч -2.4%, BTC доминация 59%",
       "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 86.497726,
+    "exit_time": 1791457199.999,
+    "pnl_pct": -8.429254710988772
   },
   {
     "time": 1791246956.9798021,
@@ -160832,10 +160832,10 @@
       "Market Regime: рынок 24ч -3.6%, BTC доминация 59%",
       "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 1.01294004,
+    "exit_time": 1791475199.999,
+    "pnl_pct": -14.921884763984558
   },
   {
     "time": 1791270682.8940153,
@@ -161097,10 +161097,10 @@
       "Market Regime: рынок 24ч -2.9%, BTC доминация 59%",
       "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 1.922216,
+    "exit_time": 1791475199.999,
+    "pnl_pct": -10.511359404096844
   },
   {
     "time": 1791315727.5614734,
@@ -161257,10 +161257,10 @@
       "Market Regime: рынок 24ч -3.2%, BTC доминация 59%",
       "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 2.59108405,
+    "exit_time": 1791464399.999,
+    "pnl_pct": -17.43406889299598
   },
   {
     "time": 1791329660.4454927,
@@ -161566,10 +161566,10 @@
       "Market Regime: рынок 24ч -5.5%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.06895693,
+    "exit_time": 1791475199.999,
+    "pnl_pct": -11.593679487179488
   },
   {
     "time": 1791412948.6099966,
@@ -161610,10 +161610,10 @@
       "Market Regime: рынок 24ч -4.4%, BTC доминация 59%",
       "Fear & Greed: F&G 64 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 2.52904109,
+    "exit_time": 1791475199.999,
+    "pnl_pct": -14.191256743460103
   },
   {
     "time": 1791426669.9697235,
@@ -161659,10 +161659,10 @@
       "CoinGecko (FDV/MCap): FDV/MCap 1.0x — низкий риск разблокировки (cap $7.1B)",
       "DefiLlama: TVL Near +2.7% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 4.78342654,
+    "exit_time": 1791475199.999,
+    "pnl_pct": -11.638929712755154
   },
   {
     "time": 1791451529.6159155,
@@ -161700,6 +161700,29 @@
       "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈1.1956",
       "Market Regime: рынок 24ч -4.1%, BTC доминация 59%",
+      "Fear & Greed: F&G 64 (Greed) — аппетит к риску"
+    ],
+    "status": "win",
+    "exit_price": 1.42438795,
+    "exit_time": 1791475199.999,
+    "pnl_pct": 4.061071741671541
+  },
+  {
+    "time": 1791478075.4939451,
+    "symbol": "STRK_USDT",
+    "binance_symbol": "STRKUSDT",
+    "base": "STRK",
+    "confidence": 71.2,
+    "entry": 0.0586,
+    "stop": 0.05058439,
+    "take": 0.06298853,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.005/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0522563",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $0.9M vs шорт $0.0M",
+      "Market Regime: рынок 24ч -5.8%, BTC доминация 59%",
       "Fear & Greed: F&G 64 (Greed) — аппетит к риску"
     ],
     "status": "open",
