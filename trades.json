@@ -160788,10 +160788,10 @@
       "Market Regime: рынок 24ч -3.6%, BTC доминация 59%",
       "Fear & Greed: F&G 73 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 19.8929098,
+    "exit_time": 1791489599.999,
+    "pnl_pct": 0.7235939240506418
   },
   {
     "time": 1791270681.6379879,
@@ -161723,6 +161723,91 @@
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0522563",
       "Hyperliquid Whales: киты в лонге: 1 поз. $0.9M vs шорт $0.0M",
       "Market Regime: рынок 24ч -5.8%, BTC доминация 59%",
+      "Fear & Greed: F&G 64 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1791496217.3395686,
+    "symbol": "RAIUSDT",
+    "binance_symbol": "RAIUSDT",
+    "base": "RAI",
+    "confidence": 72.9,
+    "entry": 11.3,
+    "stop": 10.84039296,
+    "take": 11.5559654,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈11.2234",
+      "Market Regime: рынок 24ч -5.2%, BTC доминация 59%",
+      "Fear & Greed: F&G 64 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1791496217.8720052,
+    "symbol": "RZTOUSDT",
+    "binance_symbol": "RZTOUSDT",
+    "base": "RZTO",
+    "confidence": 72.4,
+    "entry": 19.9,
+    "stop": 19.33039432,
+    "take": 20.03853338,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 60 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈19.4539",
+      "Market Regime: рынок 24ч -5.2%, BTC доминация 59%",
+      "Fear & Greed: F&G 64 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1791496218.397096,
+    "symbol": "USD1-USDT",
+    "binance_symbol": "USD1USDT",
+    "base": "USD1",
+    "confidence": 72.4,
+    "entry": 0.99997,
+    "stop": 0.99648974,
+    "take": 1.00114723,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 56 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.999688",
+      "Market Regime: рынок 24ч -5.2%, BTC доминация 59%",
+      "Fear & Greed: F&G 64 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1791496218.95411,
+    "symbol": "TIA_USDT",
+    "binance_symbol": "TIAUSDT",
+    "base": "TIA",
+    "confidence": 69.9,
+    "entry": 0.5173,
+    "stop": 0.43929814,
+    "take": 0.55300177,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.005/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.47223",
+      "Market Regime: рынок 24ч -5.2%, BTC доминация 59%",
       "Fear & Greed: F&G 64 (Greed) — аппетит к риску"
     ],
     "status": "open",
