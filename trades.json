@@ -161475,10 +161475,10 @@
       "Market Regime: рынок 24ч -5.7%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 1.33152616,
+    "exit_time": 1791421199.999,
+    "pnl_pct": 4.852835656350884
   },
   {
     "time": 1791412946.450883,
@@ -161587,6 +161587,77 @@
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈2.47501",
       "Market Regime: рынок 24ч -5.5%, BTC доминация 59%",
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1791426669.3598533,
+    "symbol": "ORCA_USDT",
+    "binance_symbol": "ORCAUSDT",
+    "base": "ORCA",
+    "confidence": 71.2,
+    "entry": 2.9473,
+    "stop": 2.52904109,
+    "take": 3.22613927,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 55 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.072% [Bit-0.072] (шорты платят лонгам)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈2.92616",
+      "Market Regime: рынок 24ч -4.4%, BTC доминация 59%",
+      "Fear & Greed: F&G 64 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1791426669.9697235,
+    "symbol": "ZRO_USDT",
+    "binance_symbol": "ZROUSDT",
+    "base": "ZRO",
+    "confidence": 70.8,
+    "entry": 2.2598,
+    "stop": 2.10484951,
+    "take": 2.36310033,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 62 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.005/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈1.7699",
+      "Hyperliquid Whales: киты в лонге: 4 поз. $5.3M vs шорт $0.0M",
+      "Market Regime: рынок 24ч -4.4%, BTC доминация 59%",
+      "Fear & Greed: F&G 64 (Greed) — аппетит к риску",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $2.2M vs шорт $0.0M; 🏛 Wintermute: лонг $1.6M; 🏛 Auros Global: лонг $0.6M"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1791426670.462747,
+    "symbol": "NEAR-USDT",
+    "binance_symbol": "NEARUSDT",
+    "base": "NEAR",
+    "confidence": 69.1,
+    "entry": 5.4135,
+    "stop": 4.78342654,
+    "take": 5.66180266,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.009% [Bit+0.008/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈5.02536",
+      "Hyperliquid Whales: киты в лонге: 4 поз. $49.0M vs шорт $0.0M",
+      "Market Regime: рынок 24ч -4.4%, BTC доминация 59%",
+      "Fear & Greed: F&G 64 (Greed) — аппетит к риску",
+      "CoinGecko (FDV/MCap): FDV/MCap 1.0x — низкий риск разблокировки (cap $7.1B)",
+      "DefiLlama: TVL Near +2.7% за 7д"
     ],
     "status": "open",
     "exit_price": null,
