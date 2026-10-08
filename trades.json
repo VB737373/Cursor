@@ -160968,10 +160968,10 @@
       "Fear & Greed: F&G 73 (Greed) — аппетит к риску",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $2.2M vs шорт $0.0M; 🏛 Wintermute: лонг $1.6M; 🏛 Auros Global: лонг $0.6M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 2.06172976,
+    "exit_time": 1791449999.999,
+    "pnl_pct": -6.991033518292955
   },
   {
     "time": 1791296590.219397,
@@ -161520,10 +161520,10 @@
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $2.2M vs шорт $0.0M; 🏛 Wintermute: лонг $1.6M; 🏛 Auros Global: лонг $0.6M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 2.0699242,
+    "exit_time": 1791449999.999,
+    "pnl_pct": -7.165798089429062
   },
   {
     "time": 1791412947.5726175,
@@ -161544,10 +161544,10 @@
       "Fear & Greed: F&G 71 (Greed) — аппетит к риску",
       "DefiLlama: TVL Near +8.7% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 5.58404642,
+    "exit_time": 1791446399.999,
+    "pnl_pct": 4.603458404360933
   },
   {
     "time": 1791412948.0868359,
@@ -161634,10 +161634,10 @@
       "Fear & Greed: F&G 64 (Greed) — аппетит к риску",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $2.2M vs шорт $0.0M; 🏛 Wintermute: лонг $1.6M; 🏛 Auros Global: лонг $0.6M"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 2.10484951,
+    "exit_time": 1791435599.999,
+    "pnl_pct": -6.856823170192036
   },
   {
     "time": 1791426670.462747,
@@ -161658,6 +161658,49 @@
       "Fear & Greed: F&G 64 (Greed) — аппетит к риску",
       "CoinGecko (FDV/MCap): FDV/MCap 1.0x — низкий риск разблокировки (cap $7.1B)",
       "DefiLlama: TVL Near +2.7% за 7д"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1791451529.6159155,
+    "symbol": "ZEUS_USDT",
+    "binance_symbol": "ZEUSUSDT",
+    "base": "ZEUS",
+    "confidence": 72.4,
+    "entry": 0.014472,
+    "stop": 0.00829235,
+    "take": 0.01859177,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 60 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.00454484",
+      "Market Regime: рынок 24ч -4.1%, BTC доминация 59%",
+      "Fear & Greed: F&G 64 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1791451530.1495817,
+    "symbol": "BTW_USDT",
+    "binance_symbol": "BTWUSDT",
+    "base": "BTW",
+    "confidence": 69.7,
+    "entry": 1.3688,
+    "stop": 1.28541807,
+    "take": 1.42438795,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 72 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈1.1956",
+      "Market Regime: рынок 24ч -4.1%, BTC доминация 59%",
+      "Fear & Greed: F&G 64 (Greed) — аппетит к риску"
     ],
     "status": "open",
     "exit_price": null,
