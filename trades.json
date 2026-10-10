@@ -162155,10 +162155,10 @@
       "Market Regime: рынок 24ч -3.1%, BTC доминация 59%",
       "Fear & Greed: F&G 59 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.07957822,
+    "exit_time": 1791644399.999,
+    "pnl_pct": 7.844179428106804
   },
   {
     "time": 1791578014.5804424,
@@ -162630,10 +162630,10 @@
       "Market Regime: рынок 24ч -3.7%, BTC доминация 60%",
       "Fear & Greed: F&G 64 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 59.080226,
+    "exit_time": 1791637199.999,
+    "pnl_pct": -4.400928802588988
   },
   {
     "time": 1791636780.6264622,
@@ -162672,6 +162672,27 @@
       "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.00241349",
       "Market Regime: рынок 24ч -3.7%, BTC доминация 60%",
+      "Fear & Greed: F&G 64 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1791653966.9768462,
+    "symbol": "RAINUSDT",
+    "binance_symbol": "RAINUSDT",
+    "base": "RAIN",
+    "confidence": 72.4,
+    "entry": 61.8,
+    "stop": 59.080226,
+    "take": 62.73303712,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 65 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈59.4153",
+      "Market Regime: рынок 24ч -2.3%, BTC доминация 59%",
       "Fear & Greed: F&G 64 (Greed) — аппетит к риску"
     ],
     "status": "open",
