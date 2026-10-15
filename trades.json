@@ -165013,5 +165013,97 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1792105179.3209107,
+    "symbol": "RAIUSDT",
+    "binance_symbol": "RAIUSDT",
+    "base": "RAI",
+    "confidence": 72.4,
+    "entry": 12.1,
+    "stop": 11.3197386,
+    "take": 12.41615435,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 69 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈11.6131",
+      "Market Regime: рынок 24ч -1.9%, BTC доминация 59%",
+      "Fear & Greed: F&G 53 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792105180.0594068,
+    "symbol": "USD1-USDT",
+    "binance_symbol": "USD1USDT",
+    "base": "USD1",
+    "confidence": 72.4,
+    "entry": 1.00043,
+    "stop": 0.99681276,
+    "take": 1.00156917,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 54 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈1.00006",
+      "Market Regime: рынок 24ч -1.9%, BTC доминация 59%",
+      "Fear & Greed: F&G 53 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792105180.7300816,
+    "symbol": "TRX-USDT",
+    "binance_symbol": "TRXUSDT",
+    "base": "TRX",
+    "confidence": 69.7,
+    "entry": 0.3323,
+    "stop": 0.32859126,
+    "take": 0.33410539,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 54 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.331929",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $1.7M vs шорт $0.0M",
+      "News: новостей: 1, тон +1.00",
+      "Market Regime: рынок 24ч -1.9%, BTC доминация 59%",
+      "Fear & Greed: F&G 53 (Neutral) — нейтрально",
+      "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $1.2M vs шорт $0.0M; 🏛 Wintermute: лонг $1.2M",
+      "DefiLlama: TVL Tron -0.3% за 7д"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792105181.4194086,
+    "symbol": "ARB-USDT",
+    "binance_symbol": "ARBUSDT",
+    "base": "ARB",
+    "confidence": 69.6,
+    "entry": 0.1961,
+    "stop": 0.18036528,
+    "take": 0.20317074,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 70 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.007% [Bit+0.004/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.186059",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $0.2M vs шорт $0.0M",
+      "Market Regime: рынок 24ч -1.9%, BTC доминация 59%",
+      "Fear & Greed: F&G 53 (Neutral) — нейтрально",
+      "DefiLlama: TVL Arbitrum +0.2% за 7д"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
