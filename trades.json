@@ -163971,10 +163971,10 @@
       "Market Regime: рынок 24ч -1.7%, BTC доминация 60%",
       "Fear & Greed: F&G 69 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 3.932e-06,
+    "exit_time": 1792065240.3705928,
+    "pnl_pct": -7.044917257683224
   },
   {
     "time": 1791794225.6403248,
@@ -163992,10 +163992,10 @@
       "Market Regime: рынок 24ч -1.7%, BTC доминация 60%",
       "Fear & Greed: F&G 69 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.009279,
+    "exit_time": 1792065240.3705928,
+    "pnl_pct": -7.616487455197133
   },
   {
     "time": 1791794226.223527,
@@ -164371,10 +164371,10 @@
       "Market Regime: рынок 24ч -3.5%, BTC доминация 60%",
       "Fear & Greed: F&G 57 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.38222587,
+    "exit_time": 1792061999.999,
+    "pnl_pct": -11.192874070631966
   },
   {
     "time": 1791908128.4094748,
@@ -164589,10 +164589,10 @@
       "Fear & Greed: F&G 62 (Greed) — аппетит к риску",
       "DefiLlama: TVL Injective +6.2% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 7.17048382,
+    "exit_time": 1792051199.999,
+    "pnl_pct": -12.448305006104997
   },
   {
     "time": 1791937748.051401,
@@ -164868,6 +164868,51 @@
       "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.38211",
       "Market Regime: рынок 24ч -6.4%, BTC доминация 59%",
+      "Fear & Greed: F&G 53 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792065309.9700377,
+    "symbol": "ZK_USDT",
+    "binance_symbol": "ZKUSDT",
+    "base": "ZK",
+    "confidence": 70.3,
+    "entry": 0.016826,
+    "stop": 0.01458508,
+    "take": 0.01831994,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 55 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.001% [Bit-0.013/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0160597",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $0.8M vs шорт $0.0M",
+      "Market Regime: рынок 24ч -5.8%, BTC доминация 60%",
+      "Fear & Greed: F&G 53 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792065310.7728987,
+    "symbol": "ZEREBRO-USDT",
+    "binance_symbol": "ZEREBROUSDT",
+    "base": "ZEREBRO",
+    "confidence": 69.3,
+    "entry": 0.04787,
+    "stop": 0.03586729,
+    "take": 0.05587181,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 67 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.000% [HL+0.000] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0458048",
+      "Market Regime: рынок 24ч -5.8%, BTC доминация 60%",
       "Fear & Greed: F&G 53 (Neutral) — нейтрально"
     ],
     "status": "open",
