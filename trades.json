@@ -165101,10 +165101,10 @@
       "Fear & Greed: F&G 53 (Neutral) — нейтрально",
       "DefiLlama: TVL Arbitrum +0.2% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.18036528,
+    "exit_time": 1792274399.999,
+    "pnl_pct": -8.023824579296281
   },
   {
     "time": 1792112910.8914032,
@@ -165753,5 +165753,26 @@
     "exit_price": 0.22851379,
     "exit_time": 1792256399.999,
     "pnl_pct": 12.902070158102767
+  },
+  {
+    "time": 1792272943.469044,
+    "symbol": "ELIZAOS_USDT",
+    "binance_symbol": "ELIZAOSUSDT",
+    "base": "ELIZAOS",
+    "confidence": 71.6,
+    "entry": 0.00048725,
+    "stop": 0.00036857,
+    "take": 0.00056637,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 59 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.000448867",
+      "Market Regime: рынок 24ч -3.0%, BTC доминация 59%",
+      "Fear & Greed: F&G 55 (Greed) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
