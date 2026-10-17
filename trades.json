@@ -164742,10 +164742,10 @@
       "Market Regime: рынок 24ч -3.9%, BTC доминация 60%",
       "Fear & Greed: F&G 62 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 60.76,
+    "exit_time": 1792244996.716408,
+    "pnl_pct": -0.409768890345845
   },
   {
     "time": 1791973625.7557,
@@ -164805,10 +164805,10 @@
       "Market Regime: рынок 24ч -3.9%, BTC доминация 60%",
       "Fear & Greed: F&G 62 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.010511,
+    "exit_time": 1792244996.716408,
+    "pnl_pct": 7.113013349638224
   },
   {
     "time": 1791991345.9189148,
