@@ -165051,10 +165051,10 @@
       "Market Regime: рынок 24ч -1.9%, BTC доминация 59%",
       "Fear & Greed: F&G 53 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 1.00004,
+    "exit_time": 1792366084.3069794,
+    "pnl_pct": -0.03898323720798961
   },
   {
     "time": 1792105180.7300816,
@@ -165968,5 +165968,27 @@
     "exit_price": 0.08267922,
     "exit_time": 1792353599.999,
     "pnl_pct": -7.465898153329604
+  },
+  {
+    "time": 1792366152.2154214,
+    "symbol": "ARIA_USDT",
+    "binance_symbol": "ARIAUSDT",
+    "base": "ARIA",
+    "confidence": 70.2,
+    "entry": 0.05354,
+    "stop": 0.03953821,
+    "take": 0.06287452,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.154% [Bit-0.154] (шорты платят лонгам)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.036107",
+      "Market Regime: рынок 24ч -3.3%, BTC доминация 60%",
+      "Fear & Greed: F&G 53 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
