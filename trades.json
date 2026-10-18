@@ -165770,10 +165770,10 @@
       "Market Regime: рынок 24ч -3.0%, BTC доминация 59%",
       "Fear & Greed: F&G 55 (Greed) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.00056637,
+    "exit_time": 1792310399.999,
+    "pnl_pct": 16.238070805541298
   },
   {
     "time": 1792280697.0822353,
@@ -165791,10 +165791,10 @@
       "Market Regime: рынок 24ч -3.5%, BTC доминация 59%",
       "Fear & Greed: F&G 55 (Greed) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.00055054,
+    "exit_time": 1792310399.999,
+    "pnl_pct": 16.378472075423836
   },
   {
     "time": 1792280697.6740625,
@@ -165833,10 +165833,10 @@
       "Market Regime: рынок 24ч -2.7%, BTC доминация 59%",
       "Fear & Greed: F&G 53 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.00056803,
+    "exit_time": 1792310399.999,
+    "pnl_pct": 13.61054442177686
   },
   {
     "time": 1792292476.503121,
@@ -165874,6 +165874,71 @@
       "Derivatives (Funding/OI): funding avg -0.159% [Bit-0.159] (шорты платят лонгам)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0302649",
       "Market Regime: рынок 24ч -2.7%, BTC доминация 59%",
+      "Fear & Greed: F&G 53 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792311256.3483076,
+    "symbol": "ZEUS_USDT",
+    "binance_symbol": "ZEUSUSDT",
+    "base": "ZEUS",
+    "confidence": 70.5,
+    "entry": 0.009912,
+    "stop": 0.00844571,
+    "take": 0.01080517,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 61 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): отбой от POC (накопление); POC≈0.00999878",
+      "Market Regime: рынок 24ч -3.1%, BTC доминация 60%",
+      "Fear & Greed: F&G 53 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792311257.0242875,
+    "symbol": "SAND_USDT",
+    "binance_symbol": "SANDUSDT",
+    "base": "SAND",
+    "confidence": 70.2,
+    "entry": 0.06406,
+    "stop": 0.05702956,
+    "take": 0.06874696,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 61 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -1.191% [Bit-1.188/HL-1.194] (шорты платят лонгам)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0601717",
+      "Market Regime: рынок 24ч -3.1%, BTC доминация 60%",
+      "Fear & Greed: F&G 53 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792311257.6923535,
+    "symbol": "ELIZAOS_USDT",
+    "binance_symbol": "ELIZAOSUSDT",
+    "base": "ELIZAOS",
+    "confidence": 69.3,
+    "entry": 0.00052971,
+    "stop": 0.00041526,
+    "take": 0.00060601,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.000448867",
+      "Liquidation Zones (оценка): перекос к шорт-ликвидациям сверху (топливо для роста)",
+      "Market Regime: рынок 24ч -3.1%, BTC доминация 60%",
       "Fear & Greed: F&G 53 (Neutral) — нейтрально"
     ],
     "status": "open",
