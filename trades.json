@@ -165507,10 +165507,10 @@
       "Market Regime: рынок 24ч -0.3%, BTC доминация 59%",
       "Fear & Greed: F&G 63 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 4144.73,
+    "exit_time": 1792421440.8247318,
+    "pnl_pct": -0.7178958967111471
   },
   {
     "time": 1792151158.3678722,
@@ -165533,10 +165533,10 @@
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 1 поз. $1.0M vs шорт $0.0M; 🏛 Wintermute: лонг $1.0M",
       "DefiLlama: TVL Tron -2.2% за 7д"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.33205,
+    "exit_time": 1792421440.8247318,
+    "pnl_pct": -1.0578069129916559
   },
   {
     "time": 1792166713.8433647,
@@ -166007,10 +166007,10 @@
       "Market Regime: рынок 24ч -2.4%, BTC доминация 60%",
       "Fear & Greed: F&G 59 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.37119546,
+    "exit_time": 1792418399.999,
+    "pnl_pct": -1.968715172322728
   },
   {
     "time": 1792394344.0132294,
@@ -166027,6 +166027,28 @@
       "Derivatives (Funding/OI): funding avg -0.001% [Bit-0.001] (норма)",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈4162.53",
       "Market Regime: рынок 24ч -2.4%, BTC доминация 60%",
+      "Fear & Greed: F&G 59 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792421493.1166108,
+    "symbol": "PEPE-USDT",
+    "binance_symbol": "PEPEUSDT",
+    "base": "PEPE",
+    "confidence": 70.9,
+    "entry": 4.13e-06,
+    "stop": 3.89e-06,
+    "take": 4.23e-06,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 66 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈4.08127e-06",
+      "Market Regime: рынок 24ч -1.5%, BTC доминация 60%",
       "Fear & Greed: F&G 59 (Greed) — аппетит к риску"
     ],
     "status": "open",
