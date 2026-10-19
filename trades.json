@@ -165640,10 +165640,10 @@
       "Market Regime: рынок 24ч -3.6%, BTC доминация 59%",
       "Fear & Greed: F&G 63 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.99972,
+    "exit_time": 1792453871.5679533,
+    "pnl_pct": -0.07796101949024407
   },
   {
     "time": 1792189874.7878144,
@@ -165661,10 +165661,10 @@
       "Market Regime: рынок 24ч -3.6%, BTC доминация 59%",
       "Fear & Greed: F&G 63 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 61.16,
+    "exit_time": 1792453871.5679533,
+    "pnl_pct": 0.6583278472679371
   },
   {
     "time": 1792189875.4001749,
@@ -166029,10 +166029,10 @@
       "Market Regime: рынок 24ч -2.4%, BTC доминация 60%",
       "Fear & Greed: F&G 59 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 4132.91395,
+    "exit_time": 1792454399.999,
+    "pnl_pct": -1.203512332487106
   },
   {
     "time": 1792421493.1166108,
@@ -166070,6 +166070,27 @@
       "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.378333",
       "Market Regime: рынок 24ч -0.3%, BTC доминация 60%",
+      "Fear & Greed: F&G 59 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792453938.3006115,
+    "symbol": "RAINUSDT",
+    "binance_symbol": "RAINUSDT",
+    "base": "RAIN",
+    "confidence": 73.7,
+    "entry": 61.16,
+    "stop": 59.237752,
+    "take": 61.77675549,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 54 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈60.7132",
+      "Market Regime: рынок 24ч -1.4%, BTC доминация 60%",
       "Fear & Greed: F&G 59 (Greed) — аппетит к риску"
     ],
     "status": "open",
