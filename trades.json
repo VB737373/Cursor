@@ -165986,10 +165986,10 @@
       "Market Regime: рынок 24ч -3.3%, BTC доминация 60%",
       "Fear & Greed: F&G 53 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.03953821,
+    "exit_time": 1792479599.999,
+    "pnl_pct": -26.152017183414273
   },
   {
     "time": 1792394343.3965383,
@@ -166051,10 +166051,10 @@
       "Market Regime: рынок 24ч -1.5%, BTC доминация 60%",
       "Fear & Greed: F&G 59 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 4.23e-06,
+    "exit_time": 1792472399.999,
+    "pnl_pct": 2.421307506053266
   },
   {
     "time": 1792441321.031799,
@@ -166114,10 +166114,10 @@
       "Market Regime: рынок 24ч -2.7%, BTC доминация 60%",
       "Fear & Greed: F&G 55 (Greed) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 59.237752,
+    "exit_time": 1792468799.999,
+    "pnl_pct": -3.1429823413996014
   },
   {
     "time": 1792466654.0432687,
@@ -166133,6 +166133,48 @@
       "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.378333",
       "Market Regime: рынок 24ч -2.7%, BTC доминация 60%",
+      "Fear & Greed: F&G 55 (Greed) — нейтрально"
+    ],
+    "status": "win",
+    "exit_price": 0.3821188,
+    "exit_time": 1792468799.999,
+    "pnl_pct": 0.7750408776834126
+  },
+  {
+    "time": 1792486078.4957473,
+    "symbol": "RAINUSDT",
+    "binance_symbol": "RAINUSDT",
+    "base": "RAIN",
+    "confidence": 71.6,
+    "entry": 61.16,
+    "stop": 59.237752,
+    "take": 61.77675549,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 54 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈60.7132",
+      "Market Regime: рынок 24ч -3.2%, BTC доминация 60%",
+      "Fear & Greed: F&G 55 (Greed) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792486079.0594823,
+    "symbol": "RZTOUSDT",
+    "binance_symbol": "RZTOUSDT",
+    "base": "RZTO",
+    "confidence": 71.1,
+    "entry": 20.27,
+    "stop": 19.2476832,
+    "take": 20.43608829,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 59 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈19.519",
+      "Market Regime: рынок 24ч -3.2%, BTC доминация 60%",
       "Fear & Greed: F&G 55 (Greed) — нейтрально"
     ],
     "status": "open",
