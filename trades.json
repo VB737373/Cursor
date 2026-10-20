@@ -165704,10 +165704,10 @@
       "Market Regime: рынок 24ч -3.6%, BTC доминация 59%",
       "Fear & Greed: F&G 55 (Greed) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.99989,
+    "exit_time": 1792466592.5505538,
+    "pnl_pct": -0.060969515242378765
   },
   {
     "time": 1792216418.6478453,
@@ -166072,10 +166072,10 @@
       "Market Regime: рынок 24ч -0.3%, BTC доминация 60%",
       "Fear & Greed: F&G 59 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.38181197,
+    "exit_time": 1792468799.999,
+    "pnl_pct": 0.8190884845924347
   },
   {
     "time": 1792453938.3006115,
@@ -166092,6 +166092,48 @@
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈60.7132",
       "Market Regime: рынок 24ч -1.4%, BTC доминация 60%",
       "Fear & Greed: F&G 59 (Greed) — аппетит к риску"
+    ],
+    "status": "loss",
+    "exit_price": 59.237752,
+    "exit_time": 1792454399.999,
+    "pnl_pct": -3.1429823413996014
+  },
+  {
+    "time": 1792466653.3451085,
+    "symbol": "RAINUSDT",
+    "binance_symbol": "RAINUSDT",
+    "base": "RAIN",
+    "confidence": 71.6,
+    "entry": 61.16,
+    "stop": 59.237752,
+    "take": 61.77675549,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 54 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈60.7132",
+      "Market Regime: рынок 24ч -2.7%, BTC доминация 60%",
+      "Fear & Greed: F&G 55 (Greed) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792466654.0432687,
+    "symbol": "GOMINING-USDT",
+    "binance_symbol": "GOMININGUSDT",
+    "base": "GOMINING",
+    "confidence": 71.6,
+    "entry": 0.37918,
+    "stop": 0.37285128,
+    "take": 0.3821188,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.378333",
+      "Market Regime: рынок 24ч -2.7%, BTC доминация 60%",
+      "Fear & Greed: F&G 55 (Greed) — нейтрально"
     ],
     "status": "open",
     "exit_price": null,
