@@ -165941,10 +165941,10 @@
       "Market Regime: рынок 24ч -3.1%, BTC доминация 60%",
       "Fear & Greed: F&G 53 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.00041526,
+    "exit_time": 1792497599.999,
+    "pnl_pct": -21.606161862150987
   },
   {
     "time": 1792327367.970791,
@@ -166156,10 +166156,10 @@
       "Market Regime: рынок 24ч -3.2%, BTC доминация 60%",
       "Fear & Greed: F&G 55 (Greed) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 61.77675549,
+    "exit_time": 1792504799.999,
+    "pnl_pct": 1.0084295127534382
   },
   {
     "time": 1792486079.0594823,
@@ -166175,6 +166175,71 @@
       "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈19.519",
       "Market Regime: рынок 24ч -3.2%, BTC доминация 60%",
+      "Fear & Greed: F&G 55 (Greed) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792505178.8074505,
+    "symbol": "RZTOUSDT",
+    "binance_symbol": "RZTOUSDT",
+    "base": "RZTO",
+    "confidence": 71.1,
+    "entry": 20.24,
+    "stop": 19.2476832,
+    "take": 20.40473941,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 56 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈19.519",
+      "Market Regime: рынок 24ч -2.4%, BTC доминация 60%",
+      "Fear & Greed: F&G 55 (Greed) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792505179.3088624,
+    "symbol": "RAINUSDT",
+    "binance_symbol": "RAINUSDT",
+    "base": "RAIN",
+    "confidence": 71.1,
+    "entry": 63.555,
+    "stop": 59.26168,
+    "take": 64.65402071,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 70 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈60.732",
+      "Market Regime: рынок 24ч -2.4%, BTC доминация 60%",
+      "Fear & Greed: F&G 55 (Greed) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792505179.7944908,
+    "symbol": "DOT-USDT",
+    "binance_symbol": "DOTUSDT",
+    "base": "DOT",
+    "confidence": 70.3,
+    "entry": 1.1603,
+    "stop": 1.11003986,
+    "take": 1.19068821,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 61 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈1.13499",
+      "Hyperliquid Whales: киты в лонге: 1 поз. $0.3M vs шорт $0.0M",
+      "Market Regime: рынок 24ч -2.4%, BTC доминация 60%",
       "Fear & Greed: F&G 55 (Greed) — нейтрально"
     ],
     "status": "open",
