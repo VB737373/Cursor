@@ -167173,10 +167173,10 @@
       "Market Regime: рынок 24ч -0.5%, BTC доминация 60%",
       "Fear & Greed: F&G 63 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.00109487,
+    "exit_time": 1792627199.999,
+    "pnl_pct": -34.74371200381452
   },
   {
     "time": 1792613889.2197018,
@@ -167301,10 +167301,10 @@
       "Market Regime: рынок 24ч -1.4%, BTC доминация 60%",
       "Fear & Greed: F&G 63 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 62.789066,
+    "exit_time": 1792627199.999,
+    "pnl_pct": -4.109551007941365
   },
   {
     "time": 1792625497.407669,
@@ -167321,6 +167321,50 @@
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈60.6661",
       "Market Regime: рынок 24ч -1.4%, BTC доминация 60%",
       "Fear & Greed: F&G 63 (Greed) — аппетит к риску"
+    ],
+    "status": "loss",
+    "exit_price": 58.7906972,
+    "exit_time": 1792627199.999,
+    "pnl_pct": -9.552773538461544
+  },
+  {
+    "time": 1792639046.4469218,
+    "symbol": "DGAIUSDT",
+    "binance_symbol": "DGAIUSDT",
+    "base": "DGAI",
+    "confidence": 69.7,
+    "entry": 0.913002,
+    "stop": 0.86901752,
+    "take": 0.92465355,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 53 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.911674",
+      "Market Regime: рынок 24ч -2.6%, BTC доминация 60%",
+      "Fear & Greed: F&G 68 (Greed) — аппетит к риску"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792639047.1699755,
+    "symbol": "IRYSUSDT",
+    "binance_symbol": "IRYSUSDT",
+    "base": "IRYS",
+    "confidence": 69.3,
+    "entry": 0.02306,
+    "stop": 0.01789106,
+    "take": 0.02650596,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 68 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.005% [Bit-0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0200604",
+      "Market Regime: рынок 24ч -2.6%, BTC доминация 60%",
+      "Fear & Greed: F&G 68 (Greed) — аппетит к риску"
     ],
     "status": "open",
     "exit_price": null,
