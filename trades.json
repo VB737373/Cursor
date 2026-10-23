@@ -167366,10 +167366,10 @@
       "Market Regime: рынок 24ч -2.6%, BTC доминация 60%",
       "Fear & Greed: F&G 68 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.02650596,
+    "exit_time": 1792724399.999,
+    "pnl_pct": 14.943451864700771
   },
   {
     "time": 1792659020.835973,
@@ -167518,10 +167518,10 @@
       "Market Regime: рынок 24ч -4.8%, BTC доминация 59%",
       "Fear & Greed: F&G 68 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.11157687,
+    "exit_time": 1792724399.999,
+    "pnl_pct": -13.01473442945015
   },
   {
     "time": 1792694568.9378345,
@@ -167620,6 +167620,29 @@
       "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈11.8583",
       "Market Regime: рынок 24ч -5.6%, BTC доминация 59%",
+      "Fear & Greed: F&G 50 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792734258.879476,
+    "symbol": "DOT-USDT",
+    "binance_symbol": "DOTUSDT",
+    "base": "DOT",
+    "confidence": 70.8,
+    "entry": 1.1816,
+    "stop": 1.12693702,
+    "take": 1.21751475,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 67 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010/HL+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈1.16827",
+      "Hyperliquid Whales: киты в лонге: 3 поз. $0.3M vs шорт $0.0M",
+      "Market Regime: рынок 24ч -3.9%, BTC доминация 59%",
       "Fear & Greed: F&G 50 (Neutral) — нейтрально"
     ],
     "status": "open",
