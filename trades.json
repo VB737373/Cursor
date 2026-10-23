@@ -166198,10 +166198,10 @@
       "Market Regime: рынок 24ч -2.4%, BTC доминация 60%",
       "Fear & Greed: F&G 55 (Greed) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 19.945,
+    "exit_time": 1792770118.0214891,
+    "pnl_pct": -1.457509881422916
   },
   {
     "time": 1792505179.3088624,
@@ -167496,10 +167496,10 @@
       "Market Regime: рынок 24ч -4.8%, BTC доминация 59%",
       "Fear & Greed: F&G 68 (Greed) — аппетит к риску"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.00531193,
+    "exit_time": 1792771199.999,
+    "pnl_pct": 15.35135722041261
   },
   {
     "time": 1792678851.8772187,
@@ -167645,10 +167645,10 @@
       "Market Regime: рынок 24ч -3.9%, BTC доминация 59%",
       "Fear & Greed: F&G 50 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 1.12693702,
+    "exit_time": 1792767599.999,
+    "pnl_pct": -4.626183141503049
   },
   {
     "time": 1792753246.7856715,
@@ -167728,6 +167728,27 @@
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈1.16906",
       "Hyperliquid Whales: киты в лонге: 3 поз. $0.3M vs шорт $0.0M",
       "Market Regime: рынок 24ч -2.9%, BTC доминация 60%",
+      "Fear & Greed: F&G 50 (Neutral) — нейтрально"
+    ],
+    "status": "loss",
+    "exit_price": 1.1227631,
+    "exit_time": 1792767599.999,
+    "pnl_pct": -4.282770673486788
+  },
+  {
+    "time": 1792770176.5212283,
+    "symbol": "RAIUSDT",
+    "binance_symbol": "RAIUSDT",
+    "base": "RAI",
+    "confidence": 72.4,
+    "entry": 12.15,
+    "stop": 11.53729995,
+    "take": 12.45463461,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈11.8583",
+      "Market Regime: рынок 24ч -2.9%, BTC доминация 59%",
       "Fear & Greed: F&G 50 (Neutral) — нейтрально"
     ],
     "status": "open",
