@@ -166412,10 +166412,10 @@
       "Market Regime: рынок 24ч -1.4%, BTC доминация 60%",
       "Fear & Greed: F&G 55 (Greed) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 19.85,
+    "exit_time": 1792795971.5368013,
+    "pnl_pct": -1.8298714144411348
   },
   {
     "time": 1792533969.5983517,
@@ -166434,10 +166434,10 @@
       "Market Regime: рынок 24ч -1.4%, BTC доминация 60%",
       "Fear & Greed: F&G 55 (Greed) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 62.61,
+    "exit_time": 1792795971.5368013,
+    "pnl_pct": -2.7644044106227694
   },
   {
     "time": 1792533970.111609,
@@ -167665,10 +167665,10 @@
       "Market Regime: рынок 24ч -2.9%, BTC доминация 60%",
       "Fear & Greed: F&G 50 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.18084789,
+    "exit_time": 1792789199.999,
+    "pnl_pct": -14.915130557515868
   },
   {
     "time": 1792753247.4760137,
@@ -167792,6 +167792,27 @@
       "Derivatives (Funding/OI): funding avg -1.143% [Bit-1.143] (шорты платят лонгам)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0629899",
       "Market Regime: рынок 24ч -2.6%, BTC доминация 59%",
+      "Fear & Greed: F&G 50 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792796032.2832649,
+    "symbol": "RAIUSDT",
+    "binance_symbol": "RAIUSDT",
+    "base": "RAI",
+    "confidence": 71.1,
+    "entry": 12.4,
+    "stop": 11.53999584,
+    "take": 12.71518293,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 62 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈11.8048",
+      "Market Regime: рынок 24ч -3.1%, BTC доминация 59%",
       "Fear & Greed: F&G 50 (Neutral) — нейтрально"
     ],
     "status": "open",
