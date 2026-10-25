@@ -168213,6 +168213,27 @@
       "Market Regime: рынок 24ч -2.7%, BTC доминация 59%",
       "Fear & Greed: F&G 54 (Neutral) — нейтрально"
     ],
+    "status": "loss",
+    "exit_price": 11.53999584,
+    "exit_time": 1792907999.999,
+    "pnl_pct": -6.178895609756106
+  },
+  {
+    "time": 1792924986.40452,
+    "symbol": "RAIUSDT",
+    "binance_symbol": "RAIUSDT",
+    "base": "RAI",
+    "confidence": 71.1,
+    "entry": 12.3,
+    "stop": 11.53999584,
+    "take": 12.61266987,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈11.8048",
+      "Market Regime: рынок 24ч -3.0%, BTC доминация 60%",
+      "Fear & Greed: F&G 54 (Neutral) — нейтрально"
+    ],
     "status": "open",
     "exit_price": null,
     "exit_time": null,
