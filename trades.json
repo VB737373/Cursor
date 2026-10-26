@@ -168385,5 +168385,47 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1792978171.6110768,
+    "symbol": "XCN_USDT",
+    "binance_symbol": "XCNUSDT",
+    "base": "XCN",
+    "confidence": 71.6,
+    "entry": 0.004243,
+    "stop": 0.00363964,
+    "take": 0.00464524,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.00405821",
+      "Market Regime: рынок 24ч -4.5%, BTC доминация 60%",
+      "Fear & Greed: F&G 50 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1792978172.4762914,
+    "symbol": "AXISUSDT",
+    "binance_symbol": "AXISUSDT",
+    "base": "AXIS",
+    "confidence": 70.3,
+    "entry": 0.29019,
+    "stop": 0.23329965,
+    "take": 0.3281169,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс), MACD>0",
+      "Derivatives (Funding/OI): funding avg -0.310% [Bit-0.310] (шорты платят лонгам)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.27415",
+      "Market Regime: рынок 24ч -4.5%, BTC доминация 60%",
+      "Fear & Greed: F&G 50 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
