@@ -168449,5 +168449,26 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1793057661.5658872,
+    "symbol": "XDC-USDT",
+    "binance_symbol": "XDCUSDT",
+    "base": "XDC",
+    "confidence": 71.6,
+    "entry": 0.03359,
+    "stop": 0.03112036,
+    "take": 0.03442401,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0329678",
+      "Market Regime: рынок 24ч -2.3%, BTC доминация 59%",
+      "Fear & Greed: F&G 50 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
