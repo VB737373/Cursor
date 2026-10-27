@@ -168466,10 +168466,10 @@
       "Market Regime: рынок 24ч -2.3%, BTC доминация 59%",
       "Fear & Greed: F&G 50 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.03442401,
+    "exit_time": 1793095199.999,
+    "pnl_pct": 2.482911580827616
   },
   {
     "time": 1793072555.6306183,
