@@ -168470,5 +168470,49 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1793072555.6306183,
+    "symbol": "DOOD_USDT",
+    "binance_symbol": "DOODUSDT",
+    "base": "DOOD",
+    "confidence": 70.8,
+    "entry": 0.002402,
+    "stop": 0.00170464,
+    "take": 0.00286691,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 61 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.225% [Bit-0.449/HL+0.000] (шорты платят лонгам), funding расходится между биржами (0.449%)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.00233642",
+      "Market Regime: рынок 24ч -1.3%, BTC доминация 59%",
+      "Fear & Greed: F&G 48 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1793072556.195967,
+    "symbol": "SOONUSDT",
+    "binance_symbol": "SOONUSDT",
+    "base": "SOON",
+    "confidence": 69.3,
+    "entry": 0.3076,
+    "stop": 0.28003774,
+    "take": 0.32597484,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.302685",
+      "Market Regime: рынок 24ч -1.3%, BTC доминация 59%",
+      "Fear & Greed: F&G 48 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
