@@ -168131,10 +168131,10 @@
       "Market Regime: рынок 24ч -3.8%, BTC доминация 60%",
       "Fear & Greed: F&G 51 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.20256,
+    "exit_time": 1793145264.466165,
+    "pnl_pct": -3.2295050640168235
   },
   {
     "time": 1792889379.0251527,
@@ -168616,6 +168616,71 @@
       "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.260884",
       "Market Regime: рынок 24ч -1.8%, BTC доминация 59%",
+      "Fear & Greed: F&G 48 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1793145315.8711784,
+    "symbol": "RBCUSDT",
+    "binance_symbol": "RBCUSDT",
+    "base": "RBC",
+    "confidence": 71.8,
+    "entry": 67.71,
+    "stop": 62.0827912,
+    "take": 68.58026984,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 66 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈65.5548",
+      "Market Regime: рынок 24ч -1.4%, BTC доминация 59%",
+      "Fear & Greed: F&G 48 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1793145316.6870005,
+    "symbol": "XAUTUSDT",
+    "binance_symbol": "XAUTUSDT",
+    "base": "XAUT",
+    "confidence": 69.3,
+    "entry": 4060.7,
+    "stop": 3972.063952,
+    "take": 4079.038853,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 70 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.004% [Bit+0.004] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈4017.29",
+      "Market Regime: рынок 24ч -1.4%, BTC доминация 59%",
+      "Fear & Greed: F&G 48 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1793145317.2998953,
+    "symbol": "DOSUSDT",
+    "binance_symbol": "DOSUSDT",
+    "base": "DOS",
+    "confidence": 69.3,
+    "entry": 0.2714,
+    "stop": 0.24702251,
+    "take": 0.28765166,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 71 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.260884",
+      "Market Regime: рынок 24ч -1.4%, BTC доминация 59%",
       "Fear & Greed: F&G 48 (Neutral) — нейтрально"
     ],
     "status": "open",
