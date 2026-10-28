@@ -168276,10 +168276,10 @@
       "Market Regime: рынок 24ч -2.7%, BTC доминация 60%",
       "Fear & Greed: F&G 54 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.004094,
+    "exit_time": 1793222985.508958,
+    "pnl_pct": -1.3969171483622322
   },
   {
     "time": 1792951640.7233598,
@@ -168318,10 +168318,10 @@
       "Market Regime: рынок 24ч -3.5%, BTC доминация 60%",
       "Fear & Greed: F&G 54 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.004094,
+    "exit_time": 1793222985.508958,
+    "pnl_pct": -1.5155159971132952
   },
   {
     "time": 1792962263.0798237,
@@ -168531,10 +168531,10 @@
       "Market Regime: рынок 24ч -1.8%, BTC доминация 59%",
       "Fear & Greed: F&G 48 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 68.64721369,
+    "exit_time": 1793217599.999,
+    "pnl_pct": 1.3841584551764987
   },
   {
     "time": 1793132773.39849,
@@ -168704,10 +168704,10 @@
       "Market Regime: рынок 24ч -1.0%, BTC доминация 59%",
       "Fear & Greed: F&G 51 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 68.58026984,
+    "exit_time": 1793217599.999,
+    "pnl_pct": 1.285289971939161
   },
   {
     "time": 1793159938.4659612,
@@ -168769,10 +168769,10 @@
       "Market Regime: рынок 24ч +0.4%, BTC доминация 59%",
       "Fear & Greed: F&G 51 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 68.35681417,
+    "exit_time": 1793210399.999,
+    "pnl_pct": 1.2543536809361602
   },
   {
     "time": 1793183311.4629633,
@@ -168791,10 +168791,10 @@
       "Market Regime: рынок 24ч +0.4%, BTC доминация 59%",
       "Fear & Greed: F&G 51 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 5.19e-06,
+    "exit_time": 1793221199.999,
+    "pnl_pct": 3.799999999999997
   },
   {
     "time": 1793183312.203551,
@@ -168876,6 +168876,49 @@
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.368646",
       "Liquidation Zones (оценка): перекос к шорт-ликвидациям сверху (топливо для роста)",
       "Market Regime: рынок 24ч -2.8%, BTC доминация 59%",
+      "Fear & Greed: F&G 51 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1793223039.026763,
+    "symbol": "RBCUSDT",
+    "binance_symbol": "RBCUSDT",
+    "base": "RBC",
+    "confidence": 72.6,
+    "entry": 68.85,
+    "stop": 61.6369328,
+    "take": 69.88550463,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 69 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈65.479",
+      "Market Regime: рынок 24ч -1.8%, BTC доминация 59%",
+      "Fear & Greed: F&G 51 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1793223039.7588053,
+    "symbol": "XAUTUSDT",
+    "binance_symbol": "XAUTUSDT",
+    "base": "XAUT",
+    "confidence": 69.3,
+    "entry": 4061.71,
+    "stop": 3975.556443,
+    "take": 4089.1278019,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 60 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈4017.29",
+      "Market Regime: рынок 24ч -1.8%, BTC доминация 59%",
       "Fear & Greed: F&G 51 (Neutral) — нейтрально"
     ],
     "status": "open",
