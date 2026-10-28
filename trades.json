@@ -168151,10 +168151,10 @@
       "Market Regime: рынок 24ч -2.9%, BTC доминация 59%",
       "Fear & Greed: F&G 54 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.19756,
+    "exit_time": 1793159887.6800945,
+    "pnl_pct": -5.000961723408344
   },
   {
     "time": 1792889379.5361419,
@@ -168381,10 +168381,10 @@
       "Market Regime: рынок 24ч -3.8%, BTC доминация 60%",
       "Fear & Greed: F&G 54 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.22931764,
+    "exit_time": 1793149199.999,
+    "pnl_pct": -18.357433779549996
   },
   {
     "time": 1792978171.6110768,
@@ -168423,10 +168423,10 @@
       "Market Regime: рынок 24ч -4.5%, BTC доминация 60%",
       "Fear & Greed: F&G 50 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.23329965,
+    "exit_time": 1793149199.999,
+    "pnl_pct": -19.60451772976326
   },
   {
     "time": 1793043892.358582,
@@ -168639,10 +168639,10 @@
       "Market Regime: рынок 24ч -1.4%, BTC доминация 59%",
       "Fear & Greed: F&G 48 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 62.0827912,
+    "exit_time": 1793145599.999,
+    "pnl_pct": -8.31074996307782
   },
   {
     "time": 1793145316.6870005,
@@ -168682,6 +168682,71 @@
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.260884",
       "Market Regime: рынок 24ч -1.4%, BTC доминация 59%",
       "Fear & Greed: F&G 48 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1793159937.730623,
+    "symbol": "RBCUSDT",
+    "binance_symbol": "RBCUSDT",
+    "base": "RBC",
+    "confidence": 71.8,
+    "entry": 67.71,
+    "stop": 62.0827912,
+    "take": 68.58026984,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 66 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈65.5548",
+      "Market Regime: рынок 24ч -1.0%, BTC доминация 59%",
+      "Fear & Greed: F&G 51 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1793159938.4659612,
+    "symbol": "EVAA_USDT",
+    "binance_symbol": "EVAAUSDT",
+    "base": "EVAA",
+    "confidence": 69.9,
+    "entry": 1.019,
+    "stop": 0.6600769,
+    "take": 1.25828207,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 68 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.911032",
+      "Market Regime: рынок 24ч -1.0%, BTC доминация 59%",
+      "Fear & Greed: F&G 51 (Neutral) — нейтрально"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1793159939.119644,
+    "symbol": "DOSUSDT",
+    "binance_symbol": "DOSUSDT",
+    "base": "DOS",
+    "confidence": 69.3,
+    "entry": 0.2697,
+    "stop": 0.24406561,
+    "take": 0.28678959,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 62 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.26061",
+      "Market Regime: рынок 24ч -1.0%, BTC доминация 59%",
+      "Fear & Greed: F&G 51 (Neutral) — нейтрально"
     ],
     "status": "open",
     "exit_price": null,
