@@ -168596,10 +168596,10 @@
       "Market Regime: рынок 24ч -1.8%, BTC доминация 59%",
       "Fear & Greed: F&G 48 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 3972.538524,
+    "exit_time": 1793347199.999,
+    "pnl_pct": -2.102622466028894
   },
   {
     "time": 1793132775.0175178,
@@ -168661,10 +168661,10 @@
       "Market Regime: рынок 24ч -1.4%, BTC доминация 59%",
       "Fear & Greed: F&G 48 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 3972.063952,
+    "exit_time": 1793347199.999,
+    "pnl_pct": -2.1827775506686002
   },
   {
     "time": 1793145317.2998953,
@@ -168921,10 +168921,10 @@
       "Market Regime: рынок 24ч -1.8%, BTC доминация 59%",
       "Fear & Greed: F&G 51 (Neutral) — нейтрально"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 3975.556443,
+    "exit_time": 1793347199.999,
+    "pnl_pct": -2.1211154169056896
   },
   {
     "time": 1793236303.689334,
@@ -169091,10 +169091,10 @@
       "Fear & Greed: F&G 51 (Neutral) — нейтрально",
       "CoinGecko (FDV/MCap): FDV/MCap 1.3x — низкий риск разблокировки (cap $0.0B)"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 71.658378,
+    "exit_time": 1793350799.999,
+    "pnl_pct": -4.760263157894732
   },
   {
     "time": 1793318772.5648859,
@@ -169182,10 +169182,10 @@
       "Market Regime: рынок 24ч -4.5%, BTC доминация 59%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.18635871,
+    "exit_time": 1793343599.999,
+    "pnl_pct": 12.291341287057131
   },
   {
     "time": 1793340733.9142103,
@@ -169247,10 +169247,10 @@
       "Market Regime: рынок 24ч -4.5%, BTC доминация 59%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 1.43970521,
+    "exit_time": 1793354399.999,
+    "pnl_pct": 14.781568205373524
   },
   {
     "time": 1793340735.7696416,
@@ -169289,6 +169289,93 @@
       "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0142559",
       "Market Regime: рынок 24ч -4.5%, BTC доминация 59%",
+      "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1793366358.249301,
+    "symbol": "RAINUSDT",
+    "binance_symbol": "RAINUSDT",
+    "base": "RAIN",
+    "confidence": 71.6,
+    "entry": 65.51,
+    "stop": 59.843928,
+    "take": 66.81869733,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 64 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈60.6925",
+      "Market Regime: рынок 24ч -5.7%, BTC доминация 59%",
+      "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1793366358.920303,
+    "symbol": "PEPE_USDT",
+    "binance_symbol": "PEPEUSDT",
+    "base": "PEPE",
+    "confidence": 70.2,
+    "entry": 5.09e-06,
+    "stop": 4.47e-06,
+    "take": 5.51e-06,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 54 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.303% [Bit-0.303] (шорты платят лонгам)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈4.40136e-06",
+      "Market Regime: рынок 24ч -5.7%, BTC доминация 59%",
+      "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1793366359.5935645,
+    "symbol": "AIN_USDT",
+    "binance_symbol": "AINUSDT",
+    "base": "AIN",
+    "confidence": 69.8,
+    "entry": 0.17039,
+    "stop": 0.13696575,
+    "take": 0.19267284,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 65 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.147899",
+      "Liquidation Zones (оценка): перекос к шорт-ликвидациям сверху (топливо для роста)",
+      "Market Regime: рынок 24ч -5.7%, BTC доминация 59%",
+      "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1793366360.7056417,
+    "symbol": "EVAA_USDT",
+    "binance_symbol": "EVAAUSDT",
+    "base": "EVAA",
+    "confidence": 69.1,
+    "entry": 1.2703,
+    "stop": 0.95596233,
+    "take": 1.47985845,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 53 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈1.16076",
+      "Market Regime: рынок 24ч -5.7%, BTC доминация 59%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
     "status": "open",
