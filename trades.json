@@ -169654,10 +169654,10 @@
       "Market Regime: рынок 24ч -2.1%, BTC доминация 59%",
       "Fear & Greed: F&G 30 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 4.855e-06,
+    "exit_time": 1793732487.9948595,
+    "pnl_pct": -2.705410821643278
   },
   {
     "time": 1793457620.9075494,
@@ -170266,5 +170266,70 @@
     "exit_price": 0.24234494,
     "exit_time": 1793689199.999,
     "pnl_pct": -13.003934379150655
+  },
+  {
+    "time": 1793732550.3674922,
+    "symbol": "AIN_USDT",
+    "binance_symbol": "AINUSDT",
+    "base": "AIN",
+    "confidence": 72.4,
+    "entry": 0.27903,
+    "stop": 0.24297976,
+    "take": 0.30306349,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.144166",
+      "Market Regime: рынок 24ч -1.9%, BTC доминация 59%",
+      "Fear & Greed: F&G 26 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1793732550.8857236,
+    "symbol": "IDOLUSDT",
+    "binance_symbol": "IDOLUSDT",
+    "base": "IDOL",
+    "confidence": 69.7,
+    "entry": 0.0203,
+    "stop": 0.01592808,
+    "take": 0.02321461,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 59 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.01431",
+      "Market Regime: рынок 24ч -1.9%, BTC доминация 59%",
+      "Fear & Greed: F&G 26 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1793732551.5108361,
+    "symbol": "ICNTUSDT",
+    "binance_symbol": "ICNTUSDT",
+    "base": "ICNT",
+    "confidence": 69.3,
+    "entry": 0.2314,
+    "stop": 0.19914685,
+    "take": 0.2529021,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 69 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.191597",
+      "Market Regime: рынок 24ч -1.9%, BTC доминация 59%",
+      "Fear & Greed: F&G 26 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
