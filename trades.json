@@ -170220,10 +170220,10 @@
       "Market Regime: рынок 24ч -3.9%, BTC доминация 60%",
       "Fear & Greed: F&G 37 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 1.55156313,
+    "exit_time": 1793663999.999,
+    "pnl_pct": 9.705375804284806
   },
   {
     "time": 1793657313.943286,
