@@ -170963,5 +170963,27 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1794095279.6060786,
+    "symbol": "DGAIUSDT",
+    "binance_symbol": "DGAIUSDT",
+    "base": "DGAI",
+    "confidence": 69.1,
+    "entry": 0.765999,
+    "stop": 0.73856086,
+    "take": 0.7842911,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.667802",
+      "Market Regime: рынок 24ч -2.8%, BTC доминация 59%",
+      "Fear & Greed: F&G 25 (Extreme Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
