@@ -171072,5 +171072,49 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1794172689.103991,
+    "symbol": "ICNTUSDT",
+    "binance_symbol": "ICNTUSDT",
+    "base": "ICNT",
+    "confidence": 70.2,
+    "entry": 0.3737,
+    "stop": 0.32103179,
+    "take": 0.40881214,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 68 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.145% [Bit-0.145] (шорты платят лонгам)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.228495",
+      "Market Regime: рынок 24ч -3.6%, BTC доминация 60%",
+      "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1794172689.8093238,
+    "symbol": "PEPE-USDT",
+    "binance_symbol": "PEPEUSDT",
+    "base": "PEPE",
+    "confidence": 69.1,
+    "entry": 5.04e-06,
+    "stop": 4.82e-06,
+    "take": 5.15e-06,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.010% [Bit+0.010] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈4.9807e-06",
+      "Market Regime: рынок 24ч -3.6%, BTC доминация 60%",
+      "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
