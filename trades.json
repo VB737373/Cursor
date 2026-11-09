@@ -171090,10 +171090,10 @@
       "Market Regime: рынок 24ч -3.6%, BTC доминация 60%",
       "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.32103179,
+    "exit_time": 1794214799.999,
+    "pnl_pct": -14.093714209258762
   },
   {
     "time": 1794172689.8093238,
@@ -171132,6 +171132,49 @@
       "Derivatives (Funding/OI): funding avg -0.009% [Bit-0.009] (норма)",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈4061.8",
       "Market Regime: рынок 24ч -6.3%, BTC доминация 60%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "win",
+    "exit_price": 4103.38342377,
+    "exit_time": 1794229199.999,
+    "pnl_pct": 0.5534067773475809
+  },
+  {
+    "time": 1794250877.7753928,
+    "symbol": "RBCUSDT",
+    "binance_symbol": "RBCUSDT",
+    "base": "RBC",
+    "confidence": 71.6,
+    "entry": 80.255,
+    "stop": 77.981064,
+    "take": 81.77095734,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 64 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈65.6646",
+      "Market Regime: рынок 24ч -3.2%, BTC доминация 60%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1794250878.5149643,
+    "symbol": "DGAIUSDT",
+    "binance_symbol": "DGAIUSDT",
+    "base": "DGAI",
+    "confidence": 69.1,
+    "entry": 0.765106,
+    "stop": 0.67340858,
+    "take": 0.77833117,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 56 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.759394",
+      "Market Regime: рынок 24ч -3.2%, BTC доминация 60%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
     "status": "open",
