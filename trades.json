@@ -171116,5 +171116,27 @@
     "exit_price": 4.82e-06,
     "exit_time": 1794175199.999,
     "pnl_pct": -4.3650793650793736
+  },
+  {
+    "time": 1794212730.2187824,
+    "symbol": "XAUT_USDT",
+    "binance_symbol": "XAUTUSDT",
+    "base": "XAUT",
+    "confidence": 69.1,
+    "entry": 4080.8,
+    "stop": 3926.309628,
+    "take": 4103.38342377,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 53 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.009% [Bit-0.009] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈4061.8",
+      "Market Regime: рынок 24ч -6.3%, BTC доминация 60%",
+      "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
