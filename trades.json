@@ -171369,10 +171369,10 @@
       "Market Regime: рынок 24ч -0.6%, BTC доминация 60%",
       "Fear & Greed: F&G 29 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 70.23,
+    "exit_time": 1794682645.2219594,
+    "pnl_pct": -5.744195410012081
   },
   {
     "time": 1794418938.3126407,
@@ -171750,6 +171750,72 @@
       "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.000267427",
       "Market Regime: рынок 24ч -6.0%, BTC доминация 59%",
+      "Fear & Greed: F&G 13 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1794682692.3225484,
+    "symbol": "SOPH_USDT",
+    "binance_symbol": "SOPHUSDT",
+    "base": "SOPH",
+    "confidence": 71.5,
+    "entry": 0.002291,
+    "stop": 0.00146221,
+    "take": 0.00284353,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 61 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.559% [Bit-0.562/HL-0.557] (шорты платят лонгам)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.00219623",
+      "Market Regime: рынок 24ч -7.3%, BTC доминация 59%",
+      "Fear & Greed: F&G 13 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1794682692.973449,
+    "symbol": "EVAA_USDT",
+    "binance_symbol": "EVAAUSDT",
+    "base": "EVAA",
+    "confidence": 70.1,
+    "entry": 1.6091,
+    "stop": 1.16200263,
+    "take": 1.90716491,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 65 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈1.09184",
+      "Market Regime: рынок 24ч -7.3%, BTC доминация 59%",
+      "Fear & Greed: F&G 13 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1794682693.6201997,
+    "symbol": "NIGHT_USDT",
+    "binance_symbol": "NIGHTUSDT",
+    "base": "NIGHT",
+    "confidence": 70.1,
+    "entry": 0.048163,
+    "stop": 0.04402805,
+    "take": 0.05091964,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 55 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0393406",
+      "Market Regime: рынок 24ч -7.3%, BTC доминация 59%",
       "Fear & Greed: F&G 13 (Extreme Fear) — выход из страха возможен"
     ],
     "status": "open",
