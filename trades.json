@@ -171688,10 +171688,10 @@
       "Market Regime: рынок 24ч -6.7%, BTC доминация 60%",
       "Fear & Greed: F&G 20 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 2.47221022,
+    "exit_time": 1794610799.999,
+    "pnl_pct": -4.84179291762894
   },
   {
     "time": 1794595179.8271189,
@@ -171730,6 +171730,27 @@
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.159553",
       "Market Regime: рынок 24ч -5.7%, BTC доминация 59%",
       "Fear & Greed: F&G 20 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1794614979.106667,
+    "symbol": "ELIZAOS_USDT",
+    "binance_symbol": "ELIZAOSUSDT",
+    "base": "ELIZAOS",
+    "confidence": 72.6,
+    "entry": 0.00030014,
+    "stop": 0.00020346,
+    "take": 0.00036459,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 63 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.000267427",
+      "Market Regime: рынок 24ч -6.0%, BTC доминация 59%",
+      "Fear & Greed: F&G 13 (Extreme Fear) — выход из страха возможен"
     ],
     "status": "open",
     "exit_price": null,
