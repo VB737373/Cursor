@@ -171496,10 +171496,10 @@
       "Market Regime: рынок 24ч -5.1%, BTC доминация 60%",
       "Fear & Greed: F&G 28 (Fear) — рынок осторожен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.03138245,
+    "exit_time": 1794697199.999,
+    "pnl_pct": -31.92527114967463
   },
   {
     "time": 1794501249.2437112,
@@ -171624,10 +171624,10 @@
       "Market Regime: рынок 24ч -6.1%, BTC доминация 59%",
       "Fear & Greed: F&G 20 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.03210988,
+    "exit_time": 1794693599.999,
+    "pnl_pct": -25.58544611819235
   },
   {
     "time": 1794568993.566343,
@@ -171816,6 +171816,50 @@
       "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.0393406",
       "Market Regime: рынок 24ч -7.3%, BTC доминация 59%",
+      "Fear & Greed: F&G 13 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1794696876.1789377,
+    "symbol": "SOPH_USDT",
+    "binance_symbol": "SOPHUSDT",
+    "base": "SOPH",
+    "confidence": 71.5,
+    "entry": 0.002212,
+    "stop": 0.00148688,
+    "take": 0.00269541,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.235% [Bit-0.164/HL-0.306] (шорты платят лонгам), funding расходится между биржами (0.143%)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.00219623",
+      "Market Regime: рынок 24ч -9.0%, BTC доминация 59%",
+      "Fear & Greed: F&G 13 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1794696876.8538167,
+    "symbol": "EVAA_USDT",
+    "binance_symbol": "EVAAUSDT",
+    "base": "EVAA",
+    "confidence": 69.9,
+    "entry": 1.4455,
+    "stop": 1.01726509,
+    "take": 1.73098994,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 54 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈1.09184",
+      "Market Regime: рынок 24ч -9.0%, BTC доминация 59%",
       "Fear & Greed: F&G 13 (Extreme Fear) — выход из страха возможен"
     ],
     "status": "open",
