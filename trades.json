@@ -171710,10 +171710,10 @@
       "Market Regime: рынок 24ч -5.7%, BTC доминация 59%",
       "Fear & Greed: F&G 20 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.25709007,
+    "exit_time": 1794751199.999,
+    "pnl_pct": 19.07279421981382
   },
   {
     "time": 1794595180.6440153,
@@ -171774,10 +171774,10 @@
       "Market Regime: рынок 24ч -7.3%, BTC доминация 59%",
       "Fear & Greed: F&G 13 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.00146221,
+    "exit_time": 1794754799.999,
+    "pnl_pct": -36.17590571802706
   },
   {
     "time": 1794682692.973449,
@@ -171840,10 +171840,10 @@
       "Market Regime: рынок 24ч -9.0%, BTC доминация 59%",
       "Fear & Greed: F&G 13 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.00148688,
+    "exit_time": 1794754799.999,
+    "pnl_pct": -32.78119349005424
   },
   {
     "time": 1794696876.8538167,
@@ -171884,10 +171884,10 @@
       "Market Regime: рынок 24ч -8.4%, BTC доминация 59%",
       "Fear & Greed: F&G 10 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.22756574,
+    "exit_time": 1794743999.999,
+    "pnl_pct": 10.041460348162465
   },
   {
     "time": 1794735908.9276338,
@@ -171906,10 +171906,10 @@
       "Market Regime: рынок 24ч -4.8%, BTC доминация 59%",
       "Fear & Greed: F&G 10 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.22760978,
+    "exit_time": 1794743999.999,
+    "pnl_pct": 8.88336203597398
   },
   {
     "time": 1794735909.43494,
@@ -171928,10 +171928,10 @@
       "Market Regime: рынок 24ч -4.8%, BTC доминация 59%",
       "Fear & Greed: F&G 10 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 2.39151192,
+    "exit_time": 1794740399.999,
+    "pnl_pct": 18.16354167696034
   },
   {
     "time": 1794735909.9093153,
@@ -171950,9 +171950,9 @@
       "Market Regime: рынок 24ч -4.8%, BTC доминация 59%",
       "Fear & Greed: F&G 10 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 1.77788173,
+    "exit_time": 1794754799.999,
+    "pnl_pct": -9.788830424193224
   }
 ]
