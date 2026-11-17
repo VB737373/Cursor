@@ -172207,10 +172207,10 @@
       "Market Regime: рынок 24ч -1.1%, BTC доминация 59%",
       "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.99959056,
+    "exit_time": 1794931199.999,
+    "pnl_pct": 0.029076353447418272
   },
   {
     "time": 1794913090.4163563,
@@ -172250,10 +172250,10 @@
       "Market Regime: рынок 24ч -2.7%, BTC доминация 59%",
       "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.24869621,
+    "exit_time": 1794941999.999,
+    "pnl_pct": 10.458010215411953
   },
   {
     "time": 1794913091.780615,
@@ -172291,6 +172291,49 @@
       "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.999297",
       "Market Regime: рынок 24ч -2.7%, BTC доминация 59%",
+      "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "win",
+    "exit_price": 0.99976067,
+    "exit_time": 1794945599.999,
+    "pnl_pct": 0.02608004002000629
+  },
+  {
+    "time": 1794944472.8274953,
+    "symbol": "RZTOUSDT",
+    "binance_symbol": "RZTOUSDT",
+    "base": "RZTO",
+    "confidence": 73.2,
+    "entry": 20.595,
+    "stop": 19.86646128,
+    "take": 20.81883602,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 55 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈20.321",
+      "Market Regime: рынок 24ч -4.0%, BTC доминация 58%",
+      "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1794944473.4854276,
+    "symbol": "ARIA_USDT",
+    "binance_symbol": "ARIAUSDT",
+    "base": "ARIA",
+    "confidence": 70.5,
+    "entry": 0.2322,
+    "stop": 0.18588892,
+    "take": 0.26307405,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 55 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.211313",
+      "Market Regime: рынок 24ч -4.0%, BTC доминация 58%",
       "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
     ],
     "status": "open",
