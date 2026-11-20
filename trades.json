@@ -172681,10 +172681,10 @@
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.999312",
       "Fear & Greed: F&G 10 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 1.00021687,
+    "exit_time": 1795211999.999,
+    "pnl_pct": 0.021687000000003565
   },
   {
     "time": 1795112996.1374958,
@@ -172787,10 +172787,10 @@
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.2129",
       "Fear & Greed: F&G 10 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.22142841,
+    "exit_time": 1795204799.999,
+    "pnl_pct": -14.654688764694553
   },
   {
     "time": 1795135882.25333,
@@ -172808,10 +172808,10 @@
       "Market Regime: рынок 24ч -3.9%, BTC доминация 58%",
       "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 1.00021997,
+    "exit_time": 1795211999.999,
+    "pnl_pct": 0.021997000000006928
   },
   {
     "time": 1795135882.6828198,
@@ -172900,5 +172900,48 @@
     "exit_price": 0.01930556,
     "exit_time": 1795154399.999,
     "pnl_pct": -18.64492203961231
+  },
+  {
+    "time": 1795216560.9390152,
+    "symbol": "PIEVERSE-USDT",
+    "binance_symbol": "PIEVERSEUSDT",
+    "base": "PIEVERSE",
+    "confidence": 69.5,
+    "entry": 3.0036,
+    "stop": 2.60256093,
+    "take": 3.27095938,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 59 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈1.98267",
+      "Market Regime: рынок 24ч -7.3%, BTC доминация 58%",
+      "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1795216561.4091465,
+    "symbol": "APEPE-USDT",
+    "binance_symbol": "APEPEUSDT",
+    "base": "APEPE",
+    "confidence": 69.2,
+    "entry": 1.49e-06,
+    "stop": 1.44e-06,
+    "take": 1.52e-06,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 65 (импульс)",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈1.4027e-06",
+      "Market Regime: рынок 24ч -7.3%, BTC доминация 58%",
+      "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
