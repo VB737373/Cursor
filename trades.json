@@ -172943,5 +172943,69 @@
     "exit_price": null,
     "exit_time": null,
     "pnl_pct": null
+  },
+  {
+    "time": 1795234160.1266098,
+    "symbol": "USD1-USDT",
+    "binance_symbol": "USD1USDT",
+    "base": "USD1",
+    "confidence": 72.6,
+    "entry": 1.00029,
+    "stop": 0.99522873,
+    "take": 1.00144983,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.999211",
+      "Market Regime: рынок 24ч -10.3%, BTC доминация 57%",
+      "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1795234160.875228,
+    "symbol": "BLESSUSDT",
+    "binance_symbol": "BLESSUSDT",
+    "base": "BLESS",
+    "confidence": 69.9,
+    "entry": 0.014361,
+    "stop": 0.01237465,
+    "take": 0.01568523,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 68 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.0110624",
+      "Market Regime: рынок 24ч -10.3%, BTC доминация 57%",
+      "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1795234161.60275,
+    "symbol": "APEPE-USDT",
+    "binance_symbol": "APEPEUSDT",
+    "base": "APEPE",
+    "confidence": 69.2,
+    "entry": 1.48e-06,
+    "stop": 1.43e-06,
+    "take": 1.51e-06,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс)",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈1.4027e-06",
+      "Market Regime: рынок 24ч -10.3%, BTC доминация 57%",
+      "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
   }
 ]
