@@ -172766,10 +172766,10 @@
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈1.95544",
       "Fear & Greed: F&G 10 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 3.33022723,
+    "exit_time": 1795283999.999,
+    "pnl_pct": 15.02183642455013
   },
   {
     "time": 1795112999.044732,
@@ -172918,10 +172918,10 @@
       "Market Regime: рынок 24ч -7.3%, BTC доминация 58%",
       "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 3.27095938,
+    "exit_time": 1795283999.999,
+    "pnl_pct": 8.901297776002124
   },
   {
     "time": 1795216561.4091465,
@@ -173046,10 +173046,10 @@
       "Market Regime: рынок 24ч -6.7%, BTC доминация 58%",
       "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 0.72582176,
+    "exit_time": 1795269599.999,
+    "pnl_pct": 2.518935349186714
   },
   {
     "time": 1795265674.6341174,
@@ -173066,6 +173066,48 @@
       "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
       "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.696522",
       "Market Regime: рынок 24ч -6.7%, BTC доминация 58%",
+      "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "loss",
+    "exit_price": 0.63955724,
+    "exit_time": 1795273199.999,
+    "pnl_pct": -14.038005376344081
+  },
+  {
+    "time": 1795290984.0401547,
+    "symbol": "USD1_USDT",
+    "binance_symbol": "USD1USDT",
+    "base": "USD1",
+    "confidence": 71.1,
+    "entry": 1.0009,
+    "stop": 0.99568396,
+    "take": 1.00147189,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 59 (импульс), рост объёма",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.999324",
+      "Market Regime: рынок 24ч -0.1%, BTC доминация 58%",
+      "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1795290984.5575356,
+    "symbol": "AAPLX-USDT",
+    "binance_symbol": "AAPLXUSDT",
+    "base": "AAPLX",
+    "confidence": 70.8,
+    "entry": 352.96,
+    "stop": 344.2240206,
+    "take": 356.37507194,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 69 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд смешанный",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈346.977",
+      "Market Regime: рынок 24ч -0.1%, BTC доминация 58%",
       "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
     ],
     "status": "open",
