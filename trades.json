@@ -172830,10 +172830,10 @@
       "Market Regime: рынок 24ч -3.9%, BTC доминация 58%",
       "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.2151,
+    "exit_time": 1795399974.2988818,
+    "pnl_pct": -17.712318286151493
   },
   {
     "time": 1795135883.1167128,
