@@ -173947,10 +173947,10 @@
       "Market Regime: рынок 24ч -1.8%, BTC доминация 58%",
       "Fear & Greed: F&G 13 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 63.533825,
+    "exit_time": 1795643999.999,
+    "pnl_pct": -3.1053454323623506
   },
   {
     "time": 1795643717.788683,
@@ -173989,6 +173989,154 @@
       "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈74.9745",
       "Market Regime: рынок 24ч -1.8%, BTC доминация 58%",
       "Fear & Greed: F&G 13 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1795665433.4602382,
+    "symbol": "NVDAON-USDT",
+    "binance_symbol": "NVDAONUSDT",
+    "base": "NVDAON",
+    "confidence": 75.4,
+    "entry": 152.96,
+    "stop": 127.23022008,
+    "take": 170.11318661,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 59 (импульс), MACD>0",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈151.383",
+      "Market Regime: рынок 24ч -0.3%, BTC доминация 58%",
+      "Fear & Greed: F&G 11 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1795665434.24334,
+    "symbol": "RICEUSDT",
+    "binance_symbol": "RICEUSDT",
+    "base": "RICE",
+    "confidence": 73.4,
+    "entry": 178.0,
+    "stop": 169.2904006,
+    "take": 180.39853337,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 64 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈172.066",
+      "Market Regime: рынок 24ч -0.3%, BTC доминация 58%",
+      "Fear & Greed: F&G 11 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1795665434.8479035,
+    "symbol": "RAINUSDT",
+    "binance_symbol": "RAINUSDT",
+    "base": "RAIN",
+    "confidence": 70.8,
+    "entry": 65.57,
+    "stop": 63.533825,
+    "take": 66.8608909,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 58 (импульс), MACD>0, рост объёма",
+      "Multi-Timeframe: 4h-тренд смешанный",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈65.2775",
+      "Market Regime: рынок 24ч -0.3%, BTC доминация 58%",
+      "Fear & Greed: F&G 11 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1795665435.4650955,
+    "symbol": "MMT-USDT",
+    "binance_symbol": "MMTUSDT",
+    "base": "MMT",
+    "confidence": 70.1,
+    "entry": 0.3036,
+    "stop": 0.26250841,
+    "take": 0.3309944,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 64 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg -0.006% [Bit-0.006] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.233528",
+      "Market Regime: рынок 24ч -0.3%, BTC доминация 58%",
+      "Fear & Greed: F&G 11 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1795665436.0749002,
+    "symbol": "ARIA_USDT",
+    "binance_symbol": "ARIAUSDT",
+    "base": "ARIA",
+    "confidence": 70.1,
+    "entry": 0.34277,
+    "stop": 0.30244461,
+    "take": 0.36965359,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 62 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Derivatives (Funding/OI): funding avg +0.005% [Bit+0.005] (норма)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.253871",
+      "Market Regime: рынок 24ч -0.3%, BTC доминация 58%",
+      "Fear & Greed: F&G 11 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1795665436.6892474,
+    "symbol": "USD1_USDT",
+    "binance_symbol": "USD1USDT",
+    "base": "USD1",
+    "confidence": 70.0,
+    "entry": 1.0011,
+    "stop": 0.99734895,
+    "take": 1.00137844,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 54 (импульс)",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈1.00101",
+      "Market Regime: рынок 24ч -0.3%, BTC доминация 58%",
+      "Fear & Greed: F&G 11 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1795665437.2903566,
+    "symbol": "9BIT-USDT",
+    "binance_symbol": "9BITUSDT",
+    "base": "9BIT",
+    "confidence": 69.5,
+    "entry": 0.048597,
+    "stop": 0.04770176,
+    "take": 0.04864155,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 68 (импульс)",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше Value Area (сильная зона); POC≈0.048212",
+      "Market Regime: рынок 24ч -0.3%, BTC доминация 58%",
+      "Fear & Greed: F&G 11 (Extreme Fear) — выход из страха возможен"
     ],
     "status": "open",
     "exit_price": null,
