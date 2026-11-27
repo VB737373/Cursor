@@ -173739,10 +173739,10 @@
       "Market Regime: рынок 24ч -2.7%, BTC доминация 58%",
       "Fear & Greed: F&G 11 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "timeout",
+    "exit_price": 0.32814,
+    "exit_time": 1795790452.8869967,
+    "pnl_pct": 1.2621509026384763
   },
   {
     "time": 1795545489.081165,
@@ -174265,10 +174265,10 @@
       "Market Regime: рынок 24ч +0.3%, BTC доминация 58%",
       "Fear & Greed: F&G 11 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 3.48691908,
+    "exit_time": 1795784399.999,
+    "pnl_pct": -13.690121782178222
   },
   {
     "time": 1795700158.5940382,
@@ -174287,10 +174287,10 @@
       "Market Regime: рынок 24ч +0.3%, BTC доминация 58%",
       "Fear & Greed: F&G 11 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "loss",
+    "exit_price": 0.08526894,
+    "exit_time": 1795784399.999,
+    "pnl_pct": -16.23876227897839
   },
   {
     "time": 1795700159.2929611,
@@ -174500,10 +174500,10 @@
       "Market Regime: рынок 24ч -1.4%, BTC доминация 58%",
       "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
     ],
-    "status": "open",
-    "exit_price": null,
-    "exit_time": null,
-    "pnl_pct": null
+    "status": "win",
+    "exit_price": 3663.96055705,
+    "exit_time": 1795769999.999,
+    "pnl_pct": 0.8946943538016289
   },
   {
     "time": 1795754814.8357768,
@@ -174546,6 +174546,49 @@
       "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен",
       "Hyperliquid Market Makers: ММ набирают лонг (инвентарь): 2 поз. $0.4M vs шорт $0.0M; 🏛 Wintermute: лонг $0.4M",
       "DefiLlama: TVL Sui +13.0% за 7д"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1795790503.3587568,
+    "symbol": "GOMINING-USDT",
+    "binance_symbol": "GOMININGUSDT",
+    "base": "GOMINING",
+    "confidence": 73.2,
+    "entry": 0.36965,
+    "stop": 0.35598503,
+    "take": 0.37135087,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 59 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): цена выше POC (поддержка снизу); POC≈0.368946",
+      "Market Regime: рынок 24ч -2.2%, BTC доминация 58%",
+      "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
+    ],
+    "status": "open",
+    "exit_price": null,
+    "exit_time": null,
+    "pnl_pct": null
+  },
+  {
+    "time": 1795790504.1663268,
+    "symbol": "RZTOUSDT",
+    "binance_symbol": "RZTOUSDT",
+    "base": "RZTO",
+    "confidence": 69.9,
+    "entry": 20.345,
+    "stop": 19.2592484,
+    "take": 20.77337885,
+    "reasons": [
+      "Technical Analysis: EMA9>EMA21 (бычий кросс), цена выше EMA50 (аптренд), RSI 57 (импульс), MACD>0",
+      "Multi-Timeframe: 4h-тренд вверх (цена выше EMA50)",
+      "Volume Profile (POC): отбой от POC (накопление); POC≈20.457",
+      "Liquidation Zones (оценка): перекос к шорт-ликвидациям сверху (топливо для роста)",
+      "Market Regime: рынок 24ч -2.2%, BTC доминация 58%",
+      "Fear & Greed: F&G 12 (Extreme Fear) — выход из страха возможен"
     ],
     "status": "open",
     "exit_price": null,
